@@ -6,7 +6,7 @@ class DatabaseContext(ABC):
         pass
 
     @abstractmethod
-    def insert(self, answer: str) -> bool:
+    def insert(self,asnwer: str) -> bool:
         pass
 
 
