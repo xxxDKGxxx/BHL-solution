@@ -1,28 +1,25 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
 
+from database.database import Database
+from database.sentence_transformer_embedder import SentenceTransformerEmbedder
 from handler.defaulthandler import PromptHandler
-from database.mockdbcontext import MockDbContext
-from models.defaultmodel import  DefaultModel
+from llms.gemini_llm import GeminiLLM
+
 app = FastAPI(swagger_ui_parameters={"syntaxHighlight": False})
 
 
-prompthandler = PromptHandler(db_context=MockDbContext(),model=DefaultModel())
+prompthandler = PromptHandler(
+    db_context=Database(SentenceTransformerEmbedder()),
+    model=GeminiLLM())
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+class Prompt(BaseModel):
+    prompt: str
 
+@app.post("/prompt")
+async def get_prompt(prompt: Prompt, skip_cached: bool = True):
 
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+    result, cached  = prompthandler.generate_answer(prompt.prompt, skip_cached)
 
-
-
-@app.post("/prompt_process")
-async def get_prompt(prompt: str):
-
-    result  = prompthandler.generate_answer(prompt)
-
-    return {"result": result}
+    return {"result": result, "cached": cached}
