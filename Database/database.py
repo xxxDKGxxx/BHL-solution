@@ -1,17 +1,17 @@
-from abc import ABC, abstractmethod
+from typing import override
 
-class DatabaseContext(ABC):
+from Database.database_context import DatabaseContext
 
 
+class Database(DatabaseContext):
+    def __init__(self, embedder):
+        self.embedder = embedder
 
-    @abstractmethod
-    def get(self,prompt: str) ->tuple[str,float]:
+    @override
+    def get(self):
         pass
 
-    @abstractmethod
-    def insert(self,asnwer: str) -> bool:
+    @override
+    def insert(self, ):
         pass
-
-
-
 
