@@ -1,6 +1,13 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+from handler.defaulthandler import PromptHandler
+from database.mockdbcontext import MockDbContext
+from models.defaultmodel import  DefaultModel
+app = FastAPI(swagger_ui_parameters={"syntaxHighlight": False})
+
+
+prompthandler = PromptHandler(db_context=MockDbContext(),model=DefaultModel())
+
 
 @app.get("/")
 async def root():
@@ -15,13 +22,7 @@ async def say_hello(name: str):
 
 @app.post("/prompt_process")
 async def get_prompt(prompt: str):
-    pass
 
+    result  = prompthandler.generate_answer(prompt)
 
-
-
-
-
-
-
-
+    return {"result": result}

@@ -1,7 +1,7 @@
 from typing import override
-from .database_context import DatabaseContext
 import faiss
 import numpy as np
+from interface.abstractdatabasecontext import DatabaseContext
 
 
 class Database(DatabaseContext):

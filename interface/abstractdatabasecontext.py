@@ -8,3 +8,7 @@ class DatabaseContext(ABC):
     @abstractmethod
     def insert(self, answer: str) -> bool:
         pass
+
+
+
+
