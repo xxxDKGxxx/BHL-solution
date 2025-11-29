@@ -20,10 +20,7 @@ async def say_hello(name: str):
 
 @app.post("/prompt_process")
 async def get_prompt(prompt: str):
-    result = .preprocess(prompt)
-    return result
-    #
-
+    pass
 
 
 

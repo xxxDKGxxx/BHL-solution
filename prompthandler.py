@@ -1,19 +1,8 @@
-from abc import ABC
-from Database.database import DatabaseContext
+from abc import ABC, abstractmethod
 
 
-class PromptHandler():
-
-
-
-    def __init__(self,db_context: DatabaseContext):
-        self.db_context = db_context
-
-
-    def preprocess(self):
-        pass
-
-
-    def generate_answer(self):
+class PromptHandler(ABC):
+    @abstractmethod
+    def generate_answer(self, prompt: str) -> str:
         pass
 
