@@ -1,12 +1,12 @@
 from interface.abstractmodel import AbstractModel
 from transformers import set_seed
-from transformers import BioGptTokenizer, BioGptForCasualLLM
+from transformers import BioGptTokenizer, BioGptForCausalLM
 import torch
 
 class BioGPT(AbstractModel):
     def generate_answer(self, prompt: str) -> str:
         tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
-        model = BioGptForCasualLLM.from_pretrained("microsoft/biogpt")
+        model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
 		
         inputs = tokenizer(prompt, return_tensors="pt")
 
