@@ -1,15 +1,12 @@
 from abc import ABC, abstractmethod
 
 class DatabaseContext(ABC):
-
-
-
     @abstractmethod
     def get(self,prompt: str) ->tuple[str,float]:
         pass
 
     @abstractmethod
-    def insert(self,asnwer: str) -> bool:
+    def insert(self, answer: str) -> bool:
         pass
 
 
