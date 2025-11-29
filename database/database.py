@@ -1,5 +1,5 @@
 from typing import override
-from Database.database_context import DatabaseContext
+from .database_context import DatabaseContext
 import faiss
 import numpy as np
 
@@ -21,8 +21,9 @@ class Database(DatabaseContext):
         Format dokumentu:
             "Question: <prompt>\nAnswer: <answer>"
         """
-        doc_text = f"Question: {prompt}\nAnswer: {answer}"
-        embedding = np.array(self.embedder.embed(doc_text), dtype="float32")
+        #doc_text = f"Prompt: {prompt}\nAnswer: {answer}"
+        doc_text = prompt
+        embedding = np.array(self.embedder.embedd(doc_text), dtype="float32")
 
         # Inicjalizacja indeksu FAISS jeśli jeszcze nie istnieje
         if self.index is None:
@@ -43,7 +44,7 @@ class Database(DatabaseContext):
             return "", 0.0
 
         query_vec = np.array(
-            self.embedder.embed(prompt),
+            self.embedder.embedd(prompt),
             dtype="float32"
         ).reshape(1, -1)
 
