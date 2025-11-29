@@ -1,4 +1,4 @@
-from .database import DatabaseContext
+from interface.abstractdatabasecontext import DatabaseContext
 
 class MockDbContext(DatabaseContext):
     def __init__(self):
