@@ -27,14 +27,21 @@ class PromptHandler(AbstractPromptHandler):
             bio_score = self.encoder.check_relevance(prompt, "biology")
             code_score = self.encoder.check_relevance(prompt, "programming")
 
+
+
             scores = {
-                "mathematics": math_score,
-                "biology": bio_score,
-                "programming": code_score,
+                "math": math_score,
+                "bio": bio_score,
+                "code": code_score,
             }
             top_category = max(scores, key=scores.get)
 
-            model = GeneralLLM(top_category)
+            if scores[top_category] < threshold:
+                model = self.model
+            else:
+                top_category = "general"
+                model = GeneralLLM(top_category)
+
 
 
 
