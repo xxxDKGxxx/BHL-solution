@@ -1,8 +1,6 @@
-from llms.gemini_llm import GeminiLLM
+from interface.abstractmodel import AbstractModel
 
-llm = GeminiLLM()
-
-def generalize_prompt(prompt: str) -> list[str, str]:
+def generalize_prompt(llm: AbstractModel, prompt: str) -> tuple[str, str]:
     """
     Returns:
     - generalized_prompt: a concise, generalized version of the prompt that still keeps the original details

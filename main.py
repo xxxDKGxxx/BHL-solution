@@ -9,6 +9,7 @@ from database.database import Database
 from database.sentence_transformer_embedder import SentenceTransformerEmbedder
 from handler.defaulthandler import PromptHandler
 from llms.gemini_llm import GeminiLLM
+from prompts_classification.fact_or_generative_classifier import FactOrGenerativeClassifier
 
 app = FastAPI(swagger_ui_parameters={"syntaxHighlight": False})
 
@@ -29,7 +30,8 @@ app.add_middleware(
 
 prompthandler = PromptHandler(
     db_context=Database(SentenceTransformerEmbedder()),
-    model=GeminiLLM())
+    model=GeminiLLM(),
+	fact_classifier=FactOrGenerativeClassifier())
 
 
 class Prompt(BaseModel):
@@ -41,9 +43,9 @@ async def get_prompt(prompt: Prompt):
 
     prompthandler.model = GeminiLLM()
 
-    result, cached  = prompthandler.generate_answer(prompt.prompt, prompt.skip_cached)
+    result, cached, model_name  = prompthandler.generate_answer(prompt.prompt, prompt.skip_cached)
 
-    return {"result": result, "cached": cached}
+    return {"result": result, "cached": cached, "model_name": model_name}
 
 
 @app.websocket("/ws/chat")
@@ -60,10 +62,11 @@ async def chat_ws(ws: WebSocket):
             try:
                 data = json.loads(raw_message)
                 prompt_obj = Prompt(**data)
-                response, cached = prompthandler.generate_answer(prompt_obj.prompt, prompt_obj.skip_cached)
+                response, cached, model_name = prompthandler.generate_answer(prompt_obj.prompt, prompt_obj.skip_cached)
                 await ws.send_text(json.dumps({
                     "result": response,
-                    "cached": cached
+                    "cached": cached,
+	                "model_name": model_name
                 }))
 
             except (json.JSONDecodeError, ValidationError) as e:

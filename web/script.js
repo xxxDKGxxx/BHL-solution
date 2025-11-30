@@ -2,6 +2,12 @@ const apiUrl = 'ws://127.0.0.1:8000/ws/chat';
 
 let ws;
 
+function processResponseData(data) {
+    if (data.model_name && typeof data.model_name === 'string' && data.model_name.trim()) {
+        data.result += `\n\n**Model Used:** ${data.model_name}`;
+    }
+}
+
 function connect() {
     ws = new WebSocket(apiUrl);
     ws.onopen = () => console.log('WebSocket connected');
@@ -61,15 +67,21 @@ function sendMessage() {
 
     sendRequest(prompt)
         .then(data => {
+            processResponseData(data);
             loadingDiv.remove();
             const result = data.result;
             const cached = data.cached;
             const displayText = result;
             const messageDiv = addMessage(displayText, 'ai', true);
             if (cached) {
+                messageDiv.classList.add('cached');
                 const cachedDiv = document.createElement('div');
                 cachedDiv.className = 'cached-info';
-                cachedDiv.textContent = 'Cached';
+                cachedDiv.textContent = 'Recycled';
+                const img = document.createElement('img');
+                img.src = 'recycled.png';
+                img.className = 'recycled-icon';
+                cachedDiv.appendChild(img);
                 messageDiv.appendChild(cachedDiv);
             }
             addSatisfactionQuestion(messageDiv, prompt);
@@ -92,6 +104,9 @@ function addMessage(text, type, isMarkdown = false) {
     } else if (isMarkdown) {
         try {
             messageDiv.innerHTML = marked.parse(text);
+            if (typeof MathJax !== 'undefined') {
+                MathJax.typesetPromise([messageDiv]).catch(() => {});
+            }
         } catch (error) {
             messageDiv.textContent = `Error rendering markdown: ${error.message}`;
         }
@@ -121,15 +136,21 @@ function sendRetry(prompt) {
     scrollToBottom();
     sendRequest(prompt, true)
         .then(data => {
+            processResponseData(data);
             loadingDiv.remove();
             const result = data.result;
             const cached = data.cached;
             const displayText = result;
             const messageDiv = addMessage(displayText, 'ai', true);
             if (cached) {
+                messageDiv.classList.add('cached');
                 const cachedDiv = document.createElement('div');
                 cachedDiv.className = 'cached-info';
-                cachedDiv.textContent = 'Cached';
+                cachedDiv.textContent = 'Recycled';
+                const img = document.createElement('img');
+                img.src = 'recycled.png';
+                img.className = 'recycled-icon';
+                cachedDiv.appendChild(img);
                 messageDiv.appendChild(cachedDiv);
             }
             scrollToBottom();
