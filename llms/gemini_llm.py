@@ -7,7 +7,7 @@ class GeminiLLM(AbstractModel):
 
 	def generate_answer(self, prompt: str) -> str:
 		if self.chat is None:
-			api_key = "GEMINI_API_KEY"
+			api_key = "AIzaSyBWtYa-0DdN7rs9E_ovdgsbATjJK3NQXmI"
 			genai.configure(api_key=api_key)
 			model = genai.GenerativeModel('gemini-flash-latest')
 			self.chat = model.start_chat()
