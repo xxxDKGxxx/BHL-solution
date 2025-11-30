@@ -12,7 +12,5 @@ class GeneralLLM(AbstractModel):
             self.model = DeepSeekCoderForMathematics()
         elif topic == "code":
             self.model = StarCoderForIT()
-        else:
-            self.model = GeminiLLM()
     def generate_answer(self, prompt: str) -> str:
         return self.model.generate_answer(prompt)

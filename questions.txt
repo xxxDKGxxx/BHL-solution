@@ -1,0 +1,50 @@
+How does code interpretation work in Python?
+What is the difference between Python 2 and Python 3?
+What is the “Python philosophy” and what does the term “readable code” mean in the context of Python?
+What is PEP and why is it so important in Python?
+What is the standard Python library, and what are some common modules found in it?
+How does the type system work in Python?
+What is a pip and what is it used for?
+What is a function in Python, and how do you define one?
+What is the difference between a module and a package in Python?
+What is a virtual environment and why is it worth using?
+What does the “batteries included” principle mean in the context of Python?
+How Python handles memory management?
+What is the CPython interpreter and how does it differ from PyPy?
+How do modules work in Python?
+How do you write a simple if statement in Python?
+What is __pycache__ used for, and what does Python store there?
+What does the term “duck typing” mean, and how does it manifest itself in Python?
+What is the difference between a list and a tuple in Python?
+What is the purpose of the pass statement?
+What is a list comprehension, and why is it useful?
+What are Python’s basic built-in data types?
+What does it mean that Python is an interpreted language?
+How does memory management work in Python?
+What is the GIL (Global Interpreter Lock), and how does it affect multithreading?
+What is a generator in Python?
+How do you create a custom exception in Python?
+How does inheritance work in Python’s object-oriented model?
+What are mutable and immutable types in Python?
+How does pip differ from pipenv?
+What is the difference between a KeyError and an IndexError?
+How does the try/except/else/finally structure work?
+What is pickle, and when should it be used?
+How can you check your Python version and installed packages?
+What is the purpose of the __init__ method in a class in Python?
+How does Python’s hash() function relate to dictionary keys?
+What is a metaclass in Python?
+How do you serialize data to JSON in Python?
+What is the difference between multiprocessing and multithreading in Python?
+How does exception chaining work in Python?
+What does the __name__ == "__main__" check accomplish?
+How does Python handle variable scope (LEGB rule)?
+How do you create an abstract base class in Python?
+How does Python’s eval() function work, and why must it be used carefully?
+How does pip install --upgrade work internally?
+What is a requirements.txt file and how is it used?
+How does the pandas library handle missing data?
+What is Cython, and how can it speed up Python code?
+What is the purpose of CPython, PyPy, and other Python interpreters/compilers?
+What is a Python list, and how do you access its elements?
+How do you run a Python script from the command line?
