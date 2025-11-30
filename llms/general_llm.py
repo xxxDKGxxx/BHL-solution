@@ -1,6 +1,6 @@
 from llms.biogpt_llm import BioGPTForBiology
 from llms.deepseekcoder_llm import DeepSeekCoderForMathematics
-from llms.starcoder_llm import StarCoderForIT
+from llms.starcoder_llm import QwenForIT
 from llms.gemini_llm import GeminiLLM
 from interface.abstractmodel import AbstractModel
 
@@ -11,6 +11,6 @@ class GeneralLLM(AbstractModel):
         elif topic == "math":
             self.model = DeepSeekCoderForMathematics()
         elif topic == "code":
-            self.model = StarCoderForIT()
+            self.model = QwenForIT()
     def generate_answer(self, prompt: str) -> str:
         return self.model.generate_answer(prompt)

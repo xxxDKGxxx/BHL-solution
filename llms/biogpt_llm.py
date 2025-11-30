@@ -1,28 +1,39 @@
 from interface.abstractmodel import AbstractModel
-from transformers import set_seed
-from transformers import BioGptTokenizer, BioGptForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 class BioGPTForBiology(AbstractModel):
     def generate_answer(self, prompt: str) -> str:
-        tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
-        model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
+        checkpoint = "microsoft/biogpt"
 
-        inputs = tokenizer(prompt, return_tensors="pt")
+        tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+        model = AutoModelForCausalLM.from_pretrained(
+            checkpoint,
+            device_map="auto",
+            dtype=torch.float16
+        )
 
-        set_seed(42)
+        inputs = tokenizer(
+            prompt,
+            return_tensors="pt",
+            truncation=True,
+            max_length=512
+        )
 
-        with torch.no_grad():
-            beam_output = model.generate(**inputs,
-                                         max_new_tokens=120,
-                                         min_length=20,
-                                         num_beams=5,
-                                         early_stopping=True,
-                                         do_sample=False,
-                                         no_repeat_ngram_size=3,
-                                         repetition_penalty=1.2,
-                                         eos_token_id=model.config.eos_token_id,
-                                         pad_token_id=model.config.eos_token_id
-                                         )
+        inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
-        return tokenizer.decode(beam_output[0], skip_special_tokens=True)
+        outputs = model.generate(
+            **inputs,
+            max_length=20,
+            temperature=0.3,
+            top_p=0.8,
+            do_sample=True,
+            eos_token_id=tokenizer.eos_token_id,
+            pad_token_id=tokenizer.eos_token_id
+        )
+
+        return tokenizer.decode(
+            outputs[0],
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=True
+        )
