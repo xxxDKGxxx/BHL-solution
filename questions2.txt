@@ -1,0 +1,52 @@
+What is the difference between a list and a tuple in Python?
+How do I convert a string to an integer in Python?
+How can I reverse a string in Python?
+What is the difference between == and is in Python?
+How do I iterate over a dictionary in Python?
+How can I merge two lists in Python?
+What is a Python set and how does it differ from a list?
+How do I remove duplicates from a list in Python?
+How can I check if a key exists in a Python dictionary?
+What is the difference between a shallow copy and a deep copy in Python?
+How do I write a Python function with default arguments?
+What is a lambda function and when should I use it in Python?
+How can I sort a list of dictionaries by a specific key in Python?
+How do I handle exceptions using try and except in Python?
+What is the difference between Python's list comprehension and a for loop?
+How do I read a CSV file in Python using pandas?
+How can I append a new element to a NumPy array?
+What is the difference between Python’s range() and xrange()?
+How do I check if a number is even or odd in Python?
+What is a Python class and how do I define one?
+How can I create an instance of a class in Python?
+What is the difference between instance variables and class variables in Python?
+How do I implement inheritance in Python classes?
+What is method overriding in Python and when is it used?
+How can I create a property in Python using the @property decorator?
+How do I define a static method and a class method in Python?
+What is the difference between encapsulation and abstraction in object-oriented programming?
+How do I implement a constructor and destructor in a Python class?
+What is polymorphism and how can I demonstrate it in Python?
+How can I overload operators in Python classes?
+How do I implement multiple inheritance in Python and what are the risks?
+How do I concatenate two strings in JavaScript?
+What is the difference between let, var, and const in JavaScript?
+How do I check if an element exists in an array in JavaScript?
+How can I convert a string to a number in JavaScript?
+What is a closure in JavaScript and how does it work?
+How do I create a class in JavaScript using ES6 syntax?
+What is the difference between a function declaration and a function expression in JavaScript?
+How can I loop through the keys and values of an object in JavaScript?
+How do I remove duplicates from an array in JavaScript?
+How do I create a new object that inherits from another object in JavaScript?
+How do I implement a simple stack using arrays in Python?
+What is the difference between mutable and immutable types in Python?
+How do I implement a linked list in Python?
+What is recursion and how do I write a recursive function in Python?
+How can I create a generator in Python and what are the benefits?
+What is the difference between iterators and iterables in Python?
+How do I implement a basic queue using Python’s deque?
+How can I overload a constructor in Python?
+What is the difference between abstract classes and interfaces in Java?
+How do I implement a simple observer pattern in Python?
+How can I serialize and deserialize an object in Python using pickle?
