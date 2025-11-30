@@ -1,3 +1,4 @@
+from llms.general_llm import GeneralLLM
 from .generalize_answer import generalize_prompt
 from interface.abstractdatabasecontext import DatabaseContext
 from interface.abstractprompthandler import AbstractPromptHandler
@@ -22,13 +23,36 @@ class PromptHandler(AbstractPromptHandler):
                 or self.encoder.check_relevance(prompt, answer)<= threshold
                 or answer is None):
 
-            (generalized_prompt,default_answer) = generalize_prompt(prompt)
+            math_score = self.encoder.check_relevance(prompt,"mathematics")
+            bio_score = self.encoder.check_relevance(prompt, "biology")
+            code_score = self.encoder.check_relevance(prompt, "programming")
+
+            scores = {
+                "mathematics": math_score,
+                "biology": bio_score,
+                "programming": code_score,
+            }
+            top_category = max(scores, key=scores.get)
+
+            model = GeneralLLM(top_category)
+
+
+
+
+            (generalized_prompt,default_answer) = generalize_prompt(model,prompt)
+
+
 
             self._db_context.insert(generalized_prompt,default_answer)
 
             return default_answer, False
 
         return answer, True
+
+
+
+
+
 
 
 
