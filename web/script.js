@@ -1,4 +1,18 @@
-const apiUrl = 'http://127.0.0.1:8000/prompt';
+const apiUrl = 'ws://127.0.0.1:8000/ws/chat';
+
+let ws;
+
+function connect() {
+    ws = new WebSocket(apiUrl);
+    ws.onopen = () => console.log('WebSocket connected');
+    ws.onclose = () => {
+        console.log('WebSocket closed, reconnecting...');
+        setTimeout(connect, 1000);
+    };
+    ws.onerror = (error) => console.error('WebSocket error:', error);
+}
+
+connect();
 
 const chat = document.getElementById('chat');
 const promptInput = document.getElementById('prompt');
@@ -11,24 +25,28 @@ promptInput.addEventListener('keypress', function(e) {
     }
 });
 
-async function sendRequest(prompt, skipCached = false) {
-    const body = { prompt };
-    body.skip_cached = skipCached;
-    const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body),
+function sendRequest(prompt, skipCached = false) {
+    return new Promise((resolve, reject) => {
+        if (ws.readyState !== WebSocket.OPEN) {
+            reject(new Error('WebSocket not connected'));
+            return;
+        }
+        const message = { prompt, skip_cached: skipCached };
+        ws.send(JSON.stringify(message));
+        const onMessage = (event) => {
+            ws.removeEventListener('message', onMessage);
+            try {
+                const data = JSON.parse(event.data);
+                if (!data || typeof data.result !== 'string' || typeof data.cached !== 'boolean') {
+                    throw new Error('Malformed API response');
+                }
+                resolve(data);
+            } catch (error) {
+                reject(error);
+            }
+        };
+        ws.addEventListener('message', onMessage);
     });
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();
-    if (!data || typeof data.result !== 'string' || typeof data.cached !== 'boolean') {
-        throw new Error('Malformed API response');
-    }
-    return data;
 }
 
 function sendMessage() {

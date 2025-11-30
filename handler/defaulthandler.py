@@ -10,7 +10,7 @@ class PromptHandler(AbstractPromptHandler):
 
     def __init__(self, db_context: DatabaseContext, model: AbstractModel) -> None:
         self._db_context = db_context
-        self._model = model
+        self.model = model
 
     def generate_answer(self, prompt: str, skip_cached: bool, threshold=0.5) -> tuple[str, bool]:
         answer=""
