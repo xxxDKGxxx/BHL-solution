@@ -15,8 +15,25 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .chat-area {
@@ -25,6 +42,8 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 
 .message {
@@ -34,6 +53,10 @@ body {
     max-width: 70%;
     opacity: 0;
     animation: fadeIn 0.5s ease-in forwards;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -45,18 +68,14 @@ body {
 .ai-message {
     padding-top: 0px;
     padding-bottom: 5px;
+    background-color: rgba(233, 236, 239, 0.1);
+    color: black;
 }
 
 .user-message {
     align-self: flex-end;
-    background-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.5);
     color: white;
-}
-
-.ai-message {
-    align-self: flex-start;
-    background-color: #e9ecef;
-    color: black;
 }
 
 .input-area {
