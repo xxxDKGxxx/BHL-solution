@@ -1,0 +1,262 @@
+[
+  {
+    "original_question": "Czym jest rekurencja?",
+    "cached_answer": "Rekurencja to technika programistyczna, w której funkcja wywołuje samą siebie w celu rozwiązania problemu. Kluczowym elementem jest warunek bazowy, który przerywa ciąg wywołań, zapobiegając nieskończonej pętli i przepełnieniu stosu.",
+    "paraphrases": [
+      "Wyjaśnij pojęcie funkcji rekurencyjnej.",
+      "Na czym polega wywoływanie funkcji przez samą siebie?",
+      "Jak działa algorytm rekurencyjny?"
+    ],
+    "hard_negatives": [
+      "Jak naprawić błąd RecursionError?",
+      "Czym różni się iteracja od rekurencji?"
+    ]
+  },
+  {
+    "original_question": "Jak działa Garbage Collector w Javie?",
+    "cached_answer": "Garbage Collector (GC) to proces automatycznego zarządzania pamięcią, który identyfikuje i usuwa obiekty, do których nie ma już żadnych referencji w programie. Działa w tle, zwalniając zasoby na stercie (heap), co zapobiega wyciekom pamięci.",
+    "paraphrases": [
+      "Wyjaśnij mechanizm odśmiecania pamięci w JVM.",
+      "Kiedy usuwane są nieużywane obiekty w Javie?",
+      "Co robi proces GC w kontekście zarządzania pamięcią?"
+    ],
+    "hard_negatives": [
+      "Jak ręcznie wymusić uruchomienie Garbage Collectora?",
+      "Jakie są różnice między stosem a stertą?"
+    ]
+  },
+  {
+    "original_question": "Co to jest REST API?",
+    "cached_answer": "REST (Representational State Transfer) to styl architektoniczny służący do komunikacji między systemami komputerowymi z wykorzystaniem protokołu HTTP. Opiera się na bezstanowości, jednolitym interfejsie oraz standardowych metodach HTTP takich jak GET, POST, PUT i DELETE.",
+    "paraphrases": [
+      "Zdefiniuj architekturę RESTful.",
+      "Na jakich zasadach opiera się komunikacja w REST API?",
+      "Czym charakteryzują się serwisy typu REST?"
+    ],
+    "hard_negatives": [
+      "Jak zabezpieczyć REST API tokenem JWT?",
+      "Czym różni się REST od SOAP?"
+    ]
+  },
+  {
+    "original_question": "Jaka jest różnica między listą a krotką w Pythonie?",
+    "cached_answer": "Podstawowa różnica polega na mutowalności: listy w Pythonie są mutowalne (można je zmieniać), natomiast krotki (tuples) są niemutowalne. Dodatkowo listy definiuje się nawiasami kwadratowymi [], a krotki zwykłymi ().",
+    "paraphrases": [
+      "Porównaj list i tuple w języku Python.",
+      "Czy krotkę można modyfikować tak jak listę?",
+      "List vs Tuple - kluczowe różnice."
+    ],
+    "hard_negatives": [
+      "Jak przekonwertować listę na krotkę?",
+      "Jak posortować listę w Pythonie?"
+    ]
+  },
+  {
+    "original_question": "Do czego służy polecenie git commit?",
+    "cached_answer": "Polecenie 'git commit' służy do zapisania zmian z obszaru staging (indeksu) do lokalnego repozytorium. Tworzy nową 'migawkę' projektu wraz z opisem zmian, co pozwala na śledzenie historii rozwoju kodu.",
+    "paraphrases": [
+      "Jak zatwierdzić zmiany w repozytorium Git?",
+      "Co robi komenda commit w systemie kontroli wersji?",
+      "W jaki sposób zapisać stan kodu w Gicie?"
+    ],
+    "hard_negatives": [
+      "Jak cofnąć ostatni commit?",
+      "Jaka jest różnica między git add a git commit?"
+    ]
+  },
+  {
+    "original_question": "Czym jest SQL Injection?",
+    "cached_answer": "SQL Injection to technika ataku polegająca na wstrzyknięciu złośliwego kodu SQL do zapytania bazodanowego przez dane wejściowe aplikacji. Pozwala to atakującemu na nieautoryzowany odczyt, modyfikację lub usunięcie danych z bazy.",
+    "paraphrases": [
+      "Na czym polega atak wstrzykiwania kodu SQL?",
+      "Wyjaśnij zagrożenie SQL Injection.",
+      "Jak działa wstrzykiwanie zapytań do bazy danych?"
+    ],
+    "hard_negatives": [
+      "Jak zapobiegać SQL Injection w PHP?",
+      "Co to jest NoSQL?"
+    ]
+  },
+  {
+    "original_question": "Co oznacza akronim SOLID?",
+    "cached_answer": "SOLID to mnemonik opisujący pięć podstawowych zasad programowania obiektowego, które mają na celu uczynienie kodu bardziej czytelnym i łatwiejszym w utrzymaniu. Obejmuje zasady: Jednej Odpowiedzialności, Otwarte-Zamknięte, Podstawienia Liskov, Segregacji Interfejsów i Odwrócenia Zależności.",
+    "paraphrases": [
+      "Wymień 5 zasad dobrego programowania obiektowego.",
+      "Co kryje się pod literami w skrócie SOLID?",
+      "Zdefiniuj paradygmaty SOLID."
+    ],
+    "hard_negatives": [
+      "Na czym polega zasada Open-Closed?",
+      "Dlaczego kod powinien być SOLID?"
+    ]
+  },
+  {
+    "original_question": "Czym jest Docker?",
+    "cached_answer": "Docker to otwarta platforma do tworzenia, wdrażania i uruchamiania aplikacji w kontenerach. Konteneryzacja pozwala na zapakowanie aplikacji wraz ze wszystkimi jej zależnościami, co gwarantuje jej spójne działanie w każdym środowisku.",
+    "paraphrases": [
+      "Do czego służy platforma Docker?",
+      "Wyjaśnij koncepcję konteneryzacji w Dockerze.",
+      "Co to jest środowisko Docker?"
+    ],
+    "hard_negatives": [
+      "Jak zainstalować Dockera na Linuxie?",
+      "Czym różni się Docker od maszyny wirtualnej?"
+    ]
+  },
+  {
+    "original_question": "Co to jest złożoność obliczeniowa Big O?",
+    "cached_answer": "Notacja Big O (duże O) służy do opisu wydajności lub złożoności algorytmu. Określa ona, jak czas wykonania lub zapotrzebowanie na pamięć rośnie w zależności od wzrostu rozmiaru danych wejściowych (n), np. O(n) lub O(log n).",
+    "paraphrases": [
+      "Jak mierzymy efektywność algorytmów?",
+      "Wyjaśnij notację dużego O.",
+      "Co oznacza O(n) w kontekście algorytmiki?"
+    ],
+    "hard_negatives": [
+      "Jak obliczyć złożoność dla sortowania bąbelkowego?",
+      "Który algorytm sortowania jest najszybszy?"
+    ]
+  },
+  {
+    "original_question": "Na czym polega dziedziczenie w OOP?",
+    "cached_answer": "Dziedziczenie to mechanizm programowania obiektowego, pozwalający jednej klasie (potomnej) przejąć cechy i metody innej klasy (bazowej). Umożliwia to ponowne wykorzystanie kodu oraz tworzenie hierarchii typów.",
+    "paraphrases": [
+      "Co to jest inheritance w programowaniu?",
+      "Jak klasa potomna przejmuje metody klasy bazowej?",
+      "Wyjaśnij relację rodzic-dziecko w klasach."
+    ],
+    "hard_negatives": [
+      "Co to jest wielodziedziczenie?",
+      "Czym różni się dziedziczenie od kompozycji?"
+    ]
+  },
+  {
+    "original_question": "Czym są Promises w JavaScript?",
+    "cached_answer": "Promise (obietnica) w JavaScript to obiekt reprezentujący ewentualne zakończenie (sukces lub porażkę) operacji asynchronicznej oraz jej wynik. Pozwala na pisanie czystszego kodu asynchronicznego, unikając tzw. 'callback hell'.",
+    "paraphrases": [
+      "Jak działają Obietnice w JS?",
+      "Do czego służy obiekt Promise?",
+      "Obsługa asynchroniczności za pomocą Promise."
+    ],
+    "hard_negatives": [
+      "Jak zamienić Promise na async/await?",
+      "Co to jest Event Loop?"
+    ]
+  },
+  {
+    "original_question": "Co to jest klucz główny (Primary Key)?",
+    "cached_answer": "Klucz główny to unikalny identyfikator rekordu w tabeli bazy danych. Musi on zawierać unikalną wartość dla każdego wiersza i nie może przyjmować wartości NULL, co zapewnia integralność danych.",
+    "paraphrases": [
+      "Zdefiniuj Primary Key w bazach danych.",
+      "Jak jednoznacznie identyfikować wiersze w SQL?",
+      "Cechy klucza głównego."
+    ],
+    "hard_negatives": [
+      "Jak dodać klucz obcy (Foreign Key)?",
+      "Czym różni się klucz główny od indeksu?"
+    ]
+  },
+  {
+    "original_question": "Czym jest framework React?",
+    "cached_answer": "React to biblioteka JavaScript służąca do budowania interfejsów użytkownika (UI), oparta na komponentach. Pozwala na tworzenie dynamicznych aplikacji typu SPA (Single Page Application) z wykorzystaniem wirtualnego DOM dla zwiększenia wydajności.",
+    "paraphrases": [
+      "Opisz bibliotekę React.js.",
+      "Do czego służy technologia React od Facebooka?",
+      "Na czym polega budowanie UI w React?"
+    ],
+    "hard_negatives": [
+      "Jak używać hooka useState?",
+      "React vs Angular - co wybrać?"
+    ]
+  },
+  {
+    "original_question": "Co to jest CI/CD?",
+    "cached_answer": "CI/CD (Continuous Integration / Continuous Delivery) to zbiór praktyk w DevOps, polegających na częstym, automatycznym integrowaniu zmian w kodzie oraz ich automatycznym testowaniu i wdrażaniu do środowiska produkcyjnego.",
+    "paraphrases": [
+      "Wyjaśnij pojęcia ciągłej integracji i ciągłego wdrażania.",
+      "Na czym polega pipeline CI/CD?",
+      "Automatyzacja wdrażania oprogramowania."
+    ],
+    "hard_negatives": [
+      "Jak skonfigurować Jenkinsa?",
+      "Jakie są najlepsze narzędzia do CI/CD?"
+    ]
+  },
+  {
+    "original_question": "Czym jest typowanie statyczne?",
+    "cached_answer": "Typowanie statyczne to cecha języka programowania, w której typy zmiennych są sprawdzane w momencie kompilacji, a nie uruchamiania programu. Wymaga to zazwyczaj jawnego deklarowania typów zmiennych, co pomaga wykrywać błędy na wczesnym etapie.",
+    "paraphrases": [
+      "Co oznacza, że język jest statycznie typowany?",
+      "Zalety sprawdzania typów podczas kompilacji.",
+      "Definicja static typing."
+    ],
+    "hard_negatives": [
+      "Czym różni się typowanie statyczne od dynamicznego?",
+      "Przykłady języków statycznie typowanych."
+    ]
+  },
+  {
+    "original_question": "Co to jest CSS Grid?",
+    "cached_answer": "CSS Grid Layout to dwuwymiarowy system układu dla arkuszy stylów CSS, który pozwala projektować złożone układy stron internetowych oparte na wierszach i kolumnach. Umożliwia precyzyjne rozmieszczanie elementów bez użycia floatów czy pozycjonowania.",
+    "paraphrases": [
+      "Jak działa siatka w CSS?",
+      "Do czego służy Grid Layout?",
+      "Tworzenie układów dwuwymiarowych w CSS."
+    ],
+    "hard_negatives": [
+      "Czym różni się Grid od Flexboxa?",
+      "Jak wyśrodkować diva w CSS?"
+    ]
+  },
+  {
+    "original_question": "Wyjaśnij wzorzec Singleton.",
+    "cached_answer": "Singleton to kreacyjny wzorzec projektowy, który gwarantuje, że dana klasa będzie miała tylko jedną instancję w całym programie i zapewnia globalny punkt dostępu do tej instancji.",
+    "paraphrases": [
+      "Na czym polega wzorzec projektowy Singleton?",
+      "Jak zapewnić istnienie tylko jednego obiektu danej klasy?",
+      "Definicja Singletona."
+    ],
+    "hard_negatives": [
+      "Kiedy unikać stosowania Singletona?",
+      "Jak zaimplementować Singleton bezpieczny wątkowo?"
+    ]
+  },
+  {
+    "original_question": "Czym jest funkcja lambda?",
+    "cached_answer": "Funkcja lambda to krótka, anonimowa funkcja (bez nazwy), definiowana zazwyczaj w jednej linii kodu. Jest często używana w miejscach, gdzie wymagana jest funkcja jako argument, np. przy operacjach na listach (map, filter).",
+    "paraphrases": [
+      "Co to są funkcje anonimowe?",
+      "Zastosowanie wyrażeń lambda w kodzie.",
+      "Jak działają lambdy?"
+    ],
+    "hard_negatives": [
+      "Jak napisać lambdę w Pythonie?",
+      "Czy lambda może mieć wiele argumentów?"
+    ]
+  },
+  {
+    "original_question": "Co to jest JSON?",
+    "cached_answer": "JSON (JavaScript Object Notation) to lekki format wymiany danych, łatwy do czytania dla ludzi i maszyn. Opiera się na strukturze par klucz-wartość oraz listach uporządkowanych wartości i jest niezależny od języka programowania.",
+    "paraphrases": [
+      "Do czego służy format JSON?",
+      "Struktura danych JSON.",
+      "Standard wymiany danych w aplikacjach webowych."
+    ],
+    "hard_negatives": [
+      "Jak sparsować JSON w Javie?",
+      "JSON vs XML - co lepsze?"
+    ]
+  },
+  {
+    "original_question": "Czym jest wskaźnik (pointer) w C++?",
+    "cached_answer": "Wskaźnik to zmienna, która przechowuje adres pamięci innej zmiennej, a nie samą jej wartość. Umożliwia bezpośrednie zarządzanie pamięcią, operacje na tablicach oraz dynamiczną alokację zasobów.",
+    "paraphrases": [
+      "Do czego służą pointery w C++?",
+      "Wyjaśnij mechanizm adresowania pamięci wskaźnikami.",
+      "Zmienna przechowująca adres pamięci."
+    ],
+    "hard_negatives": [
+      "Co to jest null pointer exception?",
+      "Czym różni się wskaźnik od referencji?"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+from app.llms.biogpt_llm import BioGPTForBiology
+from app.llms.deepseekcoder_llm import DeepSeekCoderForMathematics
+from app.llms.starcoder_llm import QwenForIT
+from app.interface.abstractmodel import AbstractModel
+
+class GeneralLLM(AbstractModel):
+    def __init__(self, topic: str):
+        if topic == "bio":
+            self.model = BioGPTForBiology()
+        elif topic == "math":
+            self.model = DeepSeekCoderForMathematics()
+        elif topic == "code":
+            self.model = QwenForIT()
+    def generate_answer(self, prompt: str) -> str:
+        return self.model.generate_answer(prompt)
