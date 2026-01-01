@@ -1,0 +1,162 @@
+[
+  {
+    "original_question": "What is a Hash Map?",
+    "paraphrases": [
+      "Explain how a hash table works.",
+      "How are key-value pairs stored in a hash map?",
+      "Describe the mechanism of handling collisions in hashing."
+    ]
+  },
+  {
+    "original_question": "What is the MVC design pattern?",
+    "paraphrases": [
+      "Explain Model-View-Controller architecture.",
+      "How does MVC separate concerns in an application?",
+      "What is the role of the Controller in MVC?"
+    ]
+  },
+  {
+    "original_question": "What is a Deadlock?",
+    "paraphrases": [
+      "Explain the concept of a deadlock in operating systems.",
+      "What happens when two processes wait for each other indefinitely?",
+      "Conditions required for a deadlock to occur."
+    ]
+  },
+  {
+    "original_question": "What is a Closure in JavaScript?",
+    "paraphrases": [
+      "How do inner functions access variables from the outer scope?",
+      "Explain the concept of lexical scoping in JS.",
+      "Why are variables preserved in a function after it has finished executing?"
+    ]
+  },
+  {
+    "original_question": "What is the difference between an Interface and an Abstract Class?",
+    "paraphrases": [
+      "When should you use an interface vs an abstract class?",
+      "Can a class implement multiple interfaces?",
+      "Key differences in implementation between abstract classes and interfaces."
+    ]
+  },
+  {
+    "original_question": "What is a Load Balancer?",
+    "paraphrases": [
+      "How is network traffic distributed across multiple servers?",
+      "Explain the purpose of load balancing in system design.",
+      "Mechanisms to prevent server overload."
+    ]
+  },
+  {
+    "original_question": "What is Microservices Architecture?",
+    "paraphrases": [
+      "Compare Monolithic architecture vs Microservices.",
+      "What are the benefits of breaking an app into small independent services?",
+      "Explain the concept of distributed services."
+    ]
+  },
+  {
+    "original_question": "What is the CAP Theorem?",
+    "paraphrases": [
+      "Explain Consistency, Availability, and Partition Tolerance.",
+      "What are the trade-offs in distributed database systems?",
+      "Define Brewer's theorem."
+    ]
+  },
+  {
+    "original_question": "What is Polymorphism in OOP?",
+    "paraphrases": [
+      "Explain the difference between method overloading and overriding.",
+      "How does polymorphism allow objects to take on multiple forms?",
+      "Runtime vs Compile-time polymorphism."
+    ]
+  },
+  {
+    "original_question": "What is Database Normalization?",
+    "paraphrases": [
+      "Why do we normalize databases?",
+      "Explain the concept of First, Second, and Third Normal Forms.",
+      "How to reduce data redundancy in SQL?"
+    ]
+  },
+  {
+    "original_question": "How does Binary Search work?",
+    "paraphrases": [
+      "What is the time complexity of binary search?",
+      "Describe the divide and conquer strategy for searching.",
+      "Algorithm for finding an element in a sorted array."
+    ]
+  },
+  {
+    "original_question": "What is a JSON Web Token (JWT)?",
+    "paraphrases": [
+      "How does stateless authentication work with tokens?",
+      "Explain the structure of a JWT (Header, Payload, Signature).",
+      "Secure transmission of information between parties using JSON."
+    ]
+  },
+  {
+    "original_question": "What is CORS?",
+    "paraphrases": [
+      "Define Cross-Origin Resource Sharing.",
+      "Why do browsers block cross-domain requests by default?",
+      "How to configure headers to allow cross-origin access?"
+    ]
+  },
+  {
+    "original_question": "What is Dependency Injection?",
+    "paraphrases": [
+      "Explain the Inversion of Control (IoC) principle.",
+      "Why is injecting dependencies better than hard-coding them?",
+      "How to decouple components in software design?"
+    ]
+  },
+  {
+    "original_question": "What is GraphQL?",
+    "paraphrases": [
+      "How is GraphQL different from REST API?",
+      "Explain the query language for APIs.",
+      "How to fetch only specific data fields from a server?"
+    ]
+  },
+  {
+    "original_question": "What is the difference between Stack and Heap memory?",
+    "paraphrases": [
+      "Where are primitive variables and objects stored in memory?",
+      "Static vs Dynamic memory allocation explained.",
+      "Memory management structure in programming."
+    ]
+  },
+  {
+    "original_question": "What are ACID properties in databases?",
+    "paraphrases": [
+      "Define Atomicity, Consistency, Isolation, and Durability.",
+      "How do databases ensure transaction reliability?",
+      "Requirements for a reliable database transaction."
+    ]
+  },
+  {
+    "original_question": "What are WebSockets?",
+    "paraphrases": [
+      "How do real-time full-duplex communications work?",
+      "Difference between HTTP requests and WebSocket connections.",
+      "Establishing a persistent connection between client and server."
+    ]
+  },
+  {
+    "original_question": "What is Memoization?",
+    "paraphrases": [
+      "How to optimize recursive algorithms using caching?",
+      "Storing results of expensive function calls.",
+      "Dynamic programming optimization techniques."
+    ]
+  },
+  {
+    "original_question": "What is a Singleton Pattern?",
+    "paraphrases": [
+      "How to ensure a class has only one instance?",
+      "Design pattern for a global point of access to an object.",
+      "When to use the Singleton design pattern?"
+    ]
+  }
+]

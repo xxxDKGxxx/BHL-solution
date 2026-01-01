@@ -53,7 +53,7 @@ class SingleModelPromptHandler(AbstractPromptHandler):
         return answer, True, "None"
 
 class LlmCacheBuildingTester:
-    def __init__(self, questions: list[str], similair_questions: list[str]):
+    def __init__(self, questions: list[str], similair_questions: list[str], name="", number=None):
         self.questions = questions
         self.similair_questions = similair_questions
         self.db = Database(SentenceTransformerEmbedder())
@@ -62,12 +62,14 @@ class LlmCacheBuildingTester:
             GeminiLLM(),
             FactOrGenerativeClassifier()
         )
+        self.name = name
+        self.number = number
     def run(self):
         if not os.path.exists("results"):
             os.mkdir("results")
 
-        if os.path.exists("results/question_answers.csv"):
-            df = pd.read_csv("results/question_answers.csv")
+        if os.path.exists(f"results/question_answers_{self.name}.csv"):
+            df = pd.read_csv(f"results/question_answers_{self.name}.csv")
             for _, record in df.iterrows():
                 self.db.insert(record["question"], record["answer"])
         else:
@@ -81,7 +83,7 @@ class LlmCacheBuildingTester:
                 print(f"Answer: {question_answer_pairs[-1][1]}")
 
             df = pd.DataFrame(question_answer_pairs, columns=["question", "answer"])
-            df.to_csv("results/question_answers.csv", index=False)
+            df.to_csv(f"results/question_answers_{self.name}_{self.number}.csv", index=False)
 
         question_is_cached_pairs = []
         for similair_question in self.similair_questions:
@@ -91,6 +93,6 @@ class LlmCacheBuildingTester:
             print(f"Is cached: {is_cached}")
 
         df = pd.DataFrame(question_is_cached_pairs, columns=["question", "is_cached"])
-        df.to_csv("results/question_is_cached.csv", index=False)
+        df.to_csv(f"results/question_is_cached_{self.name}_{self.number}.csv", index=False)
 
 
