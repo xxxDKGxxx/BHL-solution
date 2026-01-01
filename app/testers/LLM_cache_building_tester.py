@@ -53,7 +53,7 @@ class SingleModelPromptHandler(AbstractPromptHandler):
         return answer, True, "None"
 
 class LlmCacheBuildingTester:
-    def __init__(self, questions: list[str], similair_questions: list[str], name="", number=None):
+    def __init__(self, questions: list[str], similair_questions: list[str], name=""):
         self.questions = questions
         self.similair_questions = similair_questions
         self.db = Database(SentenceTransformerEmbedder())
@@ -63,7 +63,7 @@ class LlmCacheBuildingTester:
             FactOrGenerativeClassifier()
         )
         self.name = name
-        self.number = number
+        self.number = 1
     def run(self):
         if not os.path.exists("results"):
             os.mkdir("results")
@@ -85,6 +85,9 @@ class LlmCacheBuildingTester:
             df = pd.DataFrame(question_answer_pairs, columns=["question", "answer"])
             df.to_csv(f"results/question_answers_{self.name}_{self.number}.csv", index=False)
 
+        while os.path.exists(f"results/question_is_cached_{self.name}_{self.number}.csv"):
+            self.number += 1
+
         question_is_cached_pairs = []
         for similair_question in self.similair_questions:
             print(f"Similair question: {similair_question}")
@@ -96,3 +99,14 @@ class LlmCacheBuildingTester:
         df.to_csv(f"results/question_is_cached_{self.name}_{self.number}.csv", index=False)
 
 
+
+def summarise_batch_reports(name="") -> pd.DataFrame:
+    number = 1
+
+    df = pd.DataFrame(columns=["question", "is_cached"])
+
+    while os.path.exists(f"results/question_is_cached_{name}_{number}.csv"):
+        df = pd.concat([df, pd.read_csv(f"results/question_is_cached_{name}_{number}.csv")], axis=0)
+        number += 1
+
+    return df
