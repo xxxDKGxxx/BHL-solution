@@ -4,7 +4,6 @@ import pandas as pd
 
 from app.database.database import Database
 from app.database.sentence_transformer_embedder import SentenceTransformerEmbedder
-from app.handler.defaulthandler import PromptHandler
 from app.llms.gemini_llm import GeminiLLM
 
 from app.prompts_classification.fact_or_generative_classifier import FactOrGenerativeClassifier
@@ -14,6 +13,34 @@ from app.interface.abstractmodel import AbstractModel
 from app.relevance_checkers.cross_encoder_relevance_checker import CrossEncoderRelevanceChecker
 from app.handler.generalize_answer import generalize_prompt
 
+
+class SingleModelWithoutFactClassificationPromptHandler(AbstractPromptHandler):
+    encoder = CrossEncoderRelevanceChecker()
+
+    def __init__(
+            self,
+            db_context: DatabaseContext,
+            model: AbstractModel) -> None:
+        self._db_context = db_context
+        self.model = model
+
+    def generate_answer(self, prompt: str, skip_cached: bool, threshold: object = 0.5) -> tuple[str, bool, str]:
+        answer = ""
+
+        if not skip_cached:
+            answer, _ = self._db_context.get(prompt)
+
+        if (skip_cached
+                or self.encoder.check_relevance(prompt, answer) <= threshold
+                or answer is None):
+            model = self.model
+
+            (generalized_prompt, default_answer) = generalize_prompt(model, prompt)
+            self._db_context.insert(generalized_prompt, default_answer)
+
+            return default_answer, False, "None"
+
+        return answer, True, "None"
 
 class SingleModelPromptHandler(AbstractPromptHandler):
     encoder = CrossEncoderRelevanceChecker()
