@@ -80,27 +80,38 @@ class SingleModelPromptHandler(AbstractPromptHandler):
         return answer, True, "None"
 
 class LlmCacheBuildingTester:
-    def __init__(self, questions: list[str], similair_questions: list[str], name=""):
+    def __init__(self, questions: list[str], similair_questions: list[str], name="", without_fact=False):
         self.questions = questions
         self.similair_questions = similair_questions
         self.db = Database(SentenceTransformerEmbedder())
-        self.handler = SingleModelPromptHandler(
-            self.db,
-            GeminiLLM(),
-            FactOrGenerativeClassifier()
-        )
+
+        if without_fact:
+            self.handler = SingleModelWithoutFactClassificationPromptHandler(
+                self.db,
+                GeminiLLM(),
+            )
+        else:
+            self.handler = SingleModelPromptHandler(
+                self.db,
+                GeminiLLM(),
+                FactOrGenerativeClassifier()
+            )
+
         self.name = name
         self.number = 1
+
     def run(self):
         if not os.path.exists("results"):
             os.mkdir("results")
 
         if os.path.exists(f"results/question_answers_{self.name}.csv"):
             df = pd.read_csv(f"results/question_answers_{self.name}.csv")
+
             for _, record in df.iterrows():
                 self.db.insert(record["question"], record["answer"])
         else:
             question_answer_pairs = []
+
             for question in self.questions:
                 print(question)
                 question_answer_pairs.append((
@@ -110,12 +121,13 @@ class LlmCacheBuildingTester:
                 print(f"Answer: {question_answer_pairs[-1][1]}")
 
             df = pd.DataFrame(question_answer_pairs, columns=["question", "answer"])
-            df.to_csv(f"results/question_answers_{self.name}_{self.number}.csv", index=False)
+            df.to_csv(f"results/question_answers_{self.name}.csv", index=False)
 
         while os.path.exists(f"results/question_is_cached_{self.name}_{self.number}.csv"):
             self.number += 1
 
         question_is_cached_pairs = []
+
         for similair_question in self.similair_questions:
             print(f"Similair question: {similair_question}")
             _, is_cached, _ = self.handler.generate_answer(similair_question, False)
