@@ -1,0 +1,154 @@
+[
+  {
+    "original_question": "What is a function?",
+    "paraphrases": [
+      "How is a function defined?",
+      "What is a function in mathematics?",
+      "What does the concept of a function mean?"
+    ]
+  },
+  {
+    "original_question": "What is the domain of a function?",
+    "paraphrases": [
+      "How is the domain of a function defined?",
+      "What do we call the domain of a function?",
+      "Which arguments belong to the domain of a function?"
+    ]
+  },
+  {
+    "original_question": "What is the limit of a function?",
+    "paraphrases": [
+      "How is the limit of a function defined?",
+      "What does the limit of a function at a point mean?",
+      "How should the concept of a function limit be understood?"
+    ]
+  },
+  {
+    "original_question": "What is the derivative of a function?",
+    "paraphrases": [
+      "How is the derivative of a function defined?",
+      "What is a derivative in the mathematical sense?",
+      "What does the concept of a derivative mean?"
+    ]
+  },
+  {
+    "original_question": "What is a definite integral?",
+    "paraphrases": [
+      "How is a definite integral defined?",
+      "What is a definite integral?",
+      "What does a definite integral mean in mathematical analysis?"
+    ]
+  },
+  {
+    "original_question": "What is the derivative of a function used for?",
+    "paraphrases": [
+      "What are the applications of a derivative?",
+      "What can be determined using a derivative of a function?",
+      "For what purpose is a derivative used?"
+    ]
+  },
+  {
+    "original_question": "What is a definite integral used for?",
+    "paraphrases": [
+      "What are the applications of a definite integral?",
+      "What can be calculated using a definite integral?",
+      "For what purpose is a definite integral used?"
+    ]
+  },
+  {
+    "original_question": "What is the Pythagorean theorem?",
+    "paraphrases": [
+      "What does the Pythagorean theorem state?",
+      "What does the Pythagorean theorem say?",
+      "What is the content of the Pythagorean theorem?"
+    ]
+  },
+  {
+    "original_question": "What does mathematical induction prove?",
+    "paraphrases": [
+      "What is mathematical induction used for?",
+      "What kinds of properties are proven using mathematical induction?",
+      "What does mathematical induction allow us to demonstrate?"
+    ]
+  },
+  {
+    "original_question": "What is the determinant of a matrix used for?",
+    "paraphrases": [
+      "What is a matrix determinant used for?",
+      "What role does the determinant play in linear algebra?",
+      "What can be checked using a determinant?"
+    ]
+  },
+  {
+    "original_question": "What is a matrix?",
+    "paraphrases": [
+      "How is a matrix defined?",
+      "What is a matrix in linear algebra?",
+      "What does the concept of a matrix mean?"
+    ]
+  },
+  {
+    "original_question": "When is a matrix invertible?",
+    "paraphrases": [
+      "In what case does a matrix have an inverse matrix?",
+      "When does an inverse matrix exist?",
+      "How can an invertible matrix be recognized?"
+    ]
+  },
+  {
+    "original_question": "What is a vector?",
+    "paraphrases": [
+      "How is a vector defined?",
+      "What is a vector in mathematics?",
+      "What does the concept of a vector mean?"
+    ]
+  },
+  {
+    "original_question": "What is a vector space?",
+    "paraphrases": [
+      "How is a vector space defined?",
+      "What is a vector space?",
+      "What does the concept of a vector space mean?"
+    ]
+  },
+  {
+    "original_question": "What is a prime number?",
+    "paraphrases": [
+      "How is a prime number defined?",
+      "When is a number prime?",
+      "What does the concept of a prime number mean?"
+    ]
+  },
+  {
+    "original_question": "What is absolute value?",
+    "paraphrases": [
+      "How is absolute value defined?",
+      "What is the absolute value of a number?",
+      "What does the concept of absolute value mean?"
+    ]
+  },
+  {
+    "original_question": "What is a logarithm?",
+    "paraphrases": [
+      "How is a logarithm defined?",
+      "What is the logarithm of a number?",
+      "What does the concept of a logarithm mean?"
+    ]
+  },
+  {
+    "original_question": "What is a convergent sequence?",
+    "paraphrases": [
+      "When is a sequence convergent?",
+      "How can the convergence of a sequence be recognized?",
+      "What does it mean that a sequence is convergent?"
+    ]
+  },
+  {
+    "original_question": "What does a solution to a system of equations mean?",
+    "paraphrases": [
+      "How should a solution to a system of equations be interpreted?",
+      "What does a solution to a system of equations represent?",
+      "What does it mean that a system of equations has a solution?"
+    ]
+  }
+]

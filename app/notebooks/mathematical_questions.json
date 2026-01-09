@@ -1,0 +1,157 @@
+[
+  {
+    "original_question": "Co to jest funkcja?",
+    "paraphrases": [
+      "Jak definiuje się funkcję?",
+      "Czym w matematyce jest funkcja?",
+      "Co oznacza pojęcie funkcji?"
+    ]
+  },
+  {
+    "original_question": "Co to jest dziedzina funkcji?",
+    "paraphrases": [
+      "Jak definiuje się dziedzinę funkcji?",
+      "Co nazywamy dziedziną funkcji?",
+      "Jakie argumenty należą do dziedziny funkcji?"
+    ]
+  },
+  {
+    "original_question": "Co to jest granica funkcji?",
+    "paraphrases": [
+      "Jak definiuje się granicę funkcji?",
+      "Co oznacza granica funkcji w punkcie?",
+      "Jak rozumieć pojęcie granicy funkcji?"
+    ]
+  },
+  {
+    "original_question": "Co to jest pochodna funkcji?",
+    "paraphrases": [
+      "Jak definiuje się pochodną funkcji?",
+      "Czym jest pochodna w sensie matematycznym?",
+      "Co oznacza pojęcie pochodnej?"
+    ]
+  },
+  {
+    "original_question": "Co to jest całka oznaczona?",
+    "paraphrases": [
+      "Jak definiuje się całkę oznaczoną?",
+      "Czym jest całka oznaczona?",
+      "Co oznacza całka oznaczona w analizie matematycznej?"
+    ]
+  },
+
+  {
+    "original_question": "Do czego służy pochodna funkcji?",
+    "paraphrases": [
+      "Jakie zastosowanie ma pochodna?",
+      "Co można wyznaczyć za pomocą pochodnej funkcji?",
+      "W jakim celu stosuje się pochodną?"
+    ]
+  },
+  {
+    "original_question": "Do czego służy całka oznaczona?",
+    "paraphrases": [
+      "Jakie zastosowanie ma całka oznaczona?",
+      "Co można obliczyć przy pomocy całki oznaczonej?",
+      "W jakim celu używa się całki oznaczonej?"
+    ]
+  },
+
+  {
+    "original_question": "Czym jest twierdzenie Pitagorasa?",
+    "paraphrases": [
+      "Na czym polega twierdzenie Pitagorasa?",
+      "Co mówi twierdzenie Pitagorasa?",
+      "Jak brzmi treść twierdzenia Pitagorasa?"
+    ]
+  },
+  {
+    "original_question": "Co sprawdza indukcja matematyczna?",
+    "paraphrases": [
+      "Do czego służy indukcja matematyczna?",
+      "Jakie własności dowodzi się indukcją matematyczną?",
+      "Co pozwala wykazać indukcja matematyczna?"
+    ]
+  },
+  {
+    "original_question": "Jakie zastosowanie ma wyznacznik macierzy?",
+    "paraphrases": [
+      "Do czego używa się wyznacznika macierzy?",
+      "Jaką rolę pełni wyznacznik w algebrze liniowej?",
+      "Co można sprawdzić za pomocą wyznacznika?"
+    ]
+  },
+
+  {
+    "original_question": "Co to jest macierz?",
+    "paraphrases": [
+      "Jak definiuje się macierz?",
+      "Czym jest macierz w algebrze liniowej?",
+      "Co oznacza pojęcie macierzy?"
+    ]
+  },
+  {
+    "original_question": "Kiedy macierz jest odwracalna?",
+    "paraphrases": [
+      "W jakim przypadku macierz ma macierz odwrotną?",
+      "Kiedy istnieje macierz odwrotna?",
+      "Jak rozpoznać macierz odwracalną?"
+    ]
+  },
+  {
+    "original_question": "Co to jest wektor?",
+    "paraphrases": [
+      "Jak definiuje się wektor?",
+      "Czym jest wektor w matematyce?",
+      "Co oznacza pojęcie wektora?"
+    ]
+  },
+  {
+    "original_question": "Co to jest przestrzeń wektorowa?",
+    "paraphrases": [
+      "Jak definiuje się przestrzeń wektorową?",
+      "Czym jest przestrzeń wektorowa?",
+      "Co oznacza pojęcie przestrzeni wektorowej?"
+    ]
+  },
+  {
+    "original_question": "Co to jest liczba pierwsza?",
+    "paraphrases": [
+      "Jak definiuje się liczbę pierwszą?",
+      "Kiedy liczba jest pierwsza?",
+      "Co oznacza pojęcie liczby pierwszej?"
+    ]
+  },
+  {
+    "original_question": "Co to jest wartość bezwzględna?",
+    "paraphrases": [
+      "Jak definiuje się wartość bezwzględną?",
+      "Czym jest wartość bezwzględna liczby?",
+      "Co oznacza pojęcie wartości bezwzględnej?"
+    ]
+  },
+  {
+    "original_question": "Co to jest logarytm?",
+    "paraphrases": [
+      "Jak definiuje się logarytm?",
+      "Czym jest logarytm liczby?",
+      "Co oznacza pojęcie logarytmu?"
+    ]
+  },
+  {
+    "original_question": "Co to jest ciąg zbieżny?",
+    "paraphrases": [
+      "Kiedy ciąg jest zbieżny?",
+      "Jak rozpoznać zbieżność ciągu?",
+      "Co oznacza, że ciąg jest zbieżny?"
+    ]
+  },
+  {
+    "original_question": "Co oznacza rozwiązanie układu równań?",
+    "paraphrases": [
+      "Jak interpretować rozwiązanie układu równań?",
+      "Co przedstawia rozwiązanie układu równań?",
+      "Co znaczy, że układ równań ma rozwiązanie?"
+    ]
+  }
+]
