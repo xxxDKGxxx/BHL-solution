@@ -1,8 +1,11 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import pandas as pd
 import os
 from datetime import datetime
+
+from sklearn.manifold import TSNE
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import KFold, train_test_split
 
@@ -94,9 +97,15 @@ class ModelReporter:
 		# 3. Znajdujemy indeksy tych słów w macierzy
 		# Wektoryzatory mają słownik vocabulary_ {słowo: index}
 		try:
-			f1_idx = vectorizer.vocabulary_[f1_name]
-			f2_idx = vectorizer.vocabulary_[f2_name]
-		except KeyError:
+			if hasattr(vectorizer, 'vocabulary_'):
+				f1_idx = vectorizer.vocabulary_[f1_name]
+				f2_idx = vectorizer.vocabulary_[f2_name]
+			else:
+				# Obsługa SentenceTransformer (brak słownika słów, cechy to 'dim_X')
+				# Zakładamy format "dim_123"
+				f1_idx = int(f1_name.split('_')[-1])
+				f2_idx = int(f2_name.split('_')[-1])
+		except (KeyError, ValueError, IndexError):
 			print("[BLAD] Nie udało się znaleźć indeksów dla wybranych słów.")
 			return
 
@@ -264,6 +273,80 @@ class ModelReporter:
 		else:
 			self._log("\n[INFO] Model nie zwraca ważności cech.")
 
+	def plot_tsne(self):
+		print("Generowanie mapy t-SNE (to może chwilę potrwać)...")
+
+		# 1. Pobieramy wektorową reprezentację danych (TF-IDF/BoW)
+		vectorizer = self.wrapper.get_vectorizer()
+		X_vec = vectorizer.transform(self.X_test)
+		
+		if hasattr(X_vec, "toarray"):
+			X_vec = X_vec.toarray()
+
+		# 2. Redukcja do 2 wymiarów
+		# perplexity=30 to standard, n_iter=1000 dla stabilności
+		tsne = TSNE(n_components=2, random_state=42, perplexity=30, max_iter=1000)
+		X_embedded = tsne.fit_transform(X_vec)
+
+		# Tworzymy DataFrame dla łatwiejszego rysowania w Seaborn
+		df_tsne = pd.DataFrame(X_embedded, columns=['x', 'y'])
+		df_tsne['Kategoria'] = np.array(self.y_test)
+
+		plt.figure(figsize=(10, 8))
+		sns.scatterplot(
+			data=df_tsne, x='x', y='y', hue='Kategoria',
+			palette='viridis', s=60, alpha=0.7
+		)
+		plt.title("Mapa t-SNE: Jak bardzo podobne są do siebie pytania?")
+		plt.show()  # lub savefig
+
+	def plot_wordclouds(self):
+		from wordcloud import WordCloud
+
+		# Pobieramy unikalne kategorie
+		categories = np.unique(self.y)
+
+		plt.figure(figsize=(15, 5 * len(categories)))
+
+		for i, cat in enumerate(categories):
+			# Wyciągamy tekst tylko dla tej kategorii
+			# (Zakładając, że self.X to surowe teksty)
+			subset_idxs = (self.y == cat)
+			text_subset = " ".join(self.X[subset_idxs])
+
+			wc = WordCloud(width=800, height=400, background_color='white').generate(text_subset)
+
+			plt.subplot(len(categories), 1, i + 1)
+			plt.imshow(wc, interpolation='bilinear')
+			plt.axis("off")
+			plt.title(f"Słowa kluczowe dla: {cat}")
+
+		plt.show()
+
+	def plot_confidence_distribution(self):
+			probs = self.wrapper.predict_proba(self.X_test)
+			max_probs = np.max(probs, axis=1)  # Bierzemy pewność wygranej klasy
+
+			# Dzielimy na poprawne i błędne predykcje
+			preds = self.wrapper.predict(self.X_test)
+			correct_mask = (preds == self.y_test)
+
+			plt.figure(figsize=(10, 6))
+			sns.histplot(max_probs[correct_mask], color='green', label='Poprawne', kde=True, bins=20, alpha=0.5)
+			sns.histplot(max_probs[~correct_mask], color='red', label='Błędne', kde=True, bins=20, alpha=0.5)
+
+			plt.xlabel("Pewność modelu (Prawdopodobieństwo)")
+			plt.ylabel("Liczba przypadków")
+			plt.title("Czy model jest pewny siebie, gdy się myli?")
+			plt.legend()
+
+			save_path = os.path.join(self.current_report_dir, "confidence_distr_plot.png")
+			plt.savefig(save_path)
+
+			self._log(f"Zapisano rozkład pewności modelu: {save_path}")
+
+			plt.show()
+
 	def generate_report(self):
 		"""Główna metoda sterująca."""
 		self._setup_directories()
@@ -276,5 +359,6 @@ class ModelReporter:
 		self.run_cross_validation()
 		self.save_feature_importance()
 		self.plot_top_2_features_boundary()
+
 
 		print(f"\n[SUKCES] Cały raport zapisany w folderze: {self.current_report_dir}")

@@ -54,3 +54,7 @@ class ModelInterface(ABC):
 	@abstractmethod
 	def get_new_instance(self) -> Self :
 		pass
+
+	@abstractmethod
+	def get_vectorizer(self):
+		pass
