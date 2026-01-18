@@ -31,6 +31,7 @@ class JsonModifying(BaseEstimator, TransformerMixin):
 
     def transform(self, X, y=None):
         csv_rows = []
+        found_questions = set()
 
         for record in X:
             texts = record.get('texts', [])
@@ -38,6 +39,10 @@ class JsonModifying(BaseEstimator, TransformerMixin):
                 continue
 
             question = texts[0]
+
+            if question in found_questions:
+                continue
+            found_questions.add(question)
 
             tags = record.get('tags', [])
             tags_str = ','.join(tags) if isinstance(tags, list) else str(tags)
