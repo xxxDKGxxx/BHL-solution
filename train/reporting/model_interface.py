@@ -3,7 +3,7 @@ from typing import Dict, List, Any, Optional, Self
 import numpy as np
 
 
-class ModelInterface(ABC, ):
+class ModelInterface(ABC):
 	"""
 	Abstrakcyjna klasa bazowa definiująca interfejs,
 	którego oczekuje klasa raportująca.
