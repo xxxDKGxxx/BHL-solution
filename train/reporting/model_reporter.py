@@ -1,3 +1,5 @@
+import pickle
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -235,6 +237,56 @@ class ModelReporter:
 		plt.close()
 		self._log(f"Zapisano macierz pomyłek: {save_path}")
 
+	def plot_confusion_matrix_with_0_as_few_classes(self, external_dataset, main_class_name="Klasa główna"):
+		y_pred = self.wrapper.predict(self.X_test)
+		y_true_main = self.y_test
+		
+		test_df = pd.DataFrame({'question': self.X_test})
+		merged_df = pd.merge(test_df, external_dataset, on='question', how='left').fillna(0)
+
+		rest_categories = [col for col in external_dataset.columns if col != 'question']
+		all_categories_ordered = [main_class_name] + rest_categories
+		
+		matrix_columns = []
+
+		# Column for Main Class
+		count_pred0_main = np.sum((y_pred == 0) & (y_true_main == 1))
+		count_pred1_main = np.sum((y_pred == 1) & (y_true_main == 1))
+		matrix_columns.append([count_pred0_main, count_pred1_main])
+
+		# Columns for Rest Categories
+		for cls in rest_categories:
+			y_true_cls = merged_df[cls].values
+			count_pred0 = np.sum((y_pred == 0) & (y_true_cls == 1))
+			count_pred1 = np.sum((y_pred == 1) & (y_true_cls == 1))
+			matrix_columns.append([count_pred0, count_pred1])
+		
+		if not matrix_columns:
+			self._log("Nie można wygenerować macierzy 2xN - brak danych.")
+			return
+			
+		matrix_data = np.array(matrix_columns).T
+			
+		plt.figure(figsize=(max(10, len(all_categories_ordered) * 1.2), 6))
+		sns.heatmap(
+			matrix_data,
+			annot=True,
+			fmt='d',
+			cmap='viridis',
+			xticklabels=all_categories_ordered,
+			yticklabels=['Predykcja: 0', 'Predykcja: 1']
+		)
+		plt.title("Korelacja predykcji modelu z prawdziwą przynależnością do klas")
+		plt.ylabel("Predykcja modelu dla klasy głównej")
+		plt.xlabel("Prawdziwa przynależność próbki do klasy")
+		plt.tight_layout()
+
+		save_path = os.path.join(self.current_report_dir, "prediction_vs_true_class_correlation.png")
+		plt.savefig(save_path)
+		plt.close()
+		self._log(f"Zapisano wykres korelacji predykcji z klasami: {save_path}")
+
+
 	def run_cross_validation(self, k=5):
 		self._log(f"\n--- Uruchamianie {k}-krotnej walidacji krzyżowej ---")
 
@@ -347,6 +399,65 @@ class ModelReporter:
 
 			plt.show()
 
+	def save_model_and_datasets(self):
+		with open(self.current_report_dir + "/model.pkl", 'wb') as f:
+			pickle.dump(self.wrapper, f)
+
+		save_test_df = pd.DataFrame()
+		save_test_df["question"] = self.X_test
+		save_test_df["target"] = self.y_test
+		save_test_df.to_csv(self.current_report_dir + "/test_set.csv")
+
+		save_train_df = pd.DataFrame()
+		save_train_df["question"] = self.X_train
+		save_train_df["target"] = self.y_train
+		save_train_df.to_csv(self.current_report_dir + "/train_set.csv")
+
+		self._log(f"Zapisano model i zbiór danych w {self.current_report_dir}/test_set.csv, "
+		          f"{self.current_report_dir}/train_set.csv i "
+		          f"{self.current_report_dir}/model.pkl")
+
+	def plot_learning_curve(self, cv=5, n_points=5):
+		"""
+		Generuje wykres Learning Curve, aby sprawdzić wpływ wielkości zbioru danych na wynik.
+		"""
+		self._log("\nGenerowanie wykresu Learning Curve (to może potrwać)...")
+		from sklearn.model_selection import learning_curve
+
+		train_sizes = np.linspace(0.1, 1.0, n_points)
+
+		train_sizes, train_scores, test_scores = learning_curve(
+			self.wrapper, self.X, self.y,
+			cv=cv, n_jobs=-1, train_sizes=train_sizes, scoring='accuracy'
+		)
+
+		train_mean = np.mean(train_scores, axis=1)
+		train_std = np.std(train_scores, axis=1)
+		test_mean = np.mean(test_scores, axis=1)
+		test_std = np.std(test_scores, axis=1)
+
+		plt.figure(figsize=(10, 6))
+
+		plt.plot(train_sizes, train_mean, 'o-', color="#e74c3c", label="Wynik treningowy")
+		plt.plot(train_sizes, test_mean, 'o-', color="#2ecc71", label="Wynik walidacji (CV)")
+
+		plt.fill_between(train_sizes, train_mean - train_std, train_mean + train_std, alpha=0.1, color="#e74c3c")
+		plt.fill_between(train_sizes, test_mean - test_std, test_mean + test_std, alpha=0.1, color="#2ecc71")
+
+		plt.title(f"Learning Curve: {self.wrapper.__class__.__name__}")
+		plt.xlabel("Liczba próbek treningowych")
+		plt.ylabel("Dokładność (Accuracy)")
+		plt.legend(loc="lower right")
+		plt.grid(True, linestyle='--', alpha=0.7)
+
+		if self.current_report_dir:
+			save_path = os.path.join(self.current_report_dir, "learning_curve.png")
+			plt.savefig(save_path)
+			plt.close()
+			self._log(f"Zapisano wykres Learning Curve: {save_path}")
+		else:
+			plt.show()
+
 	def generate_report(self):
 		"""Główna metoda sterująca."""
 		self._setup_directories()
@@ -359,6 +470,8 @@ class ModelReporter:
 		self.run_cross_validation()
 		self.save_feature_importance()
 		self.plot_top_2_features_boundary()
+		# self.plot_learning_curve()
+		self.save_model_and_datasets()
 
 
 		print(f"\n[SUKCES] Cały raport zapisany w folderze: {self.current_report_dir}")

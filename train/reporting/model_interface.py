@@ -46,10 +46,10 @@ class ModelInterface(ABC):
 		"""Zwraca ważność cech, jeśli model to wspiera."""
 		pass
 
-	@abstractmethod
-	def get_params(self) -> Dict[str, Any]:
-		"""Zwraca hiperparametry modelu (do logowania w raporcie)."""
-		pass
+	# @abstractmethod
+	# def get_params(self) -> Dict[str, Any]:
+	# 	"""Zwraca hiperparametry modelu (do logowania w raporcie)."""
+	# 	pass
 
 	@abstractmethod
 	def get_new_instance(self) -> Self :
