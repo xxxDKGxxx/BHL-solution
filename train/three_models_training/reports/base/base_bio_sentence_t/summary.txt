@@ -1,0 +1,26 @@
+Raport wygenerowany: 2026-01-17 15:07:30.727710
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony.
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports/2026-01-17_15-07-30_TextSVMWrapper/confusion_matrix.png
+
+--- Uruchamianie 5-krotnej walidacji krzyżowej ---
+Fold 5: 0.9762
+Wyniki CV: [np.float64(0.9775), np.float64(0.9758333333333333), np.float64(0.9825), np.float64(0.9791666666666666), np.float64(0.97625)]
+Średnia dokładność: 0.9783 (+/- 0.0024)
+
+--- Top 10 Ważność cech ---
+dim_549: 3.1732
+dim_616: 2.5733
+dim_224: 2.5591
+dim_513: 2.5008
+dim_429: 2.2544
+dim_603: 2.2419
+dim_67: 2.2014
+dim_711: 2.1719
+dim_236: 2.0635
+dim_362: 2.0487
+Zapisano wykres 2D: reports/2026-01-17_15-07-30_TextSVMWrapper/decision_boundary_2d.png
+Zapisano rozkład pewności modelu: reports/2026-01-17_15-07-30_TextSVMWrapper/confidence_distr_plot.png

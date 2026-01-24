@@ -208,6 +208,4 @@ __marimo__/
 .idea
 *.csv
 
-reports/
-*.png
 datasets/

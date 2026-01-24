@@ -1,0 +1,26 @@
+Raport wygenerowany: 2026-01-17 15:03:03.221867
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony.
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports/2026-01-17_15-03-03_TextSVMWrapper/confusion_matrix.png
+
+--- Uruchamianie 5-krotnej walidacji krzyżowej ---
+Fold 5: 0.9504
+Wyniki CV: [np.float64(0.93), np.float64(0.9341666666666667), np.float64(0.9433333333333334), np.float64(0.935), np.float64(0.9504166666666667)]
+Średnia dokładność: 0.9386 (+/- 0.0073)
+
+--- Top 10 Ważność cech ---
+dna: 1.7332
+heterozygotes: 1.6668
+gene: 1.6428
+protein: 1.5201
+proteins: 1.4839
+species: 1.4717
+ecg: 1.4671
+operon: 1.4591
+fasta: 1.4142
+animals: 1.3843
+Zapisano wykres 2D: reports/2026-01-17_15-03-03_TextSVMWrapper/decision_boundary_2d.png
+Zapisano rozkład pewności modelu: reports/2026-01-17_15-03-03_TextSVMWrapper/confidence_distr_plot.png
