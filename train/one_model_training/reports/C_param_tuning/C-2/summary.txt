@@ -1,0 +1,27 @@
+Raport wygenerowany: 2026-01-25 13:46:34.333650
+Model Wrapper: SVMModelWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony.
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports\2026-01-25_13-46-34_SVMModelWrapper\confusion_matrix.png
+
+--- Uruchamianie 5-krotnej walidacji krzyżowej ---
+Fold 5: 0.8807
+Wyniki CV: [np.float64(0.8803333333333333), np.float64(0.882), np.float64(0.877), np.float64(0.875), np.float64(0.8806666666666667)]
+Średnia dokładność: 0.8790 (+/- 0.0026)
+
+--- Top 10 Ważność cech ---
+algorithm: 2.2813
+dna: 1.9962
+probability: 1.9863
+array: 1.9709
+np: 1.9354
+prove: 1.8795
+integral: 1.8583
+gene: 1.8442
+proof: 1.8087
+frac: 1.7852
+Zapisano wykres 2D: reports\2026-01-25_13-46-34_SVMModelWrapper\decision_boundary_2d.png
+Zapisano model i zbiór danych w reports\2026-01-25_13-46-34_SVMModelWrapper/test_set.csv, reports\2026-01-25_13-46-34_SVMModelWrapper/train_set.csv i reports\2026-01-25_13-46-34_SVMModelWrapper/model.pkl
+Zapisano rozkład pewności modelu: reports\2026-01-25_13-46-34_SVMModelWrapper\confidence_distr_plot.png
