@@ -1,0 +1,11 @@
+question,is_cached
+Co robi proces GC w kontekście zarządzania pamięcią?,False
+Wyjaśnij pojęcia ciągłej integracji i ciągłego wdrażania.,True
+Zdefiniuj architekturę RESTful.,False
+Zastosowanie wyrażeń lambda w kodzie.,True
+Na czym polega wzorzec projektowy Singleton?,True
+Porównaj list i tuple w języku Python.,True
+Czy krotkę można modyfikować tak jak listę?,True
+Na jakich zasadach opiera się komunikacja w REST API?,False
+Jak działają Obietnice w JS?,True
+Wyjaśnij koncepcję konteneryzacji w Dockerze.,False

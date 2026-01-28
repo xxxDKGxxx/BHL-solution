@@ -1,0 +1,11 @@
+question,is_cached
+Secure transmission of information between parties using JSON.,False
+Why do we normalize databases?,True
+How does MVC separate concerns in an application?,True
+How does stateless authentication work with tokens?,True
+Storing results of expensive function calls.,True
+When to use the Singleton design pattern?,True
+How do inner functions access variables from the outer scope?,True
+How does stateless authentication work with tokens?,True
+"Define Atomicity, Consistency, Isolation, and Durability.",True
+Memory management structure in programming.,True

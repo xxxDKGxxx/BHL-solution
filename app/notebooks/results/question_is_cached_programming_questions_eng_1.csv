@@ -1,0 +1,11 @@
+question,is_cached
+How are key-value pairs stored in a hash map?,True
+Secure transmission of information between parties using JSON.,False
+Explain the purpose of load balancing in system design.,True
+When should you use an interface vs an abstract class?,True
+What is the role of the Controller in MVC?,True
+Difference between HTTP requests and WebSocket connections.,True
+When to use the Singleton design pattern?,True
+How to optimize recursive algorithms using caching?,True
+How to ensure a class has only one instance?,True
+Can a class implement multiple interfaces?,True

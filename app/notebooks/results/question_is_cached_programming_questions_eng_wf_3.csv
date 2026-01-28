@@ -1,0 +1,11 @@
+question,is_cached
+Why do we normalize databases?,True
+Explain the query language for APIs.,True
+Static vs Dynamic memory allocation explained.,False
+Static vs Dynamic memory allocation explained.,True
+Define Brewer's theorem.,True
+Why is injecting dependencies better than hard-coding them?,True
+Explain the concept of a deadlock in operating systems.,True
+How do inner functions access variables from the outer scope?,True
+How do databases ensure transaction reliability?,False
+Explain Model-View-Controller architecture.,True

@@ -1,0 +1,11 @@
+question,is_cached
+Storing results of expensive function calls.,True
+How to configure headers to allow cross-origin access?,True
+Explain the concept of lexical scoping in JS.,False
+What are the trade-offs in distributed database systems?,False
+"Explain the structure of a JWT (Header, Payload, Signature).",True
+How do databases ensure transaction reliability?,False
+How does polymorphism allow objects to take on multiple forms?,True
+How do real-time full-duplex communications work?,False
+Describe the divide and conquer strategy for searching.,False
+Algorithm for finding an element in a sorted array.,True

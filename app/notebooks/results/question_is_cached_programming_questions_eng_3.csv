@@ -1,0 +1,11 @@
+question,is_cached
+How is GraphQL different from REST API?,True
+How to decouple components in software design?,False
+What are the trade-offs in distributed database systems?,False
+Design pattern for a global point of access to an object.,False
+How to fetch only specific data fields from a server?,False
+Where are primitive variables and objects stored in memory?,True
+Storing results of expensive function calls.,False
+Describe the divide and conquer strategy for searching.,False
+Algorithm for finding an element in a sorted array.,True
+Explain how a hash table works.,True
