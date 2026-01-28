@@ -1,0 +1,11 @@
+question,is_cached
+How does MVC separate concerns in an application?,True
+Runtime vs Compile-time polymorphism.,True
+How are key-value pairs stored in a hash map?,True
+When should you use an interface vs an abstract class?,True
+Can a class implement multiple interfaces?,True
+Explain the concept of lexical scoping in JS.,False
+Algorithm for finding an element in a sorted array.,True
+Runtime vs Compile-time polymorphism.,True
+Compare Monolithic architecture vs Microservices.,True
+"Explain the structure of a JWT (Header, Payload, Signature).",True

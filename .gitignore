@@ -206,6 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 .idea
-*.csv
 
 datasets/
+
+app/notebooks/train.csv
+train/datasets_preprocessing/csv_question_files
+train/three_models_training/csv_question_files

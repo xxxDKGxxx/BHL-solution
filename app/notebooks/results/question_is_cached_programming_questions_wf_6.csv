@@ -1,0 +1,11 @@
+question,is_cached
+Definicja static typing.,False
+W jaki sposób zapisać stan kodu w Gicie?,False
+Do czego służy obiekt Promise?,False
+Na czym polega atak wstrzykiwania kodu SQL?,False
+Obsługa asynchroniczności za pomocą Promise.,True
+Na jakich zasadach opiera się komunikacja w REST API?,False
+Na czym polega wywoływanie funkcji przez samą siebie?,True
+Co to jest inheritance w programowaniu?,False
+Wyjaśnij pojęcie funkcji rekurencyjnej.,True
+Co oznacza O(n) w kontekście algorytmiki?,False

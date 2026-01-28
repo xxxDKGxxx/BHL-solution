@@ -1,0 +1,11 @@
+question,is_cached
+How to fetch only specific data fields from a server?,False
+"Explain the structure of a JWT (Header, Payload, Signature).",True
+Why do we normalize databases?,True
+Explain the concept of lexical scoping in JS.,False
+What happens when two processes wait for each other indefinitely?,False
+Can a class implement multiple interfaces?,True
+Why is injecting dependencies better than hard-coding them?,True
+"Explain Consistency, Availability, and Partition Tolerance.",False
+"Explain Consistency, Availability, and Partition Tolerance.",True
+How do databases ensure transaction reliability?,False

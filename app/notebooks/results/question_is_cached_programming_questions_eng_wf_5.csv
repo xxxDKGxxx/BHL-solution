@@ -1,0 +1,11 @@
+question,is_cached
+How do databases ensure transaction reliability?,False
+Compare Monolithic architecture vs Microservices.,True
+Describe the mechanism of handling collisions in hashing.,False
+When to use the Singleton design pattern?,True
+Algorithm for finding an element in a sorted array.,True
+How is network traffic distributed across multiple servers?,True
+How does stateless authentication work with tokens?,True
+"Explain the concept of First, Second, and Third Normal Forms.",True
+Establishing a persistent connection between client and server.,True
+Explain the difference between method overloading and overriding.,False

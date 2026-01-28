@@ -1,0 +1,11 @@
+question,is_cached
+When to use the Singleton design pattern?,True
+"Explain the concept of First, Second, and Third Normal Forms.",True
+How to fetch only specific data fields from a server?,False
+Explain the query language for APIs.,False
+Establishing a persistent connection between client and server.,True
+How to configure headers to allow cross-origin access?,True
+How do real-time full-duplex communications work?,False
+How to decouple components in software design?,True
+How do real-time full-duplex communications work?,True
+Define Brewer's theorem.,True

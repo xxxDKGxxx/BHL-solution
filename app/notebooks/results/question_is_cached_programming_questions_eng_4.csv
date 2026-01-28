@@ -1,0 +1,11 @@
+question,is_cached
+What is the role of the Controller in MVC?,True
+What is the time complexity of binary search?,True
+Why are variables preserved in a function after it has finished executing?,True
+Explain the difference between method overloading and overriding.,False
+Explain the difference between method overloading and overriding.,True
+What are the benefits of breaking an app into small independent services?,False
+Requirements for a reliable database transaction.,False
+"Explain the concept of First, Second, and Third Normal Forms.",True
+Compare Monolithic architecture vs Microservices.,True
+Describe the divide and conquer strategy for searching.,False

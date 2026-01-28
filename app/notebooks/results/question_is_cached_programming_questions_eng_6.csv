@@ -1,0 +1,11 @@
+question,is_cached
+"Explain the concept of First, Second, and Third Normal Forms.",True
+Dynamic programming optimization techniques.,False
+Why are variables preserved in a function after it has finished executing?,True
+Explain Model-View-Controller architecture.,True
+"Explain the structure of a JWT (Header, Payload, Signature).",True
+Difference between HTTP requests and WebSocket connections.,True
+When to use the Singleton design pattern?,True
+What is the role of the Controller in MVC?,True
+"Define Atomicity, Consistency, Isolation, and Durability.",True
+Difference between HTTP requests and WebSocket connections.,True
