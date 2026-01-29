@@ -3,7 +3,7 @@
 ## Instalacja wymaganych modułów
 Do uruchamiania skryptów można utworzyć wirtualne środowisko
 ```shell
-python -m venv .venv
+python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
