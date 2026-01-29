@@ -40,8 +40,8 @@ Zapisane one zostają w folderze \train\datasets_preprocessing\test_all_models.
 Skrypt do wywołania znajduje się w pliku \train\three_models_training\choose_test_set_for_multiple_models.ipynb.
 
 ### Testowanie modeli
-Skrypty wywołujące procesy testowania modeli w celu ich porównania znajdują się w plikach \train\one_model_training\svm_test_one-model.ipynb 
-oraz \train\three_models_training\test_three_models.ipynb. Korzystają one ze zbiorów testowych zapisanych w folderze \train\datasets_preprocessing\datasets\test_all_models.
+Skrypty wywołujące procesy testowania modeli w celu ich porównania znajdują się w plikach \train\one_model_training\svm_test_one_model.ipynb 
+oraz \train\three_models_training\test_three_models_together.ipynb. Korzystają one ze zbiorów testowych zapisanych w folderze \train\datasets_preprocessing\test_all_models.
 Ładują one obiekty wytrenowanych modeli z plików .pkl zapisanych w folderze \train\saved_models. Aby obiekty modeli zostały poprawnie
 załadowane, przed wywołaniem skryptu czytającego pliki .pkl konieczne jest zaimportowanie klas tych modeli:  
 - dla 1 modelu
