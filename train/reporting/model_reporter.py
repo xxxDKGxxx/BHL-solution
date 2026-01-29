@@ -11,7 +11,6 @@ from sklearn.manifold import TSNE
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import KFold, train_test_split
 
-# Zakładam, że ten import masz u siebie
 from train.reporting.model_interface import ModelInterface
 
 
@@ -249,12 +248,10 @@ class ModelReporter:
 		
 		matrix_columns = []
 
-		# Column for Main Class
 		count_pred0_main = np.sum((y_pred == 0) & (y_true_main == 1))
 		count_pred1_main = np.sum((y_pred == 1) & (y_true_main == 1))
 		matrix_columns.append([count_pred0_main, count_pred1_main])
 
-		# Columns for Rest Categories
 		for cls in rest_categories:
 			y_true_cls = merged_df[cls].values
 			count_pred0 = np.sum((y_pred == 0) & (y_true_cls == 1))
@@ -470,7 +467,6 @@ class ModelReporter:
 		self.run_cross_validation()
 		self.save_feature_importance()
 		self.plot_top_2_features_boundary()
-		# self.plot_learning_curve()
 		self.save_model_and_datasets()
 
 
