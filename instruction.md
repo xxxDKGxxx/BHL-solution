@@ -1,5 +1,18 @@
 # Instrukcja wywoływania skryptów projektu
 
+## Instalacja wymaganych modułów
+Do uruchamiania skryptów można utworzyć wirtualne środowisko
+```shell
+python -m venv .venv
+.\venv\Scripts\Activate.ps1
+```
+
+Wymagane moduły zapisane są w pliku \app\requirements.txt. Należy je wszystkie zainstalować.
+
+```shell
+pip install -r .\app\requirements.txt
+```
+
 ## Klasyfikacja kategorii pytań
 W folderze \train znajdują się 4 podfoldery zawierające pliki z klasami wykorzystywanymi w skryptach oraz Jupyter Notebooks ze skryptami
 do preprocessing'u danych, trenowania oraz testowania modeli. 
