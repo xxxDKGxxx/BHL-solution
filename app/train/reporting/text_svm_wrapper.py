@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 import numpy as np
 from typing import Dict, Any
-from train.reporting.model_interface import ModelInterface
+from interface.model_interface import ModelInterface
 
 
 class TextSVMWrapper(ModelInterface):
@@ -44,8 +44,7 @@ class TextSVMWrapper(ModelInterface):
             return {}
 
         try:
-            feature_names = self.model.named_steps["tfidf"].get_feature_names_out(
-            )
+            feature_names = self.model.named_steps["tfidf"].get_feature_names_out()
             coefs = self.model.named_steps["svm"].coef_.copy()
 
             avg_coefs = np.mean(np.abs(coefs), axis=0)
@@ -57,4 +56,3 @@ class TextSVMWrapper(ModelInterface):
         except Exception as e:
             print(f"Nie udało się pobrać ważności cech: {e}")
             return {}
-

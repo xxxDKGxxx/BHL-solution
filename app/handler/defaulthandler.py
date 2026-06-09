@@ -1,3 +1,4 @@
+from interface.abstracttopicclassifier import AbstractTopicClassifier
 from prompts_classification.fact_or_generative_classifier import (
     FactOrGenerativeClassifier,
 )
@@ -18,10 +19,12 @@ class PromptHandler(AbstractPromptHandler):
         db_context: DatabaseContext,
         model: AbstractModel,
         fact_classifier: FactOrGenerativeClassifier,
+        topic_classifier: AbstractTopicClassifier,
     ) -> None:
         self._db_context = db_context
         self.model = model
         self.fact_classifier = fact_classifier
+        self.topic_classifier = topic_classifier
 
     def generate_answer(
         self, prompt: str, skip_cached: bool, threshold: object = 0.5
@@ -42,35 +45,37 @@ class PromptHandler(AbstractPromptHandler):
             or self.encoder.check_relevance(prompt, answer) <= threshold
             or answer is None
         ):
-            question = f"What is the prompt type of: {prompt}"
-            math_score = self.encoder.check_relevance(
-                question,
-                "Prompts that involve abstract reasoning, formal definitions, theorems, proofs, symbolic manipulation, equations, or quantitative problem-solving across areas such as calculus, algebra, geometry, number theory, logic, probability, or discrete mathematics.",
-            )
-            bio_score = self.encoder.check_relevance(
-                question,
-                "Prompts that concern living organisms, biological processes, cellular or molecular mechanisms, genetics, physiology, ecology, evolution, biochemistry, anatomy, or explanations of how biological systems function at any scale.",
-            )
-            code_score = self.encoder.check_relevance(
-                question,
-                "Prompts that request code generation, debugging, algorithm design, data structures, API usage, software architecture, system design, development tools, optimization techniques, or any reasoning related to computer programming and software engineering.",
-            )
+            # question = f"What is the prompt type of: {prompt}"
+            # math_score = self.encoder.check_relevance(
+            #     question,
+            #     "Prompts that involve abstract reasoning, formal definitions, theorems, proofs, symbolic manipulation, equations, or quantitative problem-solving across areas such as calculus, algebra, geometry, number theory, logic, probability, or discrete mathematics.",
+            # )
+            # bio_score = self.encoder.check_relevance(
+            #     question,
+            #     "Prompts that concern living organisms, biological processes, cellular or molecular mechanisms, genetics, physiology, ecology, evolution, biochemistry, anatomy, or explanations of how biological systems function at any scale.",
+            # )
+            # code_score = self.encoder.check_relevance(
+            #     question,
+            #     "Prompts that request code generation, debugging, algorithm design, data structures, API usage, software architecture, system design, development tools, optimization techniques, or any reasoning related to computer programming and software engineering.",
+            # )
+            #
+            # scores = {
+            #     "math": math_score,
+            #     "bio": bio_score,
+            #     "code": code_score,
+            # }
+            #
+            # print(scores)
 
-            scores = {
-                "math": math_score,
-                "bio": bio_score,
-                "code": code_score,
-            }
+            top_category = self.topic_classifier.classify_topic((prompt))
 
-            print(scores)
+            # if scores[top_category] < 0.0161:
+            #     top_category = "General"
+            #     model = self.model
+            # else:
+            #     model = self.model  # GeneralLLM(top_category)
 
-            top_category = max(scores, key=scores.get)
-
-            if scores[top_category] < 0.0161:
-                top_category = "General"
-                model = self.model
-            else:
-                model = self.model  # GeneralLLM(top_category)
+            model = self.model
 
             (generalized_prompt, default_answer) = generalize_prompt(model, prompt)
             self._db_context.insert(generalized_prompt, default_answer)
