@@ -1,7 +1,7 @@
 import numpy as np
 
 from sentence_transformers import SentenceTransformer
-from app.interface.abstractembedder import Embedder
+from interface.abstractembedder import Embedder
 
 
 class SentenceTransformerEmbedder(Embedder):

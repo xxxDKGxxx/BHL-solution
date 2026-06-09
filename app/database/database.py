@@ -1,7 +1,7 @@
 from typing import override
 import faiss
 import numpy as np
-from app.interface.abstractdatabasecontext import DatabaseContext
+from interface.abstractdatabasecontext import DatabaseContext
 
 
 class Database(DatabaseContext):
@@ -21,7 +21,7 @@ class Database(DatabaseContext):
         Format dokumentu:
             "Question: <prompt>\nAnswer: <answer>"
         """
-        #doc_text = f"Prompt: {prompt}\nAnswer: {answer}"
+        # doc_text = f"Prompt: {prompt}\nAnswer: {answer}"
         doc_text = prompt
         embedding = np.array(self.embedder.embedd(doc_text), dtype="float32")
 
@@ -43,10 +43,9 @@ class Database(DatabaseContext):
         if self.index is None or len(self.documents) == 0:
             return "", 0.0
 
-        query_vec = np.array(
-            self.embedder.embedd(prompt),
-            dtype="float32"
-        ).reshape(1, -1)
+        query_vec = np.array(self.embedder.embedd(prompt), dtype="float32").reshape(
+            1, -1
+        )
 
         distances, indices = self.index.search(query_vec, 1)
         idx = indices[0][0]
@@ -55,3 +54,4 @@ class Database(DatabaseContext):
         # pobranie odpowiedzi
         _, answer = self.documents[idx]
         return answer, dist
+

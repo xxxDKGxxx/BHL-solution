@@ -1,4 +1,5 @@
-from app.interface.abstractmodel import AbstractModel
+from interface.abstractmodel import AbstractModel
+
 
 def generalize_prompt(llm: AbstractModel, prompt: str) -> tuple[str, str]:
     """
