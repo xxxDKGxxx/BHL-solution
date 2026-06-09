@@ -1,0 +1,2401 @@
+,question,target
+600,Why is choosing elements in equivalence classes not a choice?,0
+3328,What's the correct name for the war of sexes in evolution?,1
+11408,Array that defines product information and generates the html for the product,0
+4329,Rice left in water for several months - what biological reactions or growths would occur?,1
+255,Median income and unemployment rate in a region with no residents,0
+10297,Is dynamically generating routes from Model enum safe?,0
+3366,Living on pure glycogen?,1
+4412,Is there an advantage to antibacterial soap?,1
+4820,Why is DNA replication so much faster in prokaryotes than eukaryotes?,1
+1841,Set of subsequences for each sequence of integers is uncountable,0
+646,"Show that $\int\int_R f(x,y)dxdy\not=\int\int_R f(x,y) dydx$ For $R=[0,1]\times[0,1]$ and $f(x,y)=\frac{x^2-y^2}{(x^2+y^2)^2}$",0
+7603,Examples of humans intentionally introducing non-native species where everything went well?,1
+3920,Reliable recipe to make DIY yeast slants,1
+5314,How do tear glands secrete tears?,1
+10784,P=NP turns 50. 1971 STOC conference,0
+117,"$PSL(2,\mathbb{R})$ and the set of oriented geodesics",0
+201,Smallest and largest values of $\|\vec{v}-\vec{w}\|$,0
+7038,Do vitamins protect you from common cold?,1
+10807,How to refactor this groupby alike method but with index?,0
+6309,Concerning Apoptosis,1
+3534,Is Zeiss Primo Start microscope worth the price for student use?,1
+2777,Finding the gradient of a function.,0
+5296,"Did I understand the definition of ""gross primary production"" correctly?",1
+2976,Dimension of linear system of divisor of two points on curve of genus greater than 2,0
+8004,What percent of genetic disease are preventable?,1
+1673,find area of square part,0
+5601,"Does this ""fleeing spiders leaving fields of webs"" phenomenon have a name?",1
+9177,Update existing clusters to satisfy distance and volume constraints,0
+10156,What is the name of this size method calculating the size of a node?,0
+9343,Difference between symbolic execution and reachability analysis,0
+11073,Count the frequency of integers in an array,0
+6879,How does human body deal with inert solid material in the bloodstream?,1
+3882,What is meant by increase in information embodied in the system?,1
+6140,Why do we only initially feel the bending of a hair?,1
+10613,Invariant Proof of For Loops?,0
+11993,"Given a path of 2d points and a maximum distance, find the minimum number of line segments needed to ""connect"" all points",0
+11172,Rendering JSON arrays of unequal length as a table,0
+6503,Finding exons in DNA problem,1
+7384,Can any one reaction in a cell be at equilibrium?,1
+10202,Decide if there is a sbugroup of edges in graph that every vertex meets exactly k edges from subgroup,0
+11196,How does Knuth measure the running time of this program?,0
+10914,pragmatic way to compute/ search/ match MSBs operation,0
+6998,What specific mutations can cause an apoptosis mechanism to malfunction?,1
+6626,Separation of closely-sized isoforms,1
+9175,Read daily files and concatenate them,0
+4927,"Do any known viruses contain ""junk"" or parasitic genomic information?",1
+1636,Haar Measure: Unimodular Locally Compact Groups,0
+6440,"Why do cyanide and arsenic smell like almonds and garlic, respectively?",1
+225,What is known about Lebesgue's universal covering problem in three dimensions?,0
+2479,Non normality on confidence interval,0
+7137,Geographical distribution of malaria and tuberculosis,1
+1358,Good tournament that each vertex has outdegree d,0
+7955,Why would an Eadie-Hofstee Plot be non-linear?,1
+5,"What is the cardinality of $[a,b] $?",0
+722,Action on a tree without fundamental domain.,0
+3849,Does atrophy of the thymus not effect T-cell selection and tolerance?,1
+6676,What is the function of dreaming? Does a particular hormone secretion interfere with dreaming? Why do some people dream more?,1
+1160,Solving the logarithimic inequality $\log_2\frac{x}{2} + \frac{\log_2x^2}{\log_2\frac{2}{x} } \leq 1$,0
+1603,Is the empty set always part of the result of an intersection?,0
+6142,Does a cell deprived of growth factors undergo apoptosis or G0 stasis?,1
+11580,SqlDataConnection update method,0
+8704,Why did multicellular organisms evolve when a single cell can survive on its own?,1
+2556,Do the decimal digits of $\pi$ and $\sqrt{2}$ coincide infinitely often?,0
+5508,why prokaryotic ribosomes have 30s and40s subunits and eukaryotic ribosomes have 40sand 60s subunits?,1
+6304,mutant down but not out,1
+3665,What determines the differences between differentiated cells?,1
+2693,Newton step for ${\min}_{x \in \mathbb{R}^n} \ \sum_{i=1}^n -\ln(1 + \eta_i x_i) \ $ s.t. $A x \leq b$; $-x \leq 0$ to be used in primal-dual,0
+9952,Finding pairs of complementary numbers,0
+11486,Guess My Number Game in Java,0
+1838,Product of Fourier integrals,0
+8768,Does cataract condition cause red film when sun is shining?,1
+3723,How big is the change in proteins due to alternative splicing?,1
+6701,Cellular Respiration/Fermentation Problem Leading to Lack of Energy,1
+7957,What is the probability of having a son with blood type O?,1
+6916,The extinction of the passenger pigeon,1
+1646,"$V$ is finite dimensional vector space. $G$ is a spanning set of $V$, $I \subseteq G$ is linearly independent",0
+5394,Do genetic modifications exist to enhance the taste of tomatoes?,1
+11578,How to find max margin for non-separable SVM?,0
+6165,Why do antidepressants have a delayed onset of action?,1
+1012,Prove that number is a primitive root for all $k$ in range,0
+1118,Radius of convergence: $\sum(a_k(z+3i)^k)$ and $\sum(1-(-2)^{n})(z+i \sqrt{2})^n$,0
+11068,Core Data code for manually creating a lot of entries from old ones,0
+951,Multiple vector space structures on $\mathbb{F}^n$.,0
+6775,Coiling of chromatids during cell division,1
+6740,How did scientists discover HIV?,1
+11334,Expected development of 'fitness histogram' for PSO over time,0
+1857,Gamma and incomplete gamma functions- when are they equal?,0
+8660,"What does ""delineate"" mean in this context?",1
+8447,Does anybody have an references to share or idea onhow the tumor behaviour changes as it grows from oligometastasis to polymetastasis?,1
+9136,Repeatedly check URL for change on iOS,0
+4854,How many different chains exist within a specific pdb file?,1
+2849,Fibered coproducts in $\mathsf{Ab}$,0
+7022,Inheritance of Huntington's disease,1
+3151,Why do nerve cells convert electric signals to chemical signals?,1
+5511,What does fluorogenic mean for fluorescent probes?,1
+3773,What is (probably) the closest living relative of the trilobite?,1
+9330,Design Pattern - Strategy Pattern in PHP,0
+6029,"Plant respiration produces carbon dioxide, so why are plants regarded as decreasing its atmospheric concentration?",1
+11596,Finding number of days until a certain date,0
+2017,Equation to circle around a point in 2D grid,0
+10324,Is there a space-filling curve with constant-time indexing?,0
+9696,Using deque for composing a string from 2 alternating stacks,0
+698,Find an equation to the tangent line to the curve at the given point,0
+7175,Inequality factor for similarity sensitive diversity,1
+8094,How do we know the presence of light when our eyes are closed?,1
+3255,"glycogenesis, glycogenolysis and weight gain or loss",1
+4341,Why is there a notch in the Na curve for an action potential?,1
+4019,"What happens when you mix catalase found in yeast with a small, medium, and large amount of isopropyl alcohol and hydrogen peroxide?",1
+10042,Phonebook using a trie,0
+6917,Can high energy photoelectrons damage cell membranes?,1
+11063,Add 1 to an integer represented as an array of digits,0
+1516,Determine if a function is bijective,0
+3296,How does your body know when it is infected so it can invoke a fever?,1
+9005,NullGuard for throwing more informative exceptions,0
+10188,Creating Original Database Algorithm--Login System,0
+5166,Why do Major and Minor grooves exist in dna strands?,1
+1388,Is there a general template for Proving the Irrationality of some Radical by Contradiction,0
+9301,JS exercise to process an array of animals,0
+4882,Database for Macroinvertebrate Taxonomy,1
+9863,"""What is the maximum that Player 1 can win?""",0
+8607,"If all B cells are present at birth, why should the primary response to an infection take longer than the secondary response?",1
+7294,Is there an adhesive that could used for larval fish?,1
+6389,What's the fastest legal way for the nutrients in a dead body to re-enter the ecosystem?,1
+1016,"If $h$ is an arbitrary holomorphic function then there exist $\phi_1, \phi_2$ holomorphic such that $h = f\phi_1 + g\phi_2$",0
+4342,"In the NCBI Taxonomy tree what does ""no rank"" mean?",1
+384,Show complex numbers equal each other,0
+6337,"What would ""N"" and ""V"" stand for in DNA barcoding?",1
+7657,Is it known how the first viruses formed?,1
+5795,Equation for accurate prediction of PCR yield,1
+1528,"Prove if $f$ is convex on $(a,b)$, then $f$ is bounded on every closed subinterval of $(a,b)$",0
+770,"Let $f : R\rightarrow R$ be a function with the property $f(x + y) = f(x) + f(y)$ for all $x,y\in R$.",0
+1678,Choose a basis of $\mathbb{F}_q/\mathbb{Z}_p$ to do inverse quickly.,0
+1363,Deduce information about $\mathrm{E} |X|$ and /or $\mathrm{Var} |X|$ from $\mathrm{E} X$ and $\mathrm{Var} X$,0
+8436,Which factors dictate the mineral composition in plants\vegetables?,1
+3998,How to calculate the Position Weight Matrix score?,1
+956,Determine eigenvalue $c$ so that the matrix is diagonalizable,0
+2731,Proof Multiplicative Group of Integers Modulo p is Cyclic,0
+7166,What does it take to start producing(cultivating) probiotics?,1
+769,open set containing diagonal in a compact Hausdorff space,0
+5917,The Semi-Conservative Model of DNA Replication: Question,1
+119,"Algebraic k-form, potential mistake in notes",0
+574,Does proof of the fact that a line only intersects a conic section once imply that it is either a tangent to the conic section?,0
+728,Question on operator theory classes of operators on Hilbert spaces,0
+4375,"Flower identification: Moscow, Russia",1
+9037,Should a Factory ever be generated per request?,0
+66,ODE boundary condition and integer values?,0
+7239,"PBS or TBS, where cannot use each buffers?",1
+616,How to properly prepare for a graduate level PDE course using the books by Evans and Strauss,0
+1145,Prove that finite and infinite presentations of Thompson group $F$ are isomorphic.,0
+6150,How do primers anneal to ssDNA?,1
+7744,What is the most appropriate way to normalize gene expression data?,1
+4514,Do ants also use the Earth magnetic field?,1
+2967,"Calculate volume of $V={\{(x,y,z)|x^2+y^2\leq z\leq \sqrt{6-x^2-y^2}}\}$",0
+98,"Let $x = \mathrm{asec}\,(\theta)$ in $\sqrt{x^2-a^2}$. Find $\sin(\theta)$ and $\cos(\theta)$",0
+8673,When did human ancestors learn to walk?,1
+8069,Can replication occur if DNA is methylated?,1
+2192,In probability: is there a name for 1-x or x-1?,0
+388,Is there a generalization of the twin prime conjecture to rings or certain rings?,0
+10485,Smoke the SmokeDetector,0
+6010,In which reactions of glycolysis is magnesium involved?,1
+5572,Are a bonsai tree and its normal version the same species?,1
+3433,What does (-;-) after a gene mean?,1
+1975,Abel's test for uniform convergence in Fourier series,0
+4001,Can neurons become cancerous?,1
+11928,Verifying if a car is a sports car based on speed and horse power,0
+6183,"The meaning of the ""Score"" in ScanProsite",1
+4451,Can you predict what the metabolites of pipradrol would be? Are they similar to those of methylphenidate?,1
+477,"Let $c,d$ be different complex numbers and $k>0$. Show that if $k\neq 1$ then set $\{z \in \mathbb C: |z-c | = k|z-d|\}$",0
+4641,Does embryonic development mimic (partly at least) the evolution of organisms on earth?,1
+7818,What DNA does a self-fertile plant's seedling have?,1
+10191,Calculating the 'binary gap' of a number,0
+8823,Are there any differences between qRT-PCR and GEO (microarray data from NCBI) regarding dealing with internal control genes?,1
+2790,When is the inverse of a sparse matrix dense?,0
+991,Existence of a continuously differentiable function with prescribed properties,0
+2762,Any tips for solving problems like this?,0
+6296,Why don't we have two hearts?,1
+6203,Constitutive mutation in operator gene,1
+10980,About the SOS degree of a function and optimization algorithms for the function,0
+10646,More Pythonic Context Manager Wrapper,0
+8446,How do I find the sequence of the phage BxB1 gene?,1
+950,validity of a triangle,0
+5971,Problems interpreting gram stain slide,1
+8421,Does increasing the value of k in k-fold coverage requires more memory?,1
+6774,How do environmental conditions differ between nitrogen fixing bacteria and denitrification bacteria?,1
+5048,Calculating number of amino acids in mRNA,1
+784,a problem of polynomial over non-commutative ring,0
+6770,"Why are superantigens not ""MHC-restricted"", and what's the significance?",1
+3128,"What percentage of the human genome hasn't been sequenced yet? If percentage estimates aren't precise, why is it difficult to estimate?",1
+9840,Find most occurred number in sorted array of numbers,0
+8922,What is the magnification necessary to see pond life,1
+11555,Extension methods for translation engine,0
+6815,Is there a reference for the composition of viral genomes?,1
+4871,Why Didn't Evolution Cause the Human Body to become Streamlined?,1
+4357,What does C. Elegans sense when touched?,1
+4007,How the pattern of fertilization path is determined before the cell division to form the blastocyst? Is it individually specific?,1
+7497,Can someone identify this species?,1
+2568,Is $C_0$ dense in $l^{\infty}$,0
+10757,Check value from two different dictionary with matched key,0
+3835,Is there a definition of species where Lions and Tigers are the same species?,1
+853,What is wrong with the limits of this triple integral?,0
+1065,Applying the property $\mathcal{L}\{t e^{-αt}\}$ find $\mathcal{L}\{10t \sin⁡100t\}$,0
+3642,What is the significance and method behind Ramachandran plots?,1
+5999,What is the status of the cfDNA ends?,1
+8410,What is the definition of a polybasic cleavage site?,1
+6624,How are fMRI responses to auditory stimuli measured?,1
+5329,"Bird Identification: New Delhi, April 2018",1
+5647,Are SLC52A2 and GPR172A really the same?,1
+9597,All string matches for regular expression,0
+7797,Are these Gram stain substitutions acceptable?,1
+3342,Do non-pathogenic organism not have PAMPs? Are there any research paper which proves that a certain microbe is non-pathogenic?,1
+5198,What’s the name of this tree?,1
+10164,Web server to switch GPIO pin,0
+1581,what does 'a set of vectors is linearly dependent in a subspace of $\mathbb{R}^4$ ' mean?,0
+2546,Congruence of triangles: SSA criteria,0
+6020,Can proteins structure change depending of alimentation of an organism?,1
+2595,Do decaying exponential signals have finite energy?,0
+822,How to find an expected value $E[X]$ if you're given the probabilities $P(X < 3) = \frac{1}{3}$ and $P(X \geq 6) = \frac{1}{6}$?,0
+11024,Using RxJS Observables to mediate routes in nodejs,0
+10699,"Why is the sequence, ""1,3,2,4"", not a bitonic sequence?",0
+3228,What is the C765-Gal4 driver?,1
+3687,shRNA knockdown not showing with Western,1
+8154,How is hibernation/aestivation different from anesthesia?,1
+1619,Divergence of $\int_{0}^{\infty}\exp(te^x-x^2/2)\text{ d}x$ for $t$ in some neighborhood of $0$,0
+4674,Why does getting certain chemicals in cuts hurt?,1
+3587,Why should evolution not be equated with progress?,1
+7787,Easy and cheap antigen/antibody couple,1
+2738,I need some help in GAP System,0
+9775,CSS3 transitions performance enhancement,0
+10468,Is the buckets of water problem in NP?,0
+6793,What happens to eyelids when we feel sleepy?,1
+5637,How did palaeontologists discover the age of the Tyrannosaurus rex named Sue?,1
+8023,Is monogamy a human innate behaviour?,1
+5506,Can scientists create totally synthetic life?,1
+1318,Good Source(s) of Old Math Puzzlers for Students,0
+5526,What are the structual differences between DNA and RNA?,1
+768,"Can one always find a basis of global vector fields $X_0 , \ldots , X_n$ for the tangent space $T_p M$ for a manifold $M$?",0
+4189,Is there a name for the behavioral phenomena of when animals like ants sacrifice themselves?,1
+2060,Is there a name of this optimization problem or it is connected to some optimization problem?,0
+7121,"Why don't we see new diseases more often? Or, ever?",1
+5757,What are the chemicals in the gap at a synapse?,1
+11523,What is the approximation ratio of this randomized algorithm for finding matchings?,0
+11202,Architecture for manager that gets shared among different components,0
+2724,"Integrate $\int_0^4 \frac{x}{\sqrt{16 + 5x}} \, dx$",0
+7389,How do I generate a phylometric tree given species names?,1
+6555,Can viruses be toxic?,1
+11762,Not sure how to interpret the question: how to find egg-breaking height,0
+9342,A PDA to recognize the Intersection of two regular languages?,0
+1150,"Let $Y$~$Gamma(a,b)$ with PDF $f(y)$= $y^{a-1}e^{-y/b}/\gamma(a)b^a$; $y>0$ For $a>1$, show that the mode of $Y$ is $(a-1)b$.",0
+4104,Spinal cord injury bypass,1
+10300,Find every 6 hours from now,0
+2904,The volume of one of the regions bounded by $\sin x$ and $\cos x$ around the $x$-axis,0
+6381,What risk to DNA does long-term exposure to low-dose radiation pose?,1
+2237,What exactly is a torsion line bundle?,0
+11311,Making a list human-readable,0
+11587,Theoretical machines which are more powerful than Turing machines,0
+11124,Using bucket sort to rank students based on their marks,0
+3751,Will carpenter bee larvae die if trapped or find a way to bore out?,1
+5830,From what stage can you speak of an inflammation?,1
+4517,What is a Singleton Variant,1
+8127,effect of arterial vasocontriction on the pressure in arteries,1
+1852,Calculate an encoding matrix from inputs and outputs,0
+4767,"How can a homozygous mutation, considered pathogenic, occur on a gene such as HFE without the disease developing?",1
+5603,Why is EcoRI supplied with a unique buffer when it is allegedly 100% active in universal buffers?,1
+2062,Number of combinations of $7$ of the first $17$ natural numbers in which there are at least two consecutive numbers,0
+6577,Why is the resting potential of a neuron so close to the equilibrium potential of K⁺?,1
+3192,Chiral (a)symmetry of curly hair (and fur),1
+2128,what is the minimum number of hints must be provide in a Sudoku with only one solution in order to reach the answer?,0
+364,"Toward Explicit Formula from Recursion : Is Generating function ""the only"" answer?",0
+2386,$H^{-1}$ norm and $H^{-1}$ gradient flow,0
+10846,Are there things an analog computer can do that digital computing cannot do?,0
+4407,Plant tissue culture,1
+5857,How does it make thermodynamic sense for photosynthesizers to turn CO₂ into O₂?,1
+2363,If $m^x$ an integer for all naturals $m$ then $x$ and integer,0
+9687,what is glushkov NFA. What is the difference between Glushkov NFA and Thompson NFA?,0
+130,Sum of Sequence of Random Variables,0
+6778,Will a completely removed cat whisker grow back?,1
+3926,Why does the heart use lipids (and not glucose)?,1
+8876,Dimerization of Immunoglobulin G,1
+10654,Calculation of next week number (constrained by max 3) with rollover,0
+6993,What is the derivation of the rules of proportionality between axon conduction velocity and diameter?,1
+8355,Shape of feces in herbivores,1
+7327,Why do skin and nail go blue in cyanosis?,1
+11979,Reverse double linked list in python 2.7,0
+10070,Loop on maps to find duplicate,0
+7002,Is every neurotransmitter receptor an ion channel?,1
+4117,String-db locally downloaded,1
+2783,How to find lines of invariant points?,0
+6081,How did dolphins acquire their dorsal fin?,1
+3308,"Book on yeast reproduction, evolution and on the use of yeast as model organism",1
+9124,Calculate the number of trailing zeros in equation f(n) = f(n-1) * f(n-2) where f(0) and f(1) are any given arbitary numbers,0
+189,Represent all elements of a field in terms of a primitive element,0
+3363,How large is the range of 'same origin' when determining whether two organs are analogous or homologous?,1
+337,"Given a bipartite graph $G=(U\cup V, E)$ with matching $M$, $|U|=|V|$. Why consists an augementing path of $M$ $2k+1$edges?",0
+537,Show this polynomial has a unique positive root.,0
+11611,Parsing strings with escaped characters using Parsec,0
+10735,How are files managed in a filesystem?,0
+285,if $a+b>c+d$ and $c cd$,0
+3880,Is there evidence to suggest that nutrients in vitamin capsules are not as readily absorbed as the same nutrients in whole foods?,1
+513,Nested subspace and the fundamental group.,0
+6151,Why do I have two kinds of pubic hair?,1
+8959,Chromosome position mismatch for SNPs in dna tests,1
+3156,What is this yellow-pink flower?,1
+2626,Is there a logic more expressive than Default Logic?,0
+2454,What allows us to differentiate closed form summation?,0
+1970,Solve for $x$ in: $e^{2\ln(x)-\ln(x^2+x-3)} = 1$,0
+8931,Need of Creatinine Phosphate,1
+143,Canonical choice for simple roots?,0
+2262,How to get nth derivative of $x^2 e^{x^2}$,0
+3231,"What plant is this? Edible, tastes like cress",1
+8655,Commercial suppliers of cloned vectors?,1
+8227,What species of tree is this?,1
+1856,Norm-wise condition number vs component-wise condition number,0
+2070,Using the implicit function theorem to prove that a function attains a certain value,0
+11422,Reverse Polish to infix,0
+2959,Find a closed formula for the number of regions in a graph,0
+6338,Reference request: neocortex creating 11 dimensional structures,1
+5665,Which sequence assemblers I can use to compare different paradigms?,1
+197,$x\in H^2(\mathbb{R})\Rightarrow u(x)\to 0$ as $x\to\pm\infty$?,0
+9730,HTML5 Local Storage toggle and save multiple classes,0
+9054,Query against history table,0
+9923,Add comma/and between string array in java,0
+6655,Usage and mechanism of the Bastien protocol to treat amanitin poisoning,1
+9056,Number of Independent Sets in a tree,0
+11042,LL(1) grammar for the untyped lambda-calculus,0
+870,I don't seem to understand monoid isomorphisms,0
+2824,How to linearize the following LP,0
+7151,Is synesthesia caused by crossing the circuitry of different sensory inputs?,1
+8766,Is it really detrimental to humans as a species to reproduce with one's own first cousin?,1
+8886,What is the frequency distribution of each base in a DNA sequence?,1
+5499,Western blotting questions?,1
+1969,Representations of $\mathbb{H}^{\times}$ and $\mathbb{H}^{\times}/\mathbb{R}^{\times}$.,0
+6597,Does the modern synthesis theory of evolution deny that acquired characteristics can be inherited?,1
+7500,"Why aren't we immune to the ""cold""",1
+9762,Improving rendering of JOGL,0
+863,"Linear independence of matrices $I, A, A^2$",0
+4312,How is nutrient uptake in humans measured?,1
+5738,"Species Identification: Small white maggot/larvae, Missouri USA",1
+2950,Show that $n^{\frac{n+1}{n}}$ is increasing,0
+5300,Pink E.coli cell pellet. Reasons?,1
+11730,ReactJS paginated component with React Router,0
+6662,Why is the administration of exogenous Anti-D not harmful to the foetus?,1
+9854,"A scheme macro that defines the ""where“ syntax",0
+9190,Accessing parent isolated scope in directive,0
+4831,"Are microtubules in centrioles helical, like they are when in isolation?",1
+872,Generalization Limit,0
+11534,Linux Commands in Python,0
+4378,"What kind of fish is this, caught in Cape Coral, Florida?",1
+1542,Understanding the reasoning and logical steps involved in solving Real Analyisis optimization problems,0
+5571,Measuring body size in flies/insects,1
+11732,pipe 2 linux commands in C,0
+10869,QuickSort for a List,0
+7241,How to categorize non-coding sequences in the genome?,1
+3596,How can you develop a bacterial infection when taking antibiotics for another area of the body with a bacterial infection?,1
+10243,Find only one subset sum with a specified value in python for large sets,0
+10835,Optimizing Laravel Eloquent multiple joins,0
+10415,Calculating the classification threshold efficiently,0
+10175,Difference between $a^{2n} b^n$ and $n_a(w) = 2n_b(w)$,0
+1828,"Convergence of sequence in $C^{k, \alpha}$ composed with $C^\infty$ function",0
+1540,Is it possible to create a software to find formal proofs?,0
+2368,Order of elements in cyclic groups...,0
+946,A Good Example of an Argument That Cannot Be Reversed,0
+1806,Rational number in $\mathbb{Z}[\omega]$ should be integer.,0
+9191,What are Lambda productions,0
+10455,stat the word count for a given stackexchange user,0
+8188,Translation of Poly-U in the Nirenberg and Matthaei experiment,1
+9645,Simple multiple choice quiz,0
+6926,what is the natural way of rose to propagate by its vegetative cells?,1
+2734,How do I see that the tangent bundle of torus is trivial,0
+10976,Virtual address translation,0
+7712,Problem on Probabilty of a restriction enzyme cutting a random DNA sequence,1
+11728,Constructing a tree from disjoint graphs,0
+3364,Why is Lamarck's evolutionary theory considered incorrect?,1
+5669,How does a blunt force stimulate histamine to develop early stages of inflammation?,1
+4848,Are there any examples of viruses that have jumped from reptile to human?,1
+8802,Does a mydriatic drug neutralize the action of a miotic?,1
+9141,Converting imperative style user input menu to functional programming style,0
+4467,Identification of bug - California,1
+4362,Does cortical nephron has just thin ascending loop of Henle?,1
+3154,Why is methylcellulose used in pharmaceuticals?,1
+3143,Does anyone know what type of Cocoon this is?,1
+7775,Are chromosomal and plasmid DNA in the nucleoid?,1
+989,"If $f(0,0) = f(\infty,0)=f(0,\infty) = 1$, but $f(\infty,\infty) = 0$, then what is $f(a,b)$?",0
+8531,What type of epithelium are the pancreatic Islets of Langerhans?,1
+4996,"What exactly are genes, DNA and chromosomes. How do they relate to each other and what is their function?",1
+3471,At what g force do bacteria start to pellet down a tube?,1
+2122,Are events $ A $ and $ B $ independent?,0
+1573,Repetition in digits on a normal number,0
+10551,Finding all paths from a given graph,0
+3983,What happens to the excess immune cells or WBC in our body?,1
+2444,Intiution behind the theorem about locally compact Hausdorff spaces,0
+2993,Polarisation Identity,0
+11842,Is the usage of SQL Cursor appropriate here?,0
+7144,What decides the position of the node of Ranvier?,1
+5365,To what extent does the cooking time impact the nutritional content when boiling potatoes?,1
+2593,Example of representation,0
+2151,"Two old papers, or an old journal, or both",0
+11575,Increase the speed of this python code for text processing,0
+4391,How to determine the relationship of competition or cooperation?,1
+2923,Prove that $f$ is a constant function if $f(x)-f(y) \leq (x-y)^2$,0
+6064,Why does K+ going out of the cell cause hyperpolarization?,1
+7016,Do DNA repressors exist?,1
+832,"(Question in a solution)If $M$ is finitely presented, $L$ is finitely generated",0
+10474,Number guessing game for beginners,0
+9019,How is (0|1|...|n) handled as a DFA?,0
+7524,What is the translation termination efficiency in mammalian cells?,1
+11228,Context free grammar construction,0
+7588,Could higher carbon dioxide levels be beneficial to plants?,1
+8622,Why might food spoil faster in Ireland than the US?,1
+8267,What DNA has the most info for getting a person's likeness?,1
+11494,How does one calculate the block-sensitivity of a function?,0
+7287,Difference In Telomeres Between A Thale Cress Plant And A Methuselah Tree,1
+606,proof of the decomposition of a fibration by a trivial fibration followed by a minimal fibration,0
+9376,Custom header with React-Navigation and React-Native-Paper,0
+64,How to find number of words made using letters of word 'EQUATION' if order of vowels do not change,0
+2919,How to find the canonical form of an eliptic paraboloid,0
+11287,Simple Job Scheduler Class,0
+5969,"What exactly does the phrase ""chimerical sharing"" mean in this abstract?",1
+7486,How do I effectively visualize data showing change in a lot of samples over two time periods?,1
+1342,Proof verification: Application of optional stopping theorem,0
+9695,Is $\{ a^i b^j c^k : i + 1000\ < j + 100 < k \}$ context-free?,0
+7005,Is lowered blood pressure a primary lethal symptom of an opiate overdose?,1
+6510,Which was the first DNA-based genome to be sequenced?,1
+3903,Are there any scientifically based predictions or theories of future human evolution?,1
+7729,Descendants of dinosaurs,1
+9890,Build a regular expression to define a regular language,0
+11504,Null replacement - Is this LINQ readable?,0
+1794,All roots $\lambda$ of $\det(A-\lambda B)=0$ are $\ge1$ when $B$ is p.d and $A-B$ is n.n.d.,0
+2539,Prove the following inequality??,0
+5939,"Does our brain really ""flip"" images perceived by our eyes?",1
+10432,Writing a program to read a maximum of 99 elements in an iteration from a list,0
+4366,Chromosome 2 alternate explanation - apes gaining a set of chromosomes?,1
+966,How to solve a quadratic equation with floor function,0
+11088,Making a NFA for accepting a string only if it contains the given substrings,0
+673,Time to exit strip for a geometric brownian motion,0
+9763,toggleSaveStream button template,0
+8840,The advantages of using a strand specific cDNA in RNA-Seq?,1
+7517,Why there is no ELISA for SARS-CoV-2?,1
+804,Most Pathological Object in Complex Analysis,0
+3091,What generates variation in a species?,1
+8168,Storage DNA Condition,1
+9369,Script that retrieves trending topics from Twitter,0
+6723,Can Green color give Rest to Eyes?,1
+2047,Using L'Hopital to find $\lim_{x→∞} ( \ln \sqrt[3]{4x^3-4x^2+5} - \ln \sqrt[3]{2x^3-5x+4} )$,0
+11986,Table of Tribonacci sequence using NumPy and PANDAS,0
+6261,Measure Water-Use Efficiency without using carbon isotope fractionation?,1
+4545,What is happening to this spider?,1
+11535,Maximum consecutive subarray sum for a variable sliding window size,0
+5548,Would it be possible/plausible for a type of spider to fly by weaving web between it's legs to create bat-like wings?,1
+7174,Why do I have super vision in purely red light?,1
+3901,Protein-protein interactions search,1
+5598,How are Thyroid Stimulating Ab destroying thyroid tissues?,1
+9302,Binary Search Tree implementation in Python 3,0
+1120,Measure Theory Problem: $\lim_{n\to\infty} n \cdot \mu(E_n) = 0$,0
+9744,Successful Encoder and Decoder for messages,0
+11976,"Given a string containing just parentheses, determine if the input string is valid",0
+1920,Computing the Laurent series of $\frac{1-z^4}{z^4}$ at $z_0=0$,0
+3115,What is the strength of human cornea?,1
+2435,Is $dv$ only approximate of $(dv/dx)dx$?,0
+2336,Tangent vector in differential geometry: combining direction and derivative,0
+2243,Question about Proof Uniform Limits of holomorphic functions,0
+2188,"If $b:[0,T]\times ℝ→ℝ$ is Borel measurable and $(X_t)_{t\in[0,\:T]}$ is continuous and adapted, then $t\mapsto b(t,X_t)$ is progressively measurable",0
+9171,Periods of an LFSR with characteristic polynomial that is a product of primitive polynomials,0
+2049,"How to prove that if a function $f$ from a finite set $X$ to $X$ is surjective, then $f$ is injective.",0
+7034,What type of point mutation and chromosomal mutation cause Albinism in humans?,1
+3179,"Why do NK cells not destroy bacteria, even though bacteria don't have MHC-I?",1
+8974,Are all enzymes proteins?,1
+11667,Transform regular grammar in linear grammar,0
+7877,What are the microscopic mechanisms of plant branching?,1
+6765,How are viruses weakened to be suitable for vaccination?,1
+9572,If-Then with disjunctions (OR) in Integer Linear Programming (ILP),0
+6720,Is it worth to experiment with pro-biotics at home?,1
+3495,What would happen if VEGF was injected into a person?,1
+1604,Find the implicite and explicite set of this little cartesian product,0
+3888,What happens to the brain during meditation?,1
+345,What is the meaning of $\mathbb{Z}_{5}^{+}$ (and $\mathbb{Z}_{5}^{*}$) in group theory?,0
+11489,Function to calculate energy for wind turbines,0
+2048,Why does $^{-1}$ placed in front of many operations mean its inverse?,0
+10380,Checking if a Stack is sorted in ascending order,0
+11664,ANN with communication between nodes of same layer,0
+9925,Optimization for C isMigrated function,0
+5521,What is the maximal insert length for PCR based homologous recombination in S. cerevisae,1
+357,Can Isosceles Triangle Properties be used in inverse to prove?,0
+5997,Reflex muscular activity in three months old fetus,1
+8198,Binary fission in amoeba,1
+11215,Acceptable Use of the goto Statement?,0
+4410,"What does uniprot consider ""unambiguous"" evidence for the subcellular domain of a protein?",1
+4738,Questions regarding ELISA,1
+8201,Anyone can identify this moth?,1
+3515,Is it correct to use the terms multinucleate and syncitia interchangeably?,1
+6666,How can natural selection occur at species level whilst not occuring at the individual level?,1
+995,"Finding a narrower confidence interval for a given CI, sample mean and size",0
+9637,Randomized agorithm for selecting a $m$-subset out of a $n$-set,0
+2806,Flat modules on Stacks Project.,0
+8368,dNTP concentration for reverse transcription from RNA to cDNA,1
+8301,How do asexually reproductive organisms mutate?,1
+4959,How is each region of the DNA replicated only once?,1
+7575,Enzootic vs Epizootic?,1
+1500,Time and distance problem,0
+5945,Wild bee hive indoors - can I move it?,1
+4030,Is the SRY gene the sole responsible of biological male sex?,1
+8325,What is the difference between these two depictions of chromosome?,1
+8014,(Web)app to search metabolic/signalling pathways,1
+5934,Origin of the 260/280 ratio?,1
+7056,Aligning multiple sequences in heterogeneous group,1
+6432,Relation between goose bumps and temperature,1
+9577,Mixing business logic and presentation layer in enum type,0
+7990,What happened to pertussis incidence in the US between 1955 and 1974 and why?,1
+1959,Find the volume of Region R using convenient method,0
+6504,Term for a prey animal's recognition that something potentially threatening is looking at it?,1
+8962,Converting miRNA names,1
+1066,Evaluating lambda expression call by value Beta reduction,0
+1810,"show that every compact operator on Banach space is a norm-limit of finite rank operators (in a particular way, under the given hypotheses)",0
+667,Contradiction proofs,0
+1824,$F_{*p}$ in local coordinates,0
+9219,Is the ambiguity of a regular tree grammar decidable?,0
+16,Number of successes when the successes are positively correlated,0
+5911,Did the construction of the Panama Canal lead to a huge change in the local marine ecology?,1
+2449,"Laplace transform of $g_n(t)=\begin{cases}\frac{(1-e^{-t})^n}{t^n}&:t>0,\\0&:t\le0.\end{cases}$",0
+7563,Are there any 6 limbed reptile fossils?,1
+2831,Exactness of Mayer-Vietoris short exact sequence,0
+4761,Techniques to show a protein heterodimer-DNA interaction,1
+9594,"Verify correctness of quantifier elimination, using SAT",0
+3445,Is a sequential double transformation acceptable?,1
+11222,Formal definition of an empty stack accepting PDA,0
+525,Pick coloured balls from given urns,0
+559,Two lie algebras are isomorphic or not (using maple software),0
+9060,PHP subset of 2 arrays containing objects - compared only by 1 attribute,0
+8907,Can we harvest energy from plants?,1
+8257,Why do genitals feel frozen when freefalling?,1
+6106,Can methionine peptidase liberate selenomethionine?,1
+6645,which exact mechanism triggers the first cell differentiation after n divisions?,1
+5549,How does the peptidoglycan layer of a bacterial cell wall help prevent osmotic lysis?,1
+10893,"Split a list of elements into sub lists, each with different criteria",0
+8602,Use of pipe character in VCF info field,1
+2491,"Question on countably compact, sequentially compact and compact",0
+3897,Is eye colour of Drosophila a polygenic trait or an X-linked trait?,1
+6401,What are homologous chromosomes?,1
+11884,Implementation of a sparse Markov Chain,0
+1248,On the closed form of a integral related to $cosh(x)$,0
+4269,What is a genetic marker?,1
+7340,Can any organism possibly have the capability to create a new species every time it reproduces?,1
+10422,Can a recurrence relation be translated to a composite function of itself?,0
+5644,How's idiotype different from paratope?,1
+919,What is the logic to calculate triangle-inequality-theorem,0
+943,Proving set identities: empty set case.,0
+5120,Are all cells organisms?,1
+11539,what would be the drawbacks of lecturing two programming languages simultaneously?,0
+11532,How to calculate information gain in ID3?,0
+7576,What's the difference between physical (direct) and functional (indirect) protein interaction?,1
+2180,Does a topology have a canonical topology?,0
+3240,Are these two same insects?,1
+6398,What is the best current understanding of how yeast transformation works?,1
+1908,Easiest Method to Evaluate $3\times 3$ Determinants,0
+3,"Why does $S(n,k)=\sum 1^{a_1-1}2^{a_2-1}\cdots k^{a_k-1}$?",0
+2041,"Is $C[a,b]$ complete when given the norm $||f||:=\sup_{x\in [a,b]} \Big|\int_a^xf(t)dt \Big|$?",0
+8266,can you create an offspring from ancient human's DNA?,1
+3771,What nutrients are best suited for growing E.Coli,1
+11547,Matching socks from a bag of socks,0
+3176,Is there any possible way that hybrids can mate?,1
+775,Poker Hand Probability,0
+3666,How does the Lgr5 receptor contribute to maintaining stemness in the intestine?,1
+11122,Is Post Correspondence Problem in NP?,0
+1527,Does trigonometric curves with imaginary period repeat itself?,0
+8836,qPCR: Huge variation in fold change of genes between biological replicates,1
+3684,Is it true that there is a spider that eats parasites from caterpillars,1
+1493,Sums and products of bounded functions,0
+6018,"How are the wings of birds, pterosaurs and bats related to each other?",1
+2730,Prove that $x\in\mathbb Q$,0
+9748,Shopping cart in Rails for karaoke items,0
+10777,Command line utility to output modified Markdown,0
+4381,question about stem cells,1
+2265,Distribution of Euclidean Distances Between Randomly Distributed Gaussian Points in n-Space,0
+11212,Generators in category theory,0
+9531,Fast hill climbing algorithm that can stabilize when near optimal,0
+3731,What's the smallest animal with hemoglobin running in its veins?,1
+3343,can animals override instinct?,1
+3490,Can plants grow under extreme (>1%) carbon dioxide concentrations?,1
+5220,In a sugar such as a disaccharide are both ends of the sugar known as reducing ends?,1
+7164,Why do spinner dolphins spin?,1
+5881,Species that murder their own counterparts when put in captivity,1
+11499,Classes representing figures on a plane,0
+7920,How to compute CNV from TCGA data,1
+814,How much is height of water in vessel.,0
+1724,Feedback linearizion for input-output linearizion - Lie Derivatives,0
+3419,How do bees help flowering trees survive?,1
+6534,Why is there no way to remove an immune response?,1
+8357,How thick is the residue from a fingerprint?,1
+3698,Understanding mRNA vaccine for COVID,1
+10496,Database module for node.js,0
+1648,Probability: Draw your own card,0
+4131,"I'm trying to identify this salamander-looking creature I found in my house today in Coos Bay, Oregon. It is about 2"" long. What is it?",1
+3626,Help me identify these creatures found in sink,1
+6182,People say the cardiac cycle depends on blood pressure? How so?,1
+10752,Delete file from server (php function),0
+6672,Is this a valid definition of independent assortment?,1
+1682,How to convert decimal answers into trig simplifications (symbols)?,0
+5280,Lambda red recombination without electroporation,1
+4723,Why aren't the antibodies in the mother's milk digested by the infant's digestive system?,1
+10662,Static helper function to set a property on another object,0
+3865,What physiological pathways lie behind inhalants hallucinogenic effect?,1
+5668,Are prosauropods ancestors of all sauropods?,1
+467,2 simple questions about Banach space,0
+7694,How to model social structure in SIR models,1
+5261,Do cuttlefish know how to mimic animals since the moment they are born or do they learn by observing?,1
+3178,Neuroscience: zapping an axon connected to thermoreceptor,1
+3241,Does the genetic expression of specific physical traits ever correlate to behaviour?,1
+1570,Unconventional models and Peano Arithmetic,0
+11553,Calculate difference between two times,0
+11236,Connection Pool in Java 8 using Strategy and Factory Pattern,0
+335,Problems Finding In The Correct Derivative,0
+10426,Recognizing elements and doing event handling for repeating templates,0
+7277,What type of jellyfish is this,1
+4811,How does NHEJ cause indels?,1
+1571,Solving a logarithmic equation with a mix of polynomials and logarithms,0
+10533,Flattening a 2D array to use map/reduce,0
+1733,"Suppose two integers $a,N$, where N is prime, is there a difference between requiring $gcd(a,N)=1$ and $N \not\mid \!\!\;a $?",0
+7813,Does self replicating RNA occur in nature?,1
+3569,Molds and fungi usually found on book pages: identifying and preventing further spread,1
+2717,Quantifierfree formulae hold in submodels,0
+4779,Heteroduplex and Products of cleavage of Holliday Junction (Resolution),1
+5683,Is there a difference between polarity and hydrophobicity?,1
+11921,UnitTest strong exception guarantee,0
+4279,What obstacle(s) would be most prevalent in an attempt to use virotherapy to inject Cas into cells to target a cancerous mutation?,1
+635,General rule for converting between sigma and pi notation,0
+6681,How many end segments does the axon of a typical cortical pyramidal cell have?,1
+9798,Multivariate Kernel Density Estimation for objects with missing values,0
+2999,inequality question with integrals,0
+6185,I want to extract genes from genomes,1
+6768,Cholesterol and fatty acids role in bile?,1
+6657,"Do all humans have an identical nucleotide sequence for certain proteins, e.g haemoglobin?",1
+3719,"Pedigree Probability, Autosomal Recessive Trait",1
+8197,Optical and digital magnifying enough to see red blood cells?,1
+914,Derive algebraic solution for $x^{\log_3 2} = \sqrt x + 1$,0
+3273,How are elements like iron recognized and routed to the right places for use in the body?,1
+3124,"Why are $\beta_2$ receptors present on bronchial smooth muscles , considering that they have only parasympathetic innervation?",1
+11332,Finding an element in a infinite unsorted doubly linked list,0
+3138,What is this plant with white-spotted thorny leaves from Morocco?,1
+2565,Inequality related to modulus of complex numbers,0
+10131,"Same code to parse int, float, decimal?",0
+5331,What are the different types of helices in protein secondary structures and how do they differ?,1
+9110,A few questions regarding simCLR,0
+9675,Is the language of words containing equal number of 001 and 100 regular?,0
+6569,Is it possible to intentionally limit bacteria's lifespan?,1
+9736,"Calculate the total items used, if for every x items used, you get one additional item to use",0
+10779,Is Hidoku NP complete?,0
+2853,Properties of Pull Backs of forms,0
+11182,Upper bound $T(n) = 9T(\sqrt[3]{n}) + O(1)$,0
+3193,What kind of worm is this in my food? (Tuna sandwich from canned tuna),1
+1906,"If $b_n$ is a bounded sequence and $\lim a_n = 0$, show that $\lim(a_nb_n) = 0$",0
+6114,Does Blood Loss Shorten Telomeres?,1
+5987,Are earthworms edible?,1
+3547,Does focusing on a certain part of the body increase electrical activity in that region?,1
+1633,Question about nomenclature of Dirac delta function as a measure,0
+8997,Solid mouse (C57BL/6) WT primers,1
+5887,Can P. falciparum and other malaria parasites be cultured and genetically engineered?,1
+6888,"What animal / insect carcass is this? (Victoria, Australia)",1
+2255,Prove there are infinitely many fields in which the polynomial is reducable,0
+320,Integral representation of modified bessel function,0
+922,"Prove that if $k \in \mathbb {N}$ and $a>1$, then $\lim\limits_{n\to\infty} \frac{n^k}{a^n}=0$",0
+8656,Why do we have two kidneys but one liver?,1
+10875,Reading a DHT11 to a file,0
+8537,Physiological reason why leaves got twisted when treated with indole acetic acid,1
+11600,Displaying the multiples of a given number,0
+4163,Mutated Sperm - What happens?,1
+9009,React app that interacts with CoinMarketCap API,0
+8992,What does the concept of information mean in biology?,1
+2055,Principal submatrix unitary matrix normal,0
+753,Graph theory: The average degree of G is at least k,0
+10611,A double search function that looks in a list for one value and then the other alternatively,0
+8898,How exactly does heterozygous sickle trait help patients survive malaria,1
+9284,Setting up notifications for Android,0
+9147,parsing a flat file and removing duplicates,0
+2362,the localization of a ring is an integral domain iff the annihilators of zero divisors are comaximal ideals,0
+11914,Robot OOP Class in Python,0
+3689,Kinesiology Tape Benefits,1
+2150,one interesting calculus problem,0
+2485,"Let $u = (2, 3, 1)$, $v = (1, 3, 0)$, and $w = (2, -3, 3)$",0
+8717,When do the first neurons appear in humans?,1
+2557,Question about using Washer method,0
+8620,Can a brown recluse bite lead to diabetes?,1
+5043,How does a cell identify itself?,1
+4174,Is it humane to kill fish by immersing them in very cold water or ice slurry?,1
+10067,What is the relationship/difference between best/worse/expected case and big O/omega/theta?,0
+11883,Random number wrapper class,0
+1275,Step function (staircase function) construction by using signum functions,0
+419,Triple integral in cylindrical coordinates,0
+10891,Basic standalone horizontal menu,0
+11919,Product of 2 numbers equals sum of numbers between them,0
+2956,Cyclic Quintic Polynomial Family,0
+8854,What is the ratio of breathing rate to heart rate?,1
+3950,What ways are there to determine how big genera are?,1
+10571,Order of argument application in lambda calculus,0
+8143,Alignment tools on desktop for peptide alignment sequence and how to make annotations on alignments look presentable?,1
+7222,"Regarding cryonics, why can't you freeze a living body and then thaw it later, fully functional?",1
+2026,Does an algebra over a ring with unity have unity?,0
+4664,Are erythrocytes lysed during alpha hemolysis?,1
+2975,Alternate formula of Archimedean property,0
+10218,Excessive use of lambda with variant of Sieve of Eratosthenes?,0
+3616,Eye strain using 3D screens,1
+260,How can I generate this log scale plot?,0
+5266,Telomerase as cancer target,1
+3491,Denaturation of protein,1
+4133,How does MEME compute the background frequency of nucleotides?,1
+5729,Will humans ever evolve to cope with the rising temperature of our planet?,1
+740,A small college has 1095 students. What is the approximate probability that more than five students were born on Christmas day?,0
+11373,"Given a DCEL, how do you identify the unbounded face",0
+11191,Finding football team with the smallest difference in goals,0
+11344,natas11 helper program,0
+5460,Assays during drug discovery,1
+3755,Trypsin and Cell Surface Receptors,1
+4390,What is an irreversible reaction?,1
+3237,How to identify the GPD gene when the sequence varies between organisms?,1
+8718,Which server to use for volume and accessible surface area calculation of proteins,1
+5593,Suitable introductory book on Bioinformatics for a computer scientist?,1
+2482,A general but accessible version of the divergence theorem,0
+3215,Plant identification,1
+7185,"Is eating cooked food an evolved behavior or rather an intelligent one, passed down via culture?",1
+417,How to solve these simultaneous equations?,0
+5838,Australian Tree Identification Help,1
+1917,Solving for a function inside an integral,0
+8586,Question regarding genetic variance and heritability,1
+9421,How to reformat this code so I don't use 'Exit Try' and 'Exit For'?,0
+10364,What is the name of the optimization that removes self eliminating multiplication-division statements?,0
+10719,Binary Calculator in Java,0
+8551,Designing degenerate primers using alignment of protein sequences from other species,1
+7732,Is there any small animal that can jump over a meter high/long?,1
+5883,"Genes, chromosomes, base pairs and the 23 pairs",1
+6280,human anti-mouse antibody,1
+1901,How to compute the irreducible polynomial of a number,0
+8917,"DNA synthesis companies: cost per base, turn-around time, codon-optimization algorithms",1
+3942,Can formalin fixed tissue stored in absolute ethanol be used for histology?,1
+6438,In what fluid does the sperm swim in the oviduct?,1
+10090,Partitioning planar graph cycles based on chords,0
+9030,Is a degree-$d$ pseudo distribution always a relaxation?,0
+7908,Are there any online resources one can use to access raw clinical trial data without having to contact those involved in the study?,1
+5597,Is there a durable surface that ants can't pass?,1
+9397,Method to Return a Hibernate Session,0
+7206,Human ancestor reproduction after chromosome fusion,1
+9440,graph decomposition into simple cycles,0
+5084,Key points of Wagner's theory of innovation,1
+5068,Understanding presynaptic and postsynaptic inhibition,1
+1899,Inverse of a 4x4 Matrix,0
+6515,How do chameleons signal cells to change color?,1
+562,Examples of topologies on R,0
+4,Showing a morphism is birational,0
+11237,Simple equation parser and evaluator,0
+9797,Slow MIS Distributed Algorithm,0
+11841,Find the asymptotic time complexity of the following,0
+1202,Extracting l(G) edges from an l(G) edge connected graph with diameter 2.,0
+2455,"If weak topology and weak* topology on $X^*$ agree, must $X$ be reflexive?",0
+5226,Is there a negative correlation between the mRNA produced by the cell and the time of extraction?,1
+6199,Standard datasets for testing new multiple sequence alignment algorithms?,1
+1308,Find the minimum value of $\sin^2\theta+\cos^2\theta+\csc^2\theta+\sec^2\theta+\tan^2\theta+\cot^2 \theta$,0
+7534,Is it possible to detect whether an organism has been gene edited (by humans)?,1
+9432,How to express Rob Pike's classic Go Code presentation in Hoare's CSP Algebra?,0
+5489,Identifying a creature that appears to be a worm wrapped in a cocoon,1
+1478,Flow and flow rate... Halp!,0
+3918,How do schistosomes find and attach to human skin?,1
+2489,Formula for euclidean distance between two normalized points with given angle.,0
+6735,Do human anal glands have any function?,1
+2537,"If a magma M is both a semigroup and a quasigroup, is it necessarily a group?",0
+1990,How to formulate this biased coin toss problem?,0
+5584,Inheritance of mitochondria,1
+5721,How do I go about traveling with DNA extract samples?,1
+3098,Is this bird a woodpecker?,1
+5429,What is the role of a chemotroph in an ecosystem?,1
+7270,What factors must be taken into account for the maintenance of the immunogenicity of ovalbumin antigen?,1
+5918,What is the definition of the life biologically ?,1
+6795,"Is hunting animals, crafting and attacking/defending from enemies intellectually equivalent to learning quantum physics?",1
+164,Need help visualizing the combinatorics sum & product Rule,0
+6874,Are there any animals that get smaller as a normal part of their life cycle?,1
+10134,Ideas for simplificaton - Logic to choose which view to load,0
+11308,YUV422 to RGB24 using Intel Performance Primitives,0
+10859,PHPMailer hack prevention,0
+9987,"""Speed date"" interview questions",0
+4590,How many agarose gel bands are typical for circularised DNA,1
+9073,Creating simulated items sold at a store into a hash,0
+4754,How do you estimate global species richness?,1
+4565,Genes where both a disabling mutation and copy number amplification cause different genetic diseases,1
+1887,Necessity and sufficiency of martingale,0
+11568,Can Pareto Optimality be compared to Nash Equilibrium?,0
+5985,Why would a 2019-nCoV protein sequence in the NCBI database match a protein submitted in 2018?,1
+7284,What type of fish is this and why is it so big?,1
+1254,I have a number sequence that starts with 6 and 11. I want to know that their are infinite number's in this sequence.,0
+10452,"Asks the user to input 10 integers, and then prints the largest odd number",0
+9462,A (possibly) great Polymer autocomplete widget,0
+9394,Hex to ASCII conversion in Haskell,0
+2901,"In a linear program, how to add a conditional bound to x?",0
+11315,Show that kleene plus language is a regular language by describing how you build a DFA or NFA for it,0
+4388,"Why do some reflex actions involve interneurons, but some don't?",1
+7510,Requirement of energy for metabolic processes,1
+4951,what is this mushroom and how to grow this mushroom?,1
+1679,"Conformal map onto a circle, from an identification space composed of five square regions.",0
+1155,"How to integrate $\int_C{\frac{\sin\pi z}{(z^2-1)^2}}dz$, where $C: |z-1|=1$ using Cauchy's formula?",0
+4065,Is a minimum size/complexity necessary for an organism to exhibit territoriality?,1
+8074,Largest direct ancestor of humans,1
+6659,When is a DNA sequence a gene?,1
+6560,Multiple clones Sanger sequencing analysis,1
+9602,PHP New User Creation,0
+6237,Will ammonia continue to accumulate in an aquarium tank if a strong antibacterial or chlorine is added to the water?,1
+10499,Partial polygon matching,0
+5449,"Restriction enzymes, how are the recognition sequences determined?",1
+1081,Algorithm for Leaderboard Performance,0
+379,Logarithms in Calculators?,0
+5624,why thymectomy doesn't lead to humoral immunity deficiency?,1
+8141,How to retrieve full gene names list and Entrez gene IDs and other annotation information from HUGO gene name list (in R or any)?,1
+11630,Reverse string in Kotlin,0
+3253,What are the various types of plugs found in a bee house and how do they help us with identification?,1
+6491,High pressure cryonics,1
+8901,"In phospho/pan analysis in Western blots, what is best way to normalise to an internal loading control?",1
+6964,Banana cultivar identification,1
+10261,Weekly job to create or update the lessons in all locations,0
+7530,Why do we feel cold in the lower part when we lie down?,1
+1369,Expectation of number of points in an infinite uniform grid covered by convex polygon of area A,0
+5640,When do chimeras happen?,1
+10312,Whether following language is linear or not?,0
+11797,Factor script to change case of all filenames in a directory,0
+2621,How can I write the Axiom of Specification as a sentence?,0
+8085,Are any arthropods poisonous to the touch?,1
+4490,What type of distribution should binding affinities fit?,1
+5562,Are there any animals that celebrate communally?,1
+3478,Career advice for a bachelor of biology with russian STEM diploma,1
+5925,Do birds ever fly in clouds?,1
+9991,XML attribute analysis,0
+7471,What hair do aquatic mammals have?,1
+404,Special Case of Universal Coefficient theorem,0
+5352,What is the resting human stomach pH?,1
+5920,Do ring species exist?,1
+4191,How does imbibition and turgor pressure generate much force?,1
+4370,Olympic's epidemiological impact on Zika?,1
+9851,Oriented-object approach on how to control different classes cleanly,0
+10027,Scan the user input and then work with these letters,0
+2433,Find all invertible elements of $ \Bbb{Q}[x]/(x^{600}) $.,0
+8585,What is the fastest growing bacterium?,1
+7041,Confusion regarding seedless grape and the normal process of germination,1
+2695,"Question about required inequality for proof that Hilbert Transform is weak-(1,1)",0
+8885,What is this apple's abnormality?,1
+1819,Question regarding annihilators of subsets (not subspaces) of a vector space,0
+4073,Are molecular machines encoded in the DNA?,1
+4231,Is telomere shortening consistant over consecutive cell divisions from zygote to a differentiated cell?,1
+9251,Hints to make Sudoku solver more Pythonic,0
+3893,Why are X-linked illnesses less common in females if females have X-chromosome inactivation anyway?,1
+2590,Proof by contradiction to prove an inequality does not hold,0
+5051,"Giving a sign to Pressure Potential, Osmotic Potential And Other Similar Quantities",1
+9281,Linear Regression on Pandas,0
+10199,Is log log n = O(log n)?,0
+8119,How to preserve leaves between sampling (collection) and analysis?,1
+5298,Why do the vines change their spinning direction?,1
+4894,Is apparent competition a suitable term in situations where one species is not negatively affected?,1
+1082,How was this summation simplified to: i*n - i + 1?,0
+6168,What is the adaptive significance of temperature dependent sex determination?,1
+5172,What is the purpose of gluconeogenesis?,1
+7267,Do local potentials always precede action potential?,1
+7020,Microsatellite shifts (peak calling) GeneMapper! Thesis help!,1
+4301,What Evidence Do We Have For the First Mammal?,1
+3326,"I am trying to identify this little ""bug""",1
+9325,"wrote a blackjack game in python , would like you get notes on it",0
+6875,Are Sloth tongues soft or rough?,1
+9327,Finding coprimes closest to a certain target,0
+851,strong maximum principle - harmonic function,0
+2816,"First order predicate logic for ""Every bike is a two wheeler manufactured by Hero"".",0
+10277,Shredding XML into an SQL table,0
+3759,Is the resting state of the forearm in the pronated or supinated position?,1
+8300,Why do endotherms need more food than ectotherms?,1
+5749,What information does the nociceptor relay to the brain about stimuli below threshold?,1
+2558,Why do we choose the limits for double integrals in this way?,0
+1605,"Density of polynomials in $C^{2,1}_{x,t}$",0
+4601,How can I generate a random DNA sequence?,1
+9068,Rövarspråket Language Encoder and Decoder,0
+4583,I saw these patterns on a hill. Which insect makes such a pattern?,1
+894,Game theory and sharing,0
+7163,"How Does NADPH Reduce 1,3-BPG?",1
+5061,about the muscle's tension's variables,1
+9981,Use of HTML (view) in a constructor,0
+3798,What happens to neutrophils in whole blood stored for transfusion?,1
+1631,What's the parametric function for a rotated ellipse about one of its foci?,0
+5374,Why does ant queen keep the eggs out of her hive?,1
+11437,Can a dfa return only the final state?,0
+6832,Interpretation of genetic results,1
+11558,Removing objects from a list that don't appear in a list of ID's,0
+11029,Is $\{w~|~\forall x \in T(M_v):|w|>|x|~\}$ decidable?,0
+7505,Strange planarian/leech like creatures found with California blackworms,1
+659,if $n$ is natural odd number then the polynom : $P(x)=x^n+ax^2+b$ has at the most 3 different roots,0
+4505,Trying to identify the species to which this vertebrae belongs,1
+5121,can self-fertilization in flowers be called asexual reproduction?,1
+7703,A question about dicumarol,1
+9465,Header and navbar animations on a website,0
+2136,Solve differential equation with three variables,0
+7522,Tree of Life in Text Format,1
+1256,Sum of indicated series,0
+6786,How do marine mammals and penguins maintain bone density?,1
+5878,Does having to urinate imply that you are becoming dehydrated?,1
+499,How do I evaluate this summation?,0
+253,Integration Question with Root at the Bottom,0
+6797,Why are bacteria and archaea in different domains?,1
+9314,Animal Shelter in Java,0
+4537,Why can I raise my left eyebrow independently from the other but not the right?,1
+8869,Maximum heart rate increase/decrease while physically active,1
+645,Maximum Side of a Square Dissected into Rectangles,0
+11385,"Summarize raw data in new sheet, 2.0",0
+11511,Confused between the terms Process and Process Control Block,0
+10805,A web crawler in Python,0
+1169,How can I show $ X(f)(\sigma) = \frac{d}{dt}\vert_{t=0} \ [f(\sigma \exp (tX))]$,0
+4098,Are sulfates or nitrates common ions in biochemistry (specifically of the body)?,1
+2081,Notation $K^+$ where $K$ is a cone,0
+7631,What is the concentration of ATP in an average cell?,1
+3610,What is the fate of micronucleus DNA?,1
+9293,"Why ""Choice Points"" introduce non-determinism in a program?",0
+7243,Does The Sympathetic Nervous System Increase or Decrease Urination?,1
+4645,Is PrEP used for anything other than HIV?,1
+8218,Does night sleep provide more energy-regain than sleep during the day?,1
+2385,Trying to figure out my percentage raises at work,0
+11962,Tiny Encryption Algorithm implementation in C,0
+3571,Binding BSA to silver surface via large difference in isoelectric points of the two materials,1
+5223,Brownian motion : Understanding the output of mvBM function.?,1
+10938,Partitioning through block moves to the end,0
+10138,Finding an instance of an n-element set cover,0
+4077,Why biologic systems tends to become more complex?,1
+5568,Where can I find the pMON7124 plasmid sequence?,1
+2427,Jacobian of a Change of Variable,0
+595,Making a Triangle from $3$ sides of a Quadrilateral,0
+4181,Survival curve in early humans,1
+3220,Partial pressure of gases in alveoli,1
+249,Probability of Train Arriving in 5-minute interval given one and only one MUST arrive every 5-minute interval.,0
+6446,Why lactate inhibits growth (or enhances death rate)?,1
+9457,Pagination that doesn't rely on a database,0
+8797,The antiquity of man,1
+9222,Create a list of random numbers with sum = n,0
+2286,Is the following a strong proof of $\frac{d}{dx} (\sin(x))$,0
+1685,How to calculate max iterations needed to equally increase row of numbers per some value each iteration?,0
+11749,"What is the probability that an expanding bipartite graph exists with the property, |V1|=|V2|?",0
+10548,Alternating Turing Machine: Why one cannot generalize the proof of AL = P?,0
+11379,Leaderboard in Python3,0
+11729,Find number of triples that sum up to zero in query-intervals,0
+5244,Big cat in heat for months?,1
+8187,Fate of Acetyl CoA in well fed state?,1
+7157,Identifying internal structures of dissected fish,1
+2511,"Find the Fourier series of $\sin^3(x)$ on $[-\pi,\pi]$",0
+10621,Is logical to physical address conversion inclusive?,0
+11051,"What is an example of set $A$, that is decidable if $AA$, but which is not decidable if it is $A$ alone",0
+8715,LacZ' selection: blue colonies despite ligation of insert,1
+1686,How to compare between the expenses of the loans and the income of an asset?,0
+11353,Filtering out neighboring ascending digits in quaternary numeral system,0
+10425,Live plot with many subplots,0
+9069,LeetCode 535: Encode and Decode TinyURL,0
+608,I'm trying to encode a number.,0
+6836,"Why is FAD, rather than NAD+, reduced in the succinate dehydrogenase reaction of the Tricarboxylic Acid Cycle?",1
+6407,How hot can a beverage get without burning the tongue?,1
+6342,How is the number of mitochondria in a cell regulated?,1
+10282,Adding time offsets to create future dates,0
+11161,What makes lambda calculus relevant to study?,0
+11442,NS.log (ES5 logger) - v0,0
+9943,How does the Fetch-Decode-Execute-Reset (FDER) cycle work?,0
+4689,Why can't we defibrillate the heart within 1 minute after ventricular fibrillation by electroshock?,1
+11778,COMpatible+ Google+ Integrations+ Scoping+,0
+2349,Martingal differentiation,0
+5187,Can you knockout specific receptors in an adult?,1
+3585,Finding steady state concentration given half life and production rate,1
+1276,How can I show that the map $f: GL_n(\mathbb R)\to GL_n(\mathbb R)$ defined by $f(A)=A^{-1}$ is continuous?,0
+10242,Checking if any competitors have a non-empty name,0
+11053,Wild and changing business rules implemented with functional programming,0
+11392,"Model disjunction in a $\{0,1\}$ integer linear program",0
+11126,Insertion Sort Implemented in Ruby,0
+3066,Why don't fish groom each other?,1
+7582,VMD set molecule as top using script,1
+4129,The most reliable way of identifying deer antler measurements?,1
+11835,Is X+Y sorting problem still an open problem?,0
+1986,Regarding elimination method [Simultaneous Equations],0
+7487,Do xylem vessels in roots have lignin?,1
+9086,Transferring large amounts of data in web editor,0
+2674,"$p_k \colon M_k \to N_k$ is onto for $k>0$, if $p_0$ induces an iso on homology level, prove that $p_0$ is onto",0
+11147,finding common navigational paths / central nodes within a graph,0
+539,"geodesic computation: ""energy"" minimization versus arc length minimization",0
+11738,Can reversing the final and non-final states of a DFA produce the complement of the original language?,0
+9723,Algorithm to determine if a number is perfect on a Turing Machine,0
+7440,How many eukaryotes are there on Earth?,1
+2961,Notation: express the minimum absolute value of a scalar function.,0
+6277,Regeneration capabilities in humans?,1
+2703,Product of nonsingular and full rank matrices,0
+4819,Why use DNA polymerase in making cDNA?,1
+2933,Finding points of continuity on $\mathbb{Q}$ and $\mathbb{R} - \mathbb{Q}$,0
+4462,"If women need more dietary iron than men, then do blood donors also?",1
+8319,Identification of Bioluminescent Species in South Carolina Marshlands,1
+2061,How can we visualize a tensor?,0
+9644,FTP Download Function,0
+4522,What are key factors when evaluating and comparing miniprep columns?,1
+1997,When can a series be split to odd and even terms?,0
+10117,Remove divisors from a set of integers,0
+1639,Find the unique solution to the IVP $x' = Ax$ where $A = \begin{bmatrix} {-3}&{2} \\ {-1}&{-1}\end{bmatrix}$,0
+9335,Forward Path scoring mechanism,0
+8051,What is the advantage of using plant-derived antibacterials rather than bacteria-derived antibacterials?,1
+10170,My first random password generator,0
+8193,Lactobacillus casei and paracasei,1
+11557,JavaScript program to count lines of Java code,0
+8589,Bundle of His and Atrioventricular Bundle difference,1
+7611,Significant presence/absence of plant species,1
+6968,What causes the blue color seen in baboons?,1
+3556,Why doesn't the avocado turn brown when it is kept with its seed?,1
+7922,What is the meaning of a reported OD600 value?,1
+713,What is the value of $f(100)$?,0
+5079,Is all of the DNA used by genes (encoding DNA)?,1
+4058,Is there any completely Computation Drug ever launched in market?,1
+10711,Do compression tables exist and where are they used?,0
+2745,"Prove that $\{a \in (0,1) \mid |f(a)-L(a)|>1\}$ is finite",0
+4907,Neurobiology of tantrums,1
+2914,An algebra $A$ is a $\sigma$-algebra iff it’s closed under countable unions,0
+10843,Projecteuler.net Problem 2 using collection pipeline Pattern,0
+4861,Is it possible for a human and another ape species to reproduce?,1
+3072,Structures of cyclodextrin complexed with small ligands,1
+2300,Combinatorics - Inclusion-Exclusion verification,0
+7763,Does photosynthesis begin instantly when a plant is exposed to light?,1
+8560,Standard notation for dominant and recessive allele,1
+2709,"Operator norm of $T\colon H\to H$ if we know $\|T|_{W}\|$ and $\|T|_{W^{\perp}}\|$, where $W\subset H$ is a closed subspace.",0
+5040,Is the mRNA produced constant during time?,1
+6364,Why Poisson Process for neural firing?,1
+5031,How can a good SD / Kozak sequence enhance translation efficiency?,1
+1156,"What does ""discrete"" really mean, in plain English?",0
+5112,Larva in cat's water dish,1
+3277,RNA contains Uracil in place of Thymine,1
+9242,Does every language that fulfills the regular Pumping conditions also fulfill the context-free ones?,0
+8298,Land recultivation? Land revegetation? Land reclamation? Land rehabilitation?,1
+6260,What exactly makes bananas go brown?,1
+9099,How to generate a pushdown automata for accepting a language?,0
+10014,Find a Id that contains all mentioned values,0
+11496,Functor to compare two floats with tolerance,0
+10344,quicksort recurrence relation,0
+4105,How to estimate a genome's size?,1
+8521,Genetic linkage greater than 50 centimorgans,1
+6332,How to combine data points from different western blots into one graph?,1
+5716,Do Black Hair Fuzzy Caterpillars bite?,1
+11265,Concept used in the proof,0
+11618,Reading and writing binary data in C++,0
+8722,Horned Mohawk looking insect. What is it?,1
+6580,Why do people have antibodies against other blood types?,1
+8089,Why does a cockroach not die even after decapitation?,1
+7479,"How do some plants grow in salt water, while others die?",1
+4985,What's the worst that can happen from too much sleep deprivation? Can you die?,1
+1722,What x belongs to if not all $x_i$ belong to $\mathbb R$?,0
+6683,Bumble bees and wasps,1
+6317,Investigating rare variants in ethnically different populations (European ancestry & African ancestry),1
+2472,Why are the elementary functions the ones that they are?,0
+6057,Pharmacokinetics and cell-membrane permeability of Adenosine triphosphate disodium hydrate,1
+4215,"Clarification regarding a statement in ""The Selfish Gene"" by Richard Dawkins",1
+1863,Show that $E(S)=\sqrt{\frac{1}{n-1}}\frac{\Gamma(n/2)}{\Gamma[(n-1)/2]}\sigma$,0
+5933,How long does it take for a blocked dopamine receptor to be broken down by the body?,1
+6202,"What are the marker enzymes for Nucleus, Ribosomes and cell membrane?",1
+5007,Do there exist T helper memory cells?,1
+2039,Two notions of absolute continuity,0
+11935,Sequence Alignment with Skips,0
+11268,Will multi-threading or other method make my program run faster?,0
+8947,About the definition of ketogenic amino acid,1
+341,"Solving these types of integrals, using Monotone convergence theorem and Dominated convergence theorem.",0
+9962,Analysis of straight insertion,0
+4873,Function of the alpha subunit in mitochondrial ATP-synthase?,1
+7824,What evolutionary pressures pushed Galápagos tortoises to mature so slowly and live so long?,1
+7391,"During acid reflux and vomiting, is the burning sensation from pepsin or acid?",1
+2219,Prove that a Language is Non-Regular Using Closure Properties,0
+11116,Going from IQueryable> to IEnumerable,0
+6779,Is the human eye supposed to see the lense effect?,1
+10968,Weighted probability using Huffman Tree,0
+8606,Sexual selection in cats or other animals,1
+2938,What does this symbol mean in math? ($Z_+$ and $Z_{++}$),0
+5155,Which amino acids can be phosphorylated?,1
+7846,Could there be latent infections in the human population that we don't know of?,1
+5256,Why does the Vas Deferens detour over the pubic bone?,1
+11616,Extract climate variables on species range from worldclim and save into CSV,0
+4858,Effects of a constant magnetic field on the human body (especially blood circulation and ion channels)?,1
+4248,What is the fate of NADH produced in the liver during oxidation of lactic acid?,1
+4535,How are Mono and Diglycerides metabolized without the Free Fatty Acids of Triglycerides?,1
+1167,Use a triple integral to find the volume of a tetrahedron,0
+10033,Append nones to list if is too short,0
+11685,Pythonic way to flatten lists or arbitrary depth using assignment expressions,0
+3454,How to get sulfate reducing bacteria?,1
+9374,Given a list of vertices in a binary tree output minimal sublist with the same lowest common ancestor,0
+9417,Hyperexponentiation modulo a prime,0
+1495,On the continuity of functions in 1D Sobolev spaces,0
+1460,"Finding the cubic near minimax approximation for sin(x) on (0,pi/2)",0
+9461,Handling an invalid SQL query exception,0
+54,Set of true statements generated by set of axioms with a binary operator,0
+971,Calculating probability for exponentials,0
+11378,Cashier Scanning Algorithm Problem,0
+6734,How are dental cavities different from body injuries?,1
+10992,Print out N by N Spiral Matrix in javascript,0
+9108,Can Haskell ensure a Functor (or other typeclasses) satisfies its law?,0
+3153,What are Some Classical Examples of Local Adaptation?,1
+6005,How can Pyridostigmine have the indication of Myasthenia?,1
+146,What is the Fourier transform of $1$?,0
+7987,Will the interaction of two proteins vary across different tissues?,1
+7323,"Why do orcas eat only the tongue of whales, liver of sharks, etc.?",1
+8308,"To which distinctions does the term ""hymenoptera"" refer?",1
+206,Integrating Cubic Spline,0
+10136,Top 5 most common words in Python,0
+4203,Is there any evidence contrary to the pheromone theory of bee washboarding?,1
+7625,Why does Fallopia Japonica not cause issues in Japan to where it is native unlike other countries?,1
+10132,Does a Minimum-Spanning-Tree always give a lower bound for the weight of any Hamiltonian cycle of the graph?,0
+3421,Anatomy of the ear canal,1
+797,How the element $x$ is different from $\{x\}$?,0
+5728,"Trying to understand the big picture behind DNA sequencing, alignment and searching",1
+5938,Can stress and arousal be independent?,1
+2190,"Given $ ||\vec{u}|| = 2$, $||\vec{v}|| = 3$, and $\vec{u} \cdot \vec{v} = -1$, find $(\vec{u} + \vec{v}) \cdot (2 \vec{u} - \vec{v})$.",0
+2508,$V\cdot\operatorname{Rad}(R)\subseteq\operatorname{Rad}(V)$ where equality holds if $V$ is free or projective.,0
+9072,Channeling Constraints in Constraint Handling Rules (CHR),0
+10276,Template function specialization with code duplication,0
+11016,Authority section in DNS packet always contains NS records?,0
+5726,What did the evolution of multicellular animals look like?,1
+9517,"Which order is ""lexicographic order""?",0
+4469,Which kind of drugs get absorbed through epidermis?,1
+4102,miRNA_ID to GENE_SYMBOL conversion,1
+6426,Are there statistics on Sickle Cell Traits based on country of origin?,1
+7302,The reproduction patterns of fungi: what’s the difference between them?,1
+3018,Generate mesh surface from protein structure,1
+2808,If $E=Kernel T$ then $E^\perp=\overline{Im(T^*)}$.,0
+385,help with hyperbolic functions like sinh and tanh,0
+5682,Query regarding KEGG KGML pathway files,1
+4567,What is Saccus in Embryology?,1
+8708,Membrane conductance in phase 1 of the cardiac action potential,1
+8133,"We know archea and eukarya are more closely related but endosymbiotic theory says eukarya have evolved from prokaryotes, justify the statements?",1
+7645,How the conjunctivitis virus spread just by seeing a person's eye who is infected,1
+8191,Surgical vs anatomical neck,1
+7514,Evidence against aging caused by loss of information in genome and epigenome in humans?,1
+7286,Are there echolocating insects?,1
+9389,How is a nondeterminisitic automaton running on an input?,0
+2958,Meaning of $IM$ where $I$ is an ideal of $R$ and $M$ is a left $R$ - module?,0
+6840,There are 6 classifications of CFTR mutations. Is a causal relationship to the sweat test known?,1
+2027,Proving that $\{\vec{x}\in\mathbb{R}:\lVert \vec{x}\rVert\ge 1 \}$ is closed,0
+2327,How do I find the remainder for the following?,0
+8542,Location of TFBS in genome,1
+11936,Print every character in a line if it's greater than 80 characters,0
+10854,Longest Substring Without Repeating Characters in ReasonML/Ocaml,0
+4443,Basic Molecule Editor for use in journals / theses?,1
+1958,In how many ways can you paint 90 distinct buckets?,0
+9156,Getting a Future from a Vector and a function,0
+11834,Getting a list of outdated versions with Python,0
+3972,Are the 5 digits of all land vertebrates an accidental number?,1
+11599,What is the best way to extract method?,0
+11249,Computing FOLLOW sets for LL(1) grammar. Stuck on question,0
+3322,How are asexual species classified?,1
+11739,Delete duplicates in a linked List,0
+3767,What is the antagonist of epinephrine?,1
+8753,Defining paper(s) in epigenetics,1
+5880,Why is gel used in electrophoresis?,1
+10627,Optimizing ByteString escaping,0
+8575,Pathogenesis of type IV hypersensitivity,1
+2278,I was trying to solve a complex number to a power using de Moivre's Identity but got stuck.,0
+5294,What causes leaves to be hydrophobic?,1
+9743,"Given DAG G(V,E), and weight on the vertices, find the heaviest path that starts from s",0
+8951,What is the relationship between sexual and natural selection?,1
+1625,Prove that $\sin (\theta) + \cos(\theta) \ge 1$,0
+1252,The limit of $\frac{1}{n}\sum_{k=1}^{n}n^{\frac1k}$,0
+3867,How does noradrenaline result in rise of systolic blood pressure even when the cardiac output is decreasing?,1
+11145,"Exporting array of tabs to new workbooks, save them based on tab name",0
+9582,Find the closest point in a point cloud in a near equivalent point cloud,0
+10592,Mesh generation in Unity3D,0
+7803,Curious on the species of a large Orange Spider?,1
+8382,"General Enhancer Questions (Methylation Patterns, ect.)",1
+4868,how does a dna probe work in DNA fingerprinting?,1
+10007,proving program equivalence,0
+5518,Genes of the electron transport chain,1
+9436,Reading content of directory for each HTTP request,0
+7312,Difference between going against and going down a concentration gradient,1
+1141,$\sup_{x \in H} |D^\alpha f(x)|=\sup_{x \in K \cap H} |D^\alpha f(x)|$,0
+5713,Do we get 1/4 of our genes from each grandparent?,1
+232,Digit wise modulo for calculating power function for very very large positive integers,0
+3555,Are there organisms that have incorporated plastic into their lives?,1
+362,What is an intuitive way to think of Cauchy's theorem?,0
+11305,Trie - code review request for improvement,0
+10547,Sorting Algorithm which prevents strings with at least one identical char from being next to each other,0
+10670,Python hexdump generator,0
+5977,Why are bugs attracted to light bulbs but not flames?,1
+5446,Are the cells (structures) of deep sea fish different? And can they survive in shallow water?,1
+6565,How has the use and subsequent ban of DDT affected insect populations?,1
+3545,Why do eyes change colour after death?,1
+717,How to find the following limit which has $e^x$ and $e^{it}$ terms,0
+10079,How to find all numbers that there distance from given point are less or equall to integer n?,0
+126,"In a normed vector space, does $x+r\Gamma = x'+r'\Gamma$ imply $x=x',r=r'$?",0
+8448,Does drinking water from stainless steel increase hemoglobin?,1
+2490,Something fishy in the Zeta function,0
+5694,"Why do mountain gorilla eat just 1.7% fruit, while lowland gorillas eat 25%?",1
+5639,Drinking and eating ability of infants soon after birth,1
+9448,Promise.jsm demo of Promise.all and Promise.defer,0
+5921,"Are human eyes equally sensitive to AC, and DC lamps?",1
+3989,Based on which criteria should i choose the control sample to calculate delta_delta_Ct,1
+3024,What is the insight of Frank Starling law of the heart?,1
+10612,Solving 15Puzzle with Julia,0
+7758,What is this unusual structure inside this banana?,1
+2560,Poisson Process problem. Is this solution correct?,0
+5060,Can telegony happen in humans like in Telostylinus angusticollis?,1
+160,Are all theorems of minimal arithmetic theorems of a given theory?,0
+8428,Does DNA influence death (e.g. by cell aging),1
+9735,Find ASCII codes and replace with characters,0
+5936,Real time PCR parameter CT,1
+2524,Diffeomorphism from $\mathbb{R}^m\to\mathbb{R}^n$,0
+4632,Can the human body create glucose out of fat?,1
+11254,Simplifying $b(abb + abbbb + aba^*bbb)^*$,0
+11248,Send / receive wrapper for System.Net.Sockets,0
+504,Find the volume of a rectangular parallelpiped,0
+5528,Liebig's law of minimum,1
+7748,A question on ImageQuantTL,1
+924,"If $a$ is a repeating decimal, when is $c a$ a terminating decimal? $c\in \mathbb{Z}$",0
+10206,CodeEval Interrupted Bubble Sort,0
+6810,What does the 'V' stand for in ECG electrode names?,1
+9324,Parsing a string with LR parsing table,0
+3805,Does the human eye see things at twice the distance in a mirror?,1
+766,Multivariate Quadratic Regression,0
+7130,What happens to the holes in the skull where teeth were developing?,1
+8422,Rules of motif forming,1
+154,Significance of eigenvalue,0
+4135,Why do stomata close in low intensity light?,1
+1668,Problem with some Bayesian posterior pdf functions.,0
+7658,Which disorders are fully concordant?,1
+8274,"Why do some proteins ""use"" a beta barrel structure instead of alpha helices in transmembrane space?",1
+7661,Harvest honey without damaging brood cells,1
+7482,"How ""old"" is a specific snake venom?",1
+7897,"How does sex differentiation work in Paracerceis sculpta, the sexually tetramorphic isopod?",1
+10673,"Taking advantage of the falsey and ineffective """" empty string",0
+5234,Finding targets of transcription factors,1
+1976,Show that every interval is a Borel set,0
+8199,What species of wasp is this? And how to get rid of them?,1
+5860,Indian Spider Identification,1
+4141,Gibbs free energy and its change for the hydrolysis of ATP,1
+10433,How do I arrive at the multiplication function in lambda calculus?,0
+2116,Show that $|\cdot|:L(E;F)\to \mathbb{R}$ is a norm under $L(E;F)$,0
+7852,difference between ischemia and oxygen-glucose deprived medium,1
+1707,Is ~(a AND b) same as (~a OR ~b)? How is the negation distributed inside brackets in logic statements?,0
+8233,Is sexual selection evolutionarily advantageous?,1
+241,Proving $\forall x \in R$: $x = \frac{2k}{m}$ $\iff$ $x \in Q$,0
+3441,From where did the selfish gene get its selfishness?,1
+55,Bolzano and Cauchy's proof of Intermediate value theorem,0
+6699,What is the maximum altitude where humans can survive?,1
+854,Uniqueness of solution to ODEs,0
+10542,Function that shows markers all at once or with a delay,0
+2928,Discrete log for prime powers,0
+6149,Can elephants smell when they have water in their trunks?,1
+11977,API calls organization in Ionic (Angular) application,0
+4847,Garden Hose Analogy for Blood Vessel Resistance,1
+11943,Object oriented architecture with an image processing code,0
+10106,Find height of deepest FULL level in binary tree,0
+6553,Effective population size when the population sizes varies from season to season,1
+9087,"What exactly is ""pattern matching""?",0
+8628,Why do red blood cells contain haemoglobin and not myoglobin?,1
+9368,Program to automate clicking on the new button on a chat website until the username matches certain conditions,0
+4916,Why does our body absorb toxic substances or toxic concentrations of a substance if it is capable of regulating gastrointestinal absorption?,1
+3300,Have there been any experiments that duplicate chromosome copies from 23*2 to 23*3 or 23*4?,1
+723,"Let $R$ be a finite integral domain, and $a$ be a nonzero element of $R$. Why is it true that there are distinct $m, n$ such that $a^m = a^n$ in $R$?",0
+9261,Constructing a PDA for the language $\{a^mb^n | m > n\}$,0
+466,Prime elements in $\mathbb{Z}[\sqrt{2}]$,0
+3382,Can you find the amount of heterozygotes in a pop. from the phenotypes shown in the pop,1
+4204,What is a good book to start with if I'm interested in Gene clustering analysis?,1
+5841,Can pulmonary infarction be asymptomatic?,1
+8165,Can anyone help to identify this fruit?,1
+4940,difference in genetic instuctions between male and female,1
+3870,How large might a paper wasp nest become?,1
+7899,Hardy Weinberg Equilibrium after 5 Generations,1
+1015,Solutions to $\phi(f) = 0$ when $\phi$ is a 2d discrete convolution.,0
+10000,Asymptotic bound of a heap's height,0
+10544,"Implementing a Simple ""MoneyAccount"" in CoffeeScript",0
+1311,how to prove that $\psi_1(x)=\sum_{n=0}^{\infty}\frac{B_n}{x^{n+1}}$ ?,0
+8765,Multi-nucleated cells: advantages and examples?,1
+1984,How do I re-write this propositional formula in conjunctive normal form (CNF)?,0
+8925,Why some plants can be propagated from a leaf cutting but some can not?,1
+7626,Why are mice with a single X chromosome and no Y chromosome males?,1
+984,"Prob. 7, Sec. 16 , in Munkres' TOPOLOGY, 2nd ed.: Is every proper convex subset of a totally ordered set necessarily an interval or a ray?",0
+928,finite sets in a metric space,0
+200,Prove that a transformation with certain specifications is linear,0
+5699,Spider identification,1
+7469,Does copper exacerbate wounds?,1
+4956,"Is there any disease in adult human, other-than cancer, which-is resulted from mutation?",1
+4917,Watering plants with soaked forest soil,1
+11550,PHP PDO Helper Functions,0
+2397,Does an integrable function vanish at infinity in a suitable sense?,0
+2160,"When is k[x,y]/I complete for the (x,y)-adic topology?",0
+4850,Why is HPV vaccines targeted for preteens?,1
+375,Is this proof rigorous enough? Subspace of discrete space,0
+1484,Find $\lim_{x \to 0} (\frac{\tan(x)}{x})^{\frac{1}{x}}$,0
+5181,Are platyhellmintes and annelids segmented?,1
+3283,"Are some people more 'attractive' to mosquitos? If so, is that a hereditary trait?",1
+6865,Need help identifying this plant,1
+2744,Stating if a function being a contraction,0
+1853,group cohomology over a trivial module (complex ),0
+3913,Is every flower on a plant unique?,1
+1300,Operator that mantains unit vector,0
+11127,"Given $k$ sorted lists, $O(n \log k)$ complexity, Mergesort rather than Heapsort",0
+7848,Wallace effect on human populations,1
+4751,When contracting a muscle will the muscle spindle stretch or contract?,1
+3753,Why are female not competitive for reproduction like males?,1
+11476,Two versions of arithmetic instructions in RISC. One modifies the flags and the other doesn't,0
+2896,"Can $\log(1-U)-\log(U)+W$ be normally distributed, with $U$ uniform on $(0,1)$ and $W$ independent of $U$?",0
+1332,Convergence Events with States,0
+11971,Parsing speech out of text,0
+4223,What are possible health risks to women having large numbers of children?,1
+6172,Why doesn't recombination occur in male Drosophila?,1
+9120,Is Virtual Memory unreliable?,0
+10821,Conversion of hexadecimal string to string,0
+10964,Drag and drop selected array items in Javascript,0
+4128,Do all different types of neurons serve different roles?,1
+8128,Enzyme kinetics types?,1
+3001,condensed protocol for sequencing a portion of human DNA from buccal sample,1
+2616,Determine the dimension of $V$,0
+11076,Retrieving data from hash table ordered by insertion time,0
+6427,Electron Transport Chain in Mitochondria,1
+3305,What is the mechanism behind ventilatory acclimatization?,1
+9791,Label groups of vertices in a graph in an efficient manner without BFS/DFS,0
+11853,Beginner's Knight's tour in Python (BFS),0
+235,Prove that Cantor function has zero derivative almost everywhere .,0
+11104,Reducing Clique to Independent Set,0
+3435,How are chromosomes counted at the end of mitosis in a plant cell?,1
+4990,What is meant by nucleated in this context?,1
+1069,Proving some of theorems about upper/lower sets.,0
+10495,Maximizing a sequence of items under order and pairwise restriction,0
+1312,Sum of super exponentiation,0
+3170,What is the difference between a response element and a enhancer?,1
+1191,Function of Random Variable and Law of Total Probability,0
+10064,Store a n-bit string using only O(log n) space,0
+7187,Could one hear without his ear?,1
+11262,Use of Model and View (MVC),0
+9769,Java reflection and static classes,0
+1664,Relation Between Determinant and Eigenvalue,0
+5532,Can TGF beta family induce all somatic stem cells?,1
+918,Calculating transition probabilities Markov chains,0
+5803,How is sexual selection evolutionarily stable?,1
+4264,What is the best solvent for Mutagen X?,1
+9584,NodeJS controllers for a bus and a user,0
+1994,"Write the following statement ""P"" using implication and its negation and explain which one is true.",0
+6472,Can the characteristics of an offspring depend on the locality of its conception also?,1
+10749,"Maximum Subarray Problem - Analyzing best case, worst case, and average case time complexity big o",0
+7593,How exactly does a plant know where water and light are?,1
+2774,Stable complement of a linear space wrt to a diagonalizable operator,0
+7790,Effect of alcohol on parasites,1
+2912,"Lebesgue integration by parts in Sobolev space $W^{1,2}(\mathbb{R})$",0
+10469,Does n^(1-1/d) always dominate log^d(n),0
+6228,The Human Menstrual Cycle,1
+6188,Chemical structure prediction,1
+6823,Is the whole MHC haplotype expressed and so their proteins are exhibited on each nucleated cell membrane?,1
+6757,Why is chromatin not condensed during interphase but is in prophase,1
+10488,Random number guessing game,0
+10858,Hardware interrupts from keystrokes,0
+1930,Determine if the power series is continuous,0
+5705,Is the promoter region of a gene transcribed?,1
+10919,Is this the best way to print dynamic percent value?,0
+7272,H O N C alternatives for organic life?,1
+4445,What is the meaning of pygo and pagus in the word pygopagus?,1
+2681,How to find the prime ideals of $\mathbb{Q}(\sqrt{2})$ in order to find ideals of norm $20$ (not prime).,0
+8441,Why don't all male animals kill a rejecting female?,1
+1529,finding limit of a multivariable function,0
+7539,What is genomic imprinting?,1
+6516,house keeping gene variation under treatment,1
+4299,Effect on fitness of mutations,1
+5567,Is touching or inhaling 70% isopropyl alcohol dangerous to humans?,1
+10809,How Does Dynamic Heap Storage Have Something to Do with Heap?,0
+563,No advantage to the closed form for Fibonacci numbers?,0
+7428,Have bacteria evolved antibiotic resistance in a laboratory setting?,1
+94,Generating hex color from a pair of numbers,0
+11390,Certificates and NP?,0
+3962,Can sperm cells penetrate the cell membrane of non-ovum cells?,1
+11391,Simulate Turing machine,0
+9476,Is every linear-time algorithm a streaming algorithm?,0
+4152,Ligase Chain Reaction: Determining the annealing temperature for gene synthesis,1
+5349,Why do bulls have a hump?,1
+9581,Breadth-first search in Java: competitive style,0
+11938,Computation Complexity books for a mathematician,0
+11814,Counting the number of page turns to arrive at some specified page,0
+2675,Probability of finding the object from cache,0
+2645,Derivate of an Inverse of a Matrix,0
+4781,What is the most common way of administering loop diuretics and what is their time course of action?,1
+11621,Load modules conditionally Python,0
+9701,FPTAS algorithm to find flow at each link for multi commodity flow problem?,0
+9850,IReadOnlyCollection with notifications,0
+9051,Different decompositions of the string in the pumping lemma proof,0
+6627,Is it feasible to eradicate a virus without vaccines?,1
+2870,Finitely many fixed points in interval,0
+1931,Show about cyclic group theorem.,0
+8080,"the meaning of ""Non-primary hits"" and ""tags""",1
+1324,Definite integral equal to zero,0
+1761,Finding a basis from a given dual basis,0
+8490,What are the differences between how latewood and earlywood forms and how does this effect it's properties?,1
+1734,Eigenvalues of time-dependent matrix bounded?,0
+8851,Are gizzard muscles voluntary or involuntary?,1
+8407,Why was the precipitation-streamflow correlation greater in the intact catchment at Hubbard BrookI,1
+1396,$f_1(x) = \sqrt x$ and $f_{n+1}(x) = \sqrt {x + f_n(x)}$,0
+2729,I feel that (physics) notation for tensor calculus is awful. Are there any alternative notations worth looking into?,0
+8336,How to quantify the Abundance of a particular gene in Bacteria and Archaea?,1
+3877,"What happens when a human ingests a large meal, and after a short time follows it up with a large amount of indigestible carbs?",1
+2797,The variety of the chords to the rational normal cubic,0
+2551,Why the lower limit of this integral is 1?,0
+9446,A function which translates a sentence to title-case,0
+4420,Are there any known plesiomorphies of all living mammals relative to a newer trait state in all living reptiles?,1
+1663,How find this integral $\int\frac{1}{1+\sqrt{x}+\sqrt{x+1}}dx$,0
+6122,What is the use of having a surrogate mother in animal cloning?,1
+4230,How did people's liking of ceremonies evolve?,1
+1028,"If $A\subset X$ is a deformation retract, then do we have $\pi_k(X,A)=0$?",0
+11724,Modifies Dijkstra’s Algorithm to find the maximum cost path,0
+4069,Biological Nitrogen Fixation,1
+8618,Pneumonia in children after abdominal operations,1
+4364,Does fasting improves immunity?,1
+1021,How do I factorise the following expression?,0
+2898,Intersection numbers of plane curves - constructing a counterexample.,0
+8450,List authors (scientists) by various attribute,1
+8068,Why is oxygen used up in eutrophication?,1
+9117,Polynomial multiplication using Karatsuba method,0
+9278,C++ smart pointers and the Service Locator (anti-?)pattern,0
+1574,Is it possible to evaluate $\lim_{x\to 0}\frac{\sinh x-x\cosh x+\frac{x^3}3}{x^2\tan^3x}$ applying L'Hopital's Rule?,0
+3825,Does methanol fixation deform cultured cells?,1
+1076,"What does $P(x, r)$ parallelepiped mean?",0
+7248,How does antagnostic coevolution work in ducks?,1
+4168,How to calculate the occurrence of a stretch of nucleotides in a genome?,1
+7435,"What is the difference between ""genetic"" and ""hereditary""?",1
+4273,Do blood vessel walls have blood vessels in them?,1
+5636,Inoculation vs. vaccination,1
+8649,What is the significance of running an uncut plasmid on electrophoresis gel?,1
+7656,Does rotten food produce methane gas?,1
+10642,Creating every possible combination until a code word is found,0
+3164,Hardy-Weinberg equilibrium generalized to add inbreeding (non-random mating),1
+7086,Why does excess dopamine activity in the pleasure centers results in less pleasure in schizophrenics?,1
+7586,Why is beta thalassemia major not lethal while alpha thalassemia with loss of all 4 genes lethal?,1
+8012,True or False: Endocytosis delivers vesicles directly to the cis face of the Golgi complex,1
+5630,Recommendations for an intro level virology textbook?,1
+2635,"Is each ""elementary + finite functions"" function ""elementary + finite functions""-integrable?",0
+8310,Thrombus and Embolii,1
+8659,Why do some women have menstruation-like spotting throughout their pregnancy?,1
+1645,How can I find the tangential speed of an object from vectors when there is angular acceleration?,0
+125,Splitting partial derivatives,0
+9385,Serialize and deserialize a tree,0
+5897,Can enzymes catalyze thermodynamically unfavorable reactions?,1
+7977,Absorption of Topical Magnesium,1
+4551,What determines the colors and patterns of a clam shell?,1
+11794,Defining function for arithmetic expressions,0
+161,Limit of Cauchy Sequence,0
+224,Theory of bijection with no finite cycle has trivial associated geometry,0
+3351,What kind of detergent should I use in cell culture laboratory for cleaning purposes?,1
+5940,How can I accurately measure glucose concentration in culture media?,1
+4706,How HIV Affects and Its Treatment using Combination Therapy,1
+3996,Two sets of chromosome and the sequencing output,1
+4784,Are there known minimal marine ecosystems that are stable?,1
+5173,"Plant identification: San Francisco, USA",1
+11773,"How do you ""sordid sort"" alphanumeric strings?",0
+3800,Stay young by reinserting own DNA from years ago?,1
+793,Is every real number the supremum of a set of rational numbers?,0
+1792,Generators of Principal Ideal,0
+6084,Can too low oncotic pressure lead to Third spacing and Edema?,1
+4515,"With so many different species of fish with often very minor differences, how is the precise species identified authoritatively?",1
+5942,Creating a Phylogenetic tree using DNA sequences,1
+1217,Evaluate $\int \frac{\sqrt{1+x^8} dx}{x^{13}}$,0
+11602,Difference between CRC and Hamming Code,0
+1968,Bayes' Net Conditional Probability,0
+11530,Optimization on List key comparisons and return value with HashMap,0
+11761,Safely aborting thrid-party code using TPL,0
+9993,Is every AVL tree a BST or just BT?,0
+10598,Subset of nodes such that all nodes of a graph are adjacent,0
+3446,Why Does Salt Water Help Sore Throats?,1
+7669,What is the statistical relationship between radioactivity and mutation rate?,1
+5481,What equation to compare protein isoforms in a Western Blot?,1
+1944,How can I express xNORy solely with NAND operations?,0
+6402,"Species identification - greenish blue ocean worm (nudibranch?) in Perhentian Islands, Malaysia",1
+4216,How are epiphytes symbiotic?,1
+5212,What is a good source for info on disease frequency distribution among age groups?,1
+10107,C++ Quicksort implementation,0
+5208,Need help distinguishing between a primary and secondary source,1
+34,Show that $x \in W_{x}$ is undecidable,0
+980,Confused about an example in my textbook (involving differential equations),0
+10029,Are there some good algorithm to select m by three matrices which satisfies certain conditions?,0
+10177,PHP Validation Class,0
+5812,Can organ-accumulated iron get shed again?,1
+9643,Refine a math calculation function,0
+6556,what snake is this and is it venomous?,1
+9969,Insertion sort with pairs of numbers already in order,0
+7078,How do you merge SNP data with a reference genome?,1
+1243,Inverse of a specific upper-triangular matrix,0
+2811,Proof of absolute inequality,0
+11785,Functionally retrieving rows from a database in Scala,0
+3873,Why did some animals evolve inward-slanted legs?,1
+9300,Is there a programming language that is not a formal language,0
+8547,Species Identification,1
+4317,Identify this caterpillar,1
+1802,Improper Integral Question,0
+11232,Finding a certain prefix of a string,0
+603,What's $\int \frac{1}{\sqrt{25-x^2}}$,0
+3378,How can an animal live without a head / brain?,1
+9823,Complexity of the Kitten Adoption problem,0
+3121,Do carrier proteins constantly open and close or do they only work when a substance binds to them?,1
+3966,What is a good approximate functional form for an equation relating plant growth to sunlight?,1
+133,How to convert non-PSD matrix to PSD matrix?,0
+9157,$3$-dimensional convex hull using only a desired number of planes,0
+7915,Are there examples of PTMs that add different chemical groups (and mass) to different amino acids?,1
+7516,Can chitosan affect the absorption of unsaturated fatty acid?,1
+7181,Can we produce synthetic red blood cells lacking antigens?,1
+8487,What is the native structure of amyloid-beta protein under physiological conditions?,1
+876,Lower limit topology regular space $ T_3$,0
+11260,Dice simulation and counting pairs,0
+10061,Activity scheduling with activities that can move around,0
+6269,Is it possible to stimulate the EPOC process?,1
+5153,Identification - What kind of animal leaves these tracks?,1
+6099,How does the original ionic distribution restore after synaptic transmission,1
+6639,DNA extraction for LAMP assay,1
+9627,Where should I start to understand how computers work?,0
+688,Find the average rate of change of the function over the given interval,0
+9304,SPOJ Problem 2 - Prime Generator,0
+4013,c4 cycle in photosynthesis occurs in monocots or dicots,1
+2143,"If $(Ω,A,\text P)$ is a non-atomic prob. space and $μ$ is a prob. measure on a Borel space there is a variable on $(Ω,A,\text P)$ with law $μ$",0
+5321,Why are there ghost images of objects just out of focus,1
+2332,Confusion about integration notation,0
+11945,Describing the Language of a grammar in set theoretic notation where the length of strings need to be remembered,0
+11226,Header-only variadic console output and runtime input validation in C++ using templates,0
+9294,MIPS control signal table(R-type add),0
+6339,Forgot to vortex antibody before staining,1
+4307,Variations in action potential threshold and temporal coding,1
+6357,Could potatoes that have been refrigerated for 142 days still sprout?,1
+11681,Storing array inside closure,0
+202,Prove that $\sum_{i=1}^{n} i \times i! = (n+1)! - 1$ by induction,0
+7087,Can lactate be created in ketosis?,1
+6462,"Problems with SDS-PAGE, no separation - what could be the problem?",1
+8379,Species identification; clusters of big plump red bugs in Taipei,1
+3853,How do mushrooms react to being grown in a microgravity environment?,1
+992,Limit of function $x^2-x\cot\left(\frac{1}{x}\right)$,0
+5529,Can fruit tissue be cultured and grown independent from the plant?,1
+6410,What metric(s) is a good proxy for relatedness?,1
+3919,Beetle (?) on Acacia (Senegalia) greggii?,1
+3060,How would infection of mosquitos with sterilizing bacteria have any effect?,1
+2204,"Limit of modulus of the difference quotient exists, implying complex differentiability.",0
+6518,Help identifying fruit,1
+8417,"What does ""radiographic progression"" mean in cancer?",1
+9522,How design a Deterministic finite automata which accept string starting with 101 and how to draw transition table for it if there is a dead state,0
+1895,Relationship between random and non random variables.,0
+8109,"What insect is this, large swarms?",1
+9373,B-Tree and how it is used in practice,0
+412,Action of torus on an affine toric variety,0
+8570,What is a focal copy number variation?,1
+3452,What drives male fish to spray their milt?,1
+3004,Problem with an analogy (Cell Membrane),1
+11583,Correct MySQL DB Query and processing,0
+2326,"Prove $x\sin2x$ is uniformly continuous on $(0,1)$.",0
+4004,"What does ""genus VI"" mean in mycology?",1
+10736,Is dijkstra's algorithm fastest possible algorithm for undirected graph with no additional data?,0
+3413,Darwin's first sketch of a phylogenetic tree,1
+11472,Finding differences in strings with Levenshtein distance and soundex,0
+6235,I added ethanol to my TRizol RNA extraction,1
+3544,What happens when we know that there is something that we forgot but we can't remember what it was?,1
+7938,What would sanitiser fail to do that detergent and warm water would do in cleaning glasses frame that isn't 'visibly soiled'?,1
+2965,Uniformly distributed differences,0
+10298,Asymptotic Proofs - BigOh/BigTheta,0
+3067,Why do children not have the Acid Mantle?,1
+1816,Arc length of ellipse in polar coordinates,0
+9756,Problem with proving that $RP \subseteq NP$ : a non-deterministic TM for a language $L \in RP$,0
+455,Prove that $a_n:=\sin(\log(n))$ isn't Cesaro summable,0
+7011,Palaeontology and Palaeobotany,1
+7993,How to obtain a list of proteins sorted by the ~1400 unique protein folds?,1
+9884,Parser for file made up of sections,0
+3402,Does anyone know any statistics about the rate of cell division of malignant cells?,1
+3924,Why are chickens passive when their eggs are taken?,1
+3044,"Pharmacologically, can tricyclic antidepressants have a side-effect profile similar to neuroleptics?",1
+5381,How do I solve this problem related to specificity and sensitivity?,1
+8787,Protocol for measuring stamina of arthritic mice,1
+9092,Range query for sum of vectors,0
+10150,Pulling from data from SQLite DB on Android,0
+5779,Are there any solitary species of ant or termite?,1
+6484,Is this a plant or a fungus?,1
+6511,What is the developmental basis of the placental sac?,1
+7461,Why does muscle tissue have relatively constant AMP + ADP + AMP?,1
+2872,Should random variables be italic or roman ($X$ or $\mathrm X$)?,0
+10363,Big-O Notation Statement True?,0
+2766,"Prove that if $f$ is bounded in $[a,b]$ and integrable in each interval $[c,b]$ with $a<c<b,$ then $\int_a^b f =\lim_{c\to a+}\int_c^b f$",0
+11291,Algorithm to find out if a set contains two number with sum in the same set using a blackbox function,0
+2613,"Shift Operator has no ""square root""?",0
+9283,Functions to handle async calls and also handle loading and error status in React component,0
+11908,Analyze Stock Market Bottom Timing without Looping over Data Frame Rows,0
+5156,Why do some people have a fear of depths?,1
+9974,Find all the missing number(s),0
+2125,$f$ is factored into many same degree irreducible polynomials.,0
+6383,Why does the sweat of children not smell like adults?,1
+10389,SPOJ Emoticon challenge,0
+2371,Expected number of card draws to get all 4 suits,0
+9474,"What does it mean ""given a NFA and its accepted language L build the DFA that accepts L*""?",0
+11173,"Classification and complexity of generating all possible combinations: P, NP, NP-Complete or NP-Hard",0
+9913,Return the indices of the two numbers such that they add up to a specific target,0
+11301,Passing listener to customized extended View in Android,0
+3069,What is the function of the RNA primer in DNA replication?,1
+5263,Nutrition mineral intake method,1
+190,"Trying to understand how to solve $f(x,y) = x^{1/3}y^{1/3}$",0
+4755,How to dialyze large amounts of precipitated enzyme solution (ammonium sulfate)?,1
+3077,What does reflected onto means in the text below?,1
+9486,"Gathering emails, phones, URIs, and tag related to a room",0
+9059,Restructuring a csv file with d3js,0
+11858,"Running time of heap sort, when all number are identical",0
+2158,What is the physical interpretation of homogeneous?,0
+4532,What is the function of CETP?,1
+5905,Relation between a compound's toxicity and it's concentration level,1
+1122,minimum sum of distances from vertices,0
+9561,Are these two languages regular?,0
+6253,What is this microscopic image from Peter Gabriel's New Blood album cover?,1
+8033,Speed of passive transport of ions in the dendrite,1
+8296,Will daily sweeped ants eventually learn their path is a dead-end?,1
+1329,IVP for Non-Separable Differential Equations,0
+9266,"Command Pattern with Undo , returning response in Invoker and Command class or Callback?",0
+7554,How is tolerance to an allergen developed?,1
+3739,How do snakes determine the direction of prey from their thermal infrared sensing pit organs?,1
+4867,What is the likelihood of a single human gene to the same gene from the other human?,1
+7715,What is the expected amount of DNA shared by first cousins and the people between them in a family tree?,1
+663,"How to prove that $(a,b)\mapsto \frac{1}{2}((a+b)^{2}+3a+b)$ is bijective?",0
+11561,Iterate through python iterable in chunk of n,0
+9579,Image duplicate finder,0
+9205,Comparing two Strings which could be null or blank in a Comparator,0
+10021,Average case running time of quick sort,0
+10744,Why we can't have FPTAS for strong NP complete problems,0
+10097,Applied $\pi$-calculus: Name binding and if clauses,0
+11533,Better way of calculating Project Euler #2 (Fibonacci sequence),0
+11231,Date range remove/split within array of date range,0
+2839,How to express $\lnot (a < b < 0)$ or the contrapositive of this statement?,0
+10632,LL(k) Prediction Techniques (and Insight on method applied),0
+8292,Can DNA & RNA be considered as nature's programming language?,1
+11474,Router Class In a Lightweight MVC Boilerplate,0
+8857,Can mitochondria become cancerous?,1
+6248,Why are the neurites from hair cells to spiral ganglion cells called axons?,1
+6113,Can you answer Ray Comfort's question on Biological Evolution?,1
+10408,Dynamic Dispatch replacement for Generic methods,0
+2838,How to calculate an expected value of maximum random variable function,0
+4926,How do high-throughput/NGS sequencers calculate quality scores?,1
+4164,What are the applications of predicting the structure of proteins?,1
+2612,Prove this integral $\int_0^\infty \frac{dx}{\sqrt{x^4+a^4}+\sqrt{x^4+b^4}}=\frac{\Gamma(1/4)^2 }{6 \sqrt{\pi}} \frac{a^3-b^3}{a^4-b^4}$,0
+5550,What is the name of this graph/plot?,1
+3566,Can DNA act as a translation substrate?,1
+5659,"Using coefficient of variation (CV) for GCaMP6 'synchronised episode' spikes, good idea or not?",1
+6091,How do baby birds get fed when they are only a day or two old?,1
+9600,Fair division of two-dimensional cake,0
+3371,Possibility and feasibility of producing designed antibodies with bacteria,1
+4798,Meaning of acceptor/donor splicing sites?,1
+2261,Subharmonic/Superharmonic Inequality in Gilbarg/Trudinger [Section 2.8],0
+2079,limit of a sequence 2,0
+7368,What would happen if we had a device that produced oxygen inside of our lungs?,1
+7150,Can you help me identifying this spider?,1
+10748,Is there any advantage of using an Integer Linear Program over Backtracking in a combinatorial optimization problem?,0
+11675,Beginners project: calculating area,0
+3896,What property of water explains how sweating helps the runner continue running?,1
+11672,Handwritten character recognition as characters are being traced,0
+2294,Section continuity implies continuity,0
+524,Find all solutions of the equation $x^2+x=0$ in $\mathbb Z_6$,0
+3051,Are similar smells usually based on similar chemicals?,1
+5580,Do I have to use sucrose to induce a lac promoter?,1
+2832,Derivative of noised function,0
+11620,How can I refactor Api::SessionsController?,0
+6019,What is a 21q21 deletion?,1
+2563,Terminology for homotopies which stay inside some finite stage of a union,0
+7218,"Chromosome naming convention: Why are there chromosomes named ""1"" and ""1A""?",1
+9348,Capitalizing a string,0
+11342,Solving the problem of using directives in a header file with a macro. Is this stupid?,0
+2660,Proving a theorem on integration to the limit,0
+10492,finding the overhead and distance of an unknown code based on message making algorithm,0
+3654,How to conceptualize the action potential?,1
+5467,$F_{ST}$ and the genetic variance in metapopulations,1
+5276,RNase and EtOH issue,1
+4449,Building a PDB file from amino acid sequence of non-folded structure,1
+8904,What species is this mosquito-like insect?,1
+5246,Are the byproducts of mammalian digestion simply depleted versions of the food or liquid consumed?,1
+9502,Splitting uppercase letters based on a dictionary,0
+7493,HAR1 speedy mutation,1
+3190,"Blood serum transfusions - could vaccines against the anti-A/anti-B etc. antibodies be derived, at least in theory?",1
+8729,How is 16s rRNA used to identify unknown bacteria?,1
+3938,"Is a set of chromosomes made up of many copies of DNA, or is one complete string of DNA broken up into one set of chromosomes?",1
+8761,Deliberately choosing one nostril to breath through,1
+10973,Read regular Expression from NFA,0
+7961,"Is there theory that connects longevity, time-scale of environmental disturbance, and adaptation?",1
+1854,How do we tell if an O.D.E is First-Order homogenous?,0
+7136,Can severe vasoconstriction increase systolic blood pressure?,1
+3442,Does the second law of thermodynamics cause aging?,1
+7309,"What is the relation between ""classes"" (stem cell, proliferative and differentiating) and the types (Ad, Ap, B) of the spermatogonium?",1
+5888,Osmosis vs protein-binding in preserving foods through salting,1
+5126,Program (on Mac) to show 3D protein structures?,1
+1680,"To prove that the nth fermat number for $n \lt 4$ is prime, does the proof involve",0
+6548,Why don't all plants grow like weeds?,1
+5657,Why do soap molecules not break down your skin cells when you wash your hands?,1
+6799,What exactly is extreme heterozygosity and how does it work?,1
+1384,What is this symmetric-like property of $n$-ary relations?,0
+954,Quadratic equation positive roots.,0
+11211,Partitioning a boolean circuit for automatic parallelization,0
+6803,Is it essential to add cholesterol to agar or liquid culture for C. elegans?,1
+830,Find the limit of $\lim_{x\to 0}\frac{\sqrt{x^2+a^2}-a}{\sqrt{x^2+b^2}-b}$,0
+4677,Plant with purple/white/yellow flower,1
+5941,Doubt related to nerve impulse transmission,1
+5809,Inheritance patterns in individuals with triploidy,1
+2000,Cartesian product -- understanding the definition,0
+10530,What time complexity is a reachability algorithm?,0
+3494,Can viral proteins cause infection?,1
+9507,Are there any formal grammars describing the set of all directed graphs?,0
+7866,Why shouldn't I clean microscope slides with a paper towel?,1
+10178,Convert FoxPro/dBase DATETIME field to Win32 SYSTEMTIME struct,0
+3432,Assumptions of Hardy-Weinberg rule,1
+6814,What is the role of lactic acid bacteria (such as L. acidophilus and L. bulgaricus) in glycolysis during yogurt fermentation?,1
+5387,How does the bear mother ensure her cubs don't escape during hibernation?,1
+11711,Number of ways to choose same number of elements from two different sets,0
+4995,By what mechanism do our nerves lengthen as people get taller?,1
+10798,Discrete action space for MADDPG,0
+9530,How to choose value of additive smoothing in naive Bayes and why a higher value gives bad accuracy?,0
+8294,Full Sequence for Plasmid pMG101,1
+470,Are the components of a Cauchy-Riemann mapping harmonic?,0
+1753,Impact of spurious regressors on out of sample prediction error,0
+2538,How do I evaluate the limit $\lim_{n\to\infty}n((1+1/n)^n-e)$?,0
+8810,"In males, why it is difficult to control orgasm?",1
+3324,What is the lifecycle of hanging woody vines?,1
+5371,What is the difference between tissue engineering and 3D bioprinting?,1
+5600,What are the safety precautions I should take if I want to experiment with C. elegans (at home)?,1
+6732,How to Download the broadpeak files from the encode chip-seq experiment matrix?,1
+10185,Why not use large $k$ in a $k$-ary tree?,0
+2156,Calculate the Hessian of a Vector Function,0
+5494,"Identifying a lone bone found newar Rowena Crest, Oregon (USA)",1
+1848,Linear Algebra...Calculate a normal vector to a plane from components of a projected plane in another coordinate system?,0
+6367,Evolution of the Redundancy of the Genetic Code,1
+8454,Research on chicken that cannot feel pain,1
+2105,A cubic simple graph without cut edges is matching covered,0
+6161,Where to download confier (pine) or A. thaliana annotated reference RNA transcriptomes in full .gbk (GeneBank) format?,1
+10057,Find the k length path that maximize a node associate metric,0
+8237,"Would somebody born 'reversed' (e.g. heart on their right side, etc.) be completely healthy?",1
+1955,Proving that $a^{25}$ mod 65 = $a$ mod 65,0
+6502,Does the energy from ATP hydrolysis vary among different cells?,1
+1154,Strange integral in 3 space (Maybe Divergence Theorem),0
+3706,Larva attacking frog ? Guide about this,1
+5159,Is it harmful for someone to consume things full of bacteria if they don't get physically sick from the bacteria at all?,1
+10330,Stream Exercise: average delta of the yearly average temperature per country,0
+7153,How pain can stimulate the vagus nerve,1
+6924,"How many ""primary colors"" can we smell?",1
+2597,Which book on complex analysis is good for self study?,0
+2065,Proving $\mathscr{\bar{M}}$ is closed under countable unions.,0
+9451,Monte Carlo coin flip simulation,0
+7704,Do animals with their eyes ~180 degrees apart have depth perception?,1
+823,Unipotent elements in a Lie group,0
+9420,"Not getting the clear picture of Goto actions , reduce and shift actions in SLR Parsing",0
+2376,convergence of series with $k!$,0
+6918,Does endocrine noradrenaline stimulate sympathetically innervated cells?,1
+9236,"Iterate from ""0"" to ""ZZZZZ""",0
+1635,Percentage increase of two percentages,0
+11734,Optimizing rendering with a lot of transformations and save/restore,0
+675,Maximum value of function on unit circle,0
+4644,Recommendations for a haemocytometer (phase-contrast),1
+7620,Why can't the immune system start at the mating time?,1
+10171,Longest path in grid like graph,0
+895,Non-Examples for Krull-Schmidt-Azumaya,0
+1481,Show that the product converge,0
+116,Modulus related proof help,0
+8631,Is there a way to examine amount of red/white muscle fibers without biopsy?,1
+3250,Why are two-winged animals much more common than four-winged?,1
+11450,Recording options selected from dropdown menu,0
+6414,What is a synonym of the word design that can be used in context of evolution?,1
+3953,Does DNA polymerase I require a $3^\prime$ end?,1
+11950,Object Oriented vs Not jQuery & JS,0
+8077,Drosophila grey / yellow,1
+10720,NP-hard - Definition,0
+3787,About how many covid-19 virus particles is required in the human body before infection and sickness follows?,1
+3437,Pros/cons: linear vs. circular DNA,1
+7314,Most optically transparent muscle phantom?,1
+2779,"Is this a correct alternative proof to ""Prove there is no rational $r$ satisfying $2^r=3$""",0
+7734,Can anyone identify this tiny insect?,1
+7947,How does DNA shape a living organism?,1
+510,Finding probability in the case of a biased coin,0
+1045,Prove that the composition of uniformly continuous functions is uniformly continuous.,0
+9556,Complete factorization in >,0
+5693,How are whole Haplotypes for Sequencing isolated?,1
+1184,How to evaluate a definite integral that involves $(dx)^2$?,0
+242,Bitangent lines to polygons and polygon sets,0
+10723,Iterate over an Enum subgroup,0
+3225,Does every mitochondrion in a cell contain the same DNA?,1
+7800,"Is there a difference between splice-site mutations, and non-stop mutations",1
+9812,How to get old top news?,0
+6283,Which classes of drugs (filed by their pharmacology) induce a release of β-endorphin?,1
+6605,What is the mechanism of transgene integration (from expression vector to the host genome)?,1
+2756,Component of a vector perpendicular to another vector.,0
+5964,Light signals in the courtship and mating,1
+3329,What is the lower temperature limit for ion channels function?,1
+8137,What is the mechanism of regulation of PER /CRY genes?,1
+6661,Purifying large amounts of PCR product,1
+3271,Can herbs absorb harmful substances leached in water supply,1
+7280,Why do so many parasites infect definitive and intermediate hosts rather than just one host?,1
+8362,Displaying nucleotide at a single position from RNA-seq reads in a BAM file,1
+4910,X linked traits expression in females,1
+10566,Checking whether customers in a dataframe have social media accounts,0
+4074,Simple Mendelian sex-linked chromosome fruit fly question,1
+2625,"map $\iota: A \rightarrow \mathbb{Q}\otimes_{\mathbb{Z}} A$, where $A$ is a finite abelian group of order n",0
+7326,Effect of light intensity on the frequency of stomata,1
+4167,How do I perform recurring pattern mining or regular expressions of nucleotide sequences?,1
+11092,PSpace-completeness under PSpace reductions,0
+3377,How do these triplets code for these proteins?,1
+7887,Why are there N's after Sanger sequencing?,1
+7321,Is this bedbug or book louse?,1
+7452,What types of plants are Gibberellin used on?,1
+6629,Regional circulation and Cardiac output?,1
+77,Operator identity involving square root of an operator,0
+6961,Which parts of the cerebral cortex don't belong to the neocortex?,1
+2502,Conics and path of orbit question,0
+6644,What is the latency between paired neuronal responses in the brain?,1
+11626,How to read typing rules?,0
+10972,Average of subarrays of length k in C++,0
+4140,How does a tiny spider interpret/cope with gravity?,1
+4797,How many smaller muscles compose the interosseus muscle in the human hand?,1
+9057,Coq: default values for vectors,0
+860,Non-linear second order ODE,0
+6346,Evolutionary reasons why you cannot tickle yourself but masturbate,1
+7711,How did the first self replicating organism come into existence?,1
+9272,Income tax calculator,0
+5354,Identify this insect - beetle (?),1
+6331,The meaning of the $\alpha$ helix and $\beta$ sheets in proteins,1
+8650,Sexual Differentiation in Monoecious plants with unisexual flowers,1
+11240,"If P=NP, which two languages are NOT NP-complete?",0
+5086,How do animals handle light refraction in different media?,1
+6153,Online toolkit that provides functional similarity scores (in the form of a matrix) between two functional gene sets in the context of gene ontology,1
+11926,Security of API Keygen for a cryptocurrency trading platform,0
+9533,"Drag Drop, get filename and last 23 characters",0
+8827,How do you accurately measure anguiliform (eel) locomotion?,1
+8969,Location of male and female reproductive organs in fern (prothallus),1
+3498,Why do chlorotic leaves have green veins?,1
+1757,number of ways of arranging balls so that there are exactly two pairs of green balls,0
+11134,Reducing from NPC to Co-NPC => NP = Co-NP?,0
+10413,How to prove formally that grammar isn't LR(1),0
+2701,Proving that $ (A \triangle B) - C= (A - C) \triangle (B -C)$,0
+5681,Antigenic and non antigenic,1
+9900,Bootstrap show many move one carousel modification,0
+10946,Are Physical 2-Person Lock Systems Informed by The Byzantine Generals Problem,0
+4221,Where can I find a cannabinoids profile of hemp strains?,1
+4411,Differences between Heracleum mantegazzianum and H. sphondylium,1
+2443,"$\prod_{i=1}^n[(N-x_i)!]=\prod_{i=1}^n[(N-y_i)!]$ for all $N\in\mathbb{Z}^+$ implies $x_{(i)}=y_{(i)}$, for all $i\in\{1,\cdots,n\}$",0
+10721,Metalsmith plugin for stripping UTF8 BOM from files,0
+1719,How To Get The Closest Point To Lots Of Lines?,0
+8476,Could alcohol be used as an antibiotic?,1
+4177,Proline Iminopeptidase v Proline Aminopeptidase,1
+1843,What is the probability that there are $k$ people between $A$ and $B$ sitting around a circle?,0
+623,dimension of $\mathbb{C}$ over $\mathbb{Q}$,0
+4577,When do the spindle fibers attach to the chromosome,1
+1296,Application of Itô's formula,0
+709,"Is there a continuous onto function $f:\Bbb{D} \rightarrow [-1,1]$?",0
+4296,How increased potassium intake increases sodium excretion?,1
+10948,Checking conditions before allowing a play button to become visible,0
+1205,Calculating the order of poles of $\frac{\sin(3z)}{z^2}$,0
+1282,Are there computable reals that are not Dedekind-computable?,0
+2935,Minimize $a^5+b^5+c^5+d^5+e^5 = p^4+q^4+r^4+s^4 = x^3+y^3+z^3 = m^2 + n^2$ with distinct positive integers,0
+10158,Can parameters other than $n$ be always ignored in big $O$ notation?,0
+1470,"Fast Fourier Transformation, explanation of $A(x)=A_0(x^2)+x A_1(x^2)$",0
+1060,Bspline interpolation vs Bspline transform,0
+8872,Could blood transfusions from COVID19 surviver be worth researching as a possible form of treatment,1
+11259,TypeScript implicit 'any' type with computed property key,0
+1214,Volume using Triple Integral,0
+5118,SNP Genotyping Scanning technology,1
+5106,Where can I find mutation datasets for cancer?,1
+11423,"What are some concrete (near-)""worst-case"" examples of subset-sum?",0
+2324,English translation of Minkowski's Geometry of Numbers,0
+9777,Is this theorem about left-factored grammars correct?,0
+5262,Why is triclosan not considered an antibiotic?,1
+7079,Why Rh conflict happen but no ABO conflicts?,1
+3344,How efficiently does the human body convert the energy stored in fat into kinetic energy?,1
+2782,How to show convergence and evaluate $\sum\limits_{n=0}^{\infty} \frac{n}{(n+1)!}$,0
+7567,How do you read the histone code?,1
+11056,"Adding object to database, using linq or sql connection",0
+2712,stagnation of a function and gradient descent,0
+2708,Show that $(f_{n}g_{n})$ converges to $fg$ in $L^{1}(\mu)$,0
+1759,rigid measure preserving transformation,0
+8943,PDB id to protein environment ph,1
+7994,How does Ultra-pasteurized milk compare with pasteurized milk?,1
+4716,"Are humans known to be ""poisonous"" to any animal?",1
+9498,Unclear about proof for unique MST given graph G with distinct weights,0
+3641,Do animals have greater tendency to care for their opposite sex siblings due to mate competition among same sex siblings?,1
+6192,Puffball growing on a tree: What kind of mushroom is this?,1
+9452,Hooking up active record model with external api in rails app,0
+8415,How large is the immune repetoire and at what age does it finalize?,1
+774,Homomorphisms from Dihedral groups to Cyclic groups,0
+11876,Load title from database based on member country,0
+9140,Random Teams based on Positions in Sports,0
+9510,Simple yet efficient integer-to-object dictionaries?,0
+10583,Code to replace list of integers with nearest bigger element,0
+1306,Integral with $\delta$ function,0
+8123,Do the pH and other ions affect the hydrolysis of ATP,1
+5579,"Do the antibodies in a patient suffering from Hashimoto's, attack the thyroid hormones or the thyroid gland (or both?)?",1
+7726,Need help to determine % difference between DNA-strand from two different haplotypes. Known nucleotide diversity and more,1
+9746,Recursive sorting algorithm,0
+6004,How do small animals make loud sounds?,1
+8902,Properties of Satellite Chromosomes,1
+11258,Strictly typed dynamic proxy to call dynamic object,0
+10289,Vectorization vs Asynchronous parallelism,0
+7160,Salt Bridge for Microbial Fuel Cell: Full or Partly Full?,1
+8269,Are the irises an exact match in a human's set of eyes?,1
+671,"How to prove that $\,\,f\equiv 0,$ without using Weierstrass theorem?",0
+2141,Average integral for continuous functions with compact support,0
+2739,Proof of uniform continuity of the convolution.,0
+7573,Find the probability of Filium (child) that are dark (and) heterozygote,1
+7263,Are there animal species in which the females expend more energy attracting males than in their offspring?,1
+1291,$\sum_{n \in \mathbb{N}} x_n$ converges if $\sum_{n \in \mathbb{N}} \|x_n\|$ is bounded?,0
+5867,Which mammals cannot synthesize taurine?,1
+10142,Proof of 0/1 knapsack optimal substructure,0
+7825,"Self-thinning: slope of log (biomass) vs log (density) is -1/2 whereas slope of log (weight) vs log (density) is -3/2, why?",1
+4552,Oligonucleotide purification with desalting,1
+6158,Why does the butterfly have a cocoon stage in its life cycle?,1
+8495,To get Standard ECG from PhysioNet?,1
+975,"Size of the conjugacy class of the element σ = (1, 2, 3)(4, 5) in the group Sym5 . Order of the centraliser CSym5 (σ)",0
+6089,Is there any other function of DNA?,1
+2205,Particular case of Ramsey's theorem $\mu \rightarrow (\mu)_{\kappa}^{2}$,0
+9445,Nonuniform input distributions in average case analysis,0
+11896,Multithreaded HiLo game,0
+10514,Writing successive function calls,0
+6986,What happens when lightning strikes us? How is it fatal?,1
+3579,Can I identify this black ant queen?,1
+10849,Difficult Question to Understand (Computer Artitechture),0
+4876,Identification of South Indian plant,1
+7633,"Who and when was the first human diagnosed with hemophilia, or considered a carrier?",1
+9202,Classifying the aspect ratio of the screen dimensions,0
+8504,Do men and women have the same number of genes?,1
+11581,"When directed graph is linear, return the nodes in order. Otherwise fail",0
+3523,Mechanism by which hypokalemia reduces insulin secretion,1
+10804,Avoiding loss of significance without series expansion,0
+6829,Which factors besides the thermodynamic stability are important for the hairpin in intrinsic transcription termination?,1
+11131,Make two random enemies shoot projectiles every second,0
+2713,Covering of Projective Space,0
+8256,Why didn't more muscles evolve the endurance of heart muscle?,1
+1139,"$x\mapsto \sum_{n=1}^{\infty}ne^{-nx}$ is continuous but not uniform continuous on $(0,+\infty)$.",0
+7025,What is the most complex biological organism (or precursors) that we have been able to synthesize from raw materials?,1
+2504,dim of skew-symmetric matrices,0
+8949,19th century Latin species description,1
+2891,Why is $y^2 = 1+x^4$ an elliptic curve?,0
+8831,How to choose right volume of DNA and SYBR Green,1
+5622,What insect would make a hole and lay eggs in it,1
+8716,Are there any antigen electronic sensors?,1
+10360,Getting filepath of a specific asset,0
+10465,java code design puzzle for common function result module,0
+7212,"What is this thing? It is hairy mostly a cocoon, and i saw a white worm pop out of it. It is spreading rapidly",1
+2214,Does exponentiation distribute over the multiplication of trigoneomtric functions?,0
+8603,Summation on muscles,1
+4207,Where does the exudate comes from during inflammation?,1
+10569,Linked stack implementation in C++,0
+2947,Stirling's formula for derivatives of the Gamma function,0
+3463,How animals know which is carnivorous and herbivorous?,1
+10268,Adding two numbers represented as linked lists,0
+6598,Restriction Mapping of Plasmid Assignment,1
+10911,A* implementation is not running efficiently but gets correct result,0
+4302,question on brain dissection,1
+9818,Parse a config-file and add to command-line-arguments using argparse in Python,0
+7229,Microarray gene expression matrix format,1
+9636,Re-implementation of `std::tuple` for MCUs,0
+4244,Are there any primary structure sequences that strongly suggest b-sheet or alpha helix?,1
+6096,Are natural daylight lamps for Seasonal Affective Disorder just about the color temperature?,1
+4855,Is there a biological mechanism for evolution encoded into our DNA?,1
+10931,100 Locker Problem Expanded,0
+127,Evaluating an integral without a parametrization,0
+4979,What changes do ants make to the soil they use for building ant hills,1
+8242,Can ingesting substances that are produced by the body cause a permanent withering of the organs that produce the substance?,1
+7943,How to attract spiders to my house?,1
+7310,Is there recent info about the hypothetical ancient two-codon genetic code?,1
+10123,Swift class to check ApplePencil reachability,0
+3145,"Is ""Fight or Flight"" distance genetic",1
+2878,Logarithm in a convolution,0
+5415,Antibody-antigen database,1
+4173,Which cells are responsible for the extracellular matrix remodeling?,1
+9472,Creating a Deterministic Push-Down Automaton for the Union of two languages,0
+7662,Are there any enzymes synthesised by humans that specifically catalyse the hydrolysis of non-cyclic Imides?,1
+5623,What species does this moth belong to?,1
+6454,Why do animals use glycogen for their polysaccharide storage whereas plants use starch?,1
+7252,Metatranscriptomics Extraction,1
+7689,What causes the localization of myoglobin in turkey to regions of muscle tissue?,1
+6225,Which Darwin book (and today edition) is illustrated by his own drawings?,1
+10759,Support multi functionality in server.js,0
+10785,Tarjan's strongly connected component finding algorithm,0
+11640,Why arrival process of packets at a switch is not a Poisson Process?,0
+10429,What happens to multi-qubit quantum state after one of qubits is measured?,0
+846,How to find the probability of such events?,0
+580,What algorithm is used to list all linearly independent (LI) solution of a homogeneous system Ax = 0?,0
+6903,What is the Giemsa staining of chromosomes?,1
+3261,How to determine whether a newly discovered dinosaur is not a young one and not an entirely different species?,1
+3813,Popular science on carcinisation,1
+11177,Short Eratosthenes Sieve,0
+9506,Adder circuit with sign bit (not twos complement),0
+391,Double integral with change of coordinates,0
+10045,LinkedList: Remove the kth node form the end,0
+9152,Inefficient PowerShell function for checking group membership,0
+11847,Determine whether two languages are context free,0
+1687,Discretization of an EXP function,0
+3198,Why is DNA replication not 100% accurate,1
+4334,"Is this mammalian embryo blastocyst, gastrula or only phase between them?",1
+8909,Does DNA have a phosphate group or phosphoric acid?,1
+10887,Decorator to pass instance and class to method,0
+11420,Inserting values at maximal distance from current value,0
+512,intersection of ray starting inside square with that square,0
+5741,Are human chromosomes connected or separate molecules?,1
+10718,Binary search for integers,0
+8214,"How does a Na+/H+ antiporter drive osmosis in this ""osmotic motor""?",1
+7044,Where does the fate map of a human embryo end?,1
+878,expectation in probablity.,0
+3815,Help identifying tiny jumping bug,1
+4605,Droppings of mystery: What are they,1
+7476,How are the paranasal sinuses linked with the capillaries in the ear canals?,1
+4332,Do adult mammalian cochlear inner hair cells regenerate?,1
+2056,Prove that there is a natural injection $U \otimes V \rightarrow E \otimes F $,0
+9495,"Length of a C string, capped to some maximum",0
+6155,"What kind of changes ""stays"" in the neuron after the nervous impulse happened?",1
+10929,LeetCode 1463: Cherry Pickup II,0
+2814,Combinatorics Question - Combinations,0
+5663,What causes people to feel sleepy due to recycled air?,1
+10924,Error Handling When Using Dictionary,0
+2152,Differentiability issue with this function,0
+10658,Minimum number of moves for a knight,0
+10146,Proof of P-Hardness by reduction,0
+7511,Mechanism of DNA gyrase inhibitor,1
+9067,Bare bone implementation of Dijkstra,0
+11279,Displaying an arbitrary number of buttons and automatically arranging the buttons,0
+7304,How does UV light damage the DNA when the chromosomes are deep inside the cell?,1
+6197,What is blood pH for different animals?,1
+8287,How does pressure measured by sphygmomanometer translate directly to blood pressure?,1
+8480,Do you know which is this small flower in Asturias?,1
+2861,Example of a c.u.b. set,0
+5135,What is atrial fibrillation?,1
+7200,Evolution of Chromosome Numbers,1
+2931,Map between Simplical and Singular Chain Groups,0
+11793,How do you go from $\log P = \log N$ to the next step?,0
+10115,Bash to find all placeholder variables in a file and replace will real variables,0
+6159,"In DNA repair, how is it determined which strand contains the error?",1
+2747,Dense open subsets of schemes,0
+11869,Randomized Quick Sort Implementation in C++,0
+474,Closed form for a floor sum,0
+6340,Is recombination suppressed in the males of all Drosophila species? Any other species?,1
+4465,How do I interpret this graph regarding introduced genes and virus-infected cells?,1
+1148,Plackett-Luce models paper,0
+8246,Is the fingerprint regenerated?,1
+4024,"What is ""multiple"" myeloma?",1
+9345,"Why is the sequence ""3,3,4,5,2"" considered a bitonic sequence?",0
+1834,Find the minimum and maximum of $P=x^2+y^2$,0
+9118,What is the denotation for identifiers?,0
+6001,Why protons flow back to the matrix through ATP synthase?,1
+6201,Flatworms sexual reproduction; one must be the mother and the other the father?,1
+10729,Relating a proof to a Haskell program,0
+1568,Almost sure convergence of L1 bounded sequence implies L1 convergence,0
+4016,"Do we know of any ""species ending bugs""?",1
+2391,Using logic laws to verify the logical equivalences,0
+7616,Evolution of umbilical cord and reason of its elongation,1
+7275,Are there known life forms that are able to transform mechanical energy into chemical energy?,1
+1218,Moving a point around a Sphere,0
+10225,Can all NP-hard problems be reduced to one another?,0
+5745,Distribution of the number of clover leaves,1
+8254,What influences the timing of human bowel movements in the morning?,1
+280,"Let $(g_n)$ be a sequence of functions on $[a,b]$. If $(g_n)$ converges pointwise and uniformly continuous on $[a,b]$",0
+11188,Passing anonymous functions and getting variables from an outer scope,0
+9183,"Relations between the knapsack problem, the bin packing problem, and the set packing problem?",0
+4541,Is a fatty acid a polymer?,1
+6380,What is the disadvantage of having no anticoagulation after pulmonary embolism?,1
+536,Definition of a sequence.,0
+4089,Help me identify this insect found in fishtank,1
+9719,How can this layered PHP architecture be improved?,0
+9212,Vertical alignment with CSS,0
+327,$\int_{1}^{\infty}\frac{\ln x}{x^2-1}dx=\frac{\pi^2}{8}$,0
+7654,"largest and smallest gram positive, gram negative and fungal pathogens",1
+10659,Proof $\{u\colon |u| \text{ is odd and $b$ is in the middle}\}$ is not deterministic,0
+8804,Epilepsy explained by computational neuroscience,1
+5825,Measurement equation of Tree-Step pathway model,1
+6481,How are proteins formed?,1
+2869,"cubic sum of $X,Y$ iid normal r.v condition on sigma algebra $X$",0
+8060,Difference between 'fitness' and 'fitness effects',1
+9847,Any class implementation,0
+4172,How do a particular arrangement of atoms become self aware?,1
+959,How to calculate value of a binary representation using exponentiation?,0
+10682,Count substring in string,0
+1166,Showing that if the Primal Program is unbounded then the dual is necessarily infeasible,0
+523,"Given finite field projections of a rational, can I find the original rational?",0
+8557,What makes a strong polyadenylation signal a strong signal?,1
+2982,Quadratic equations and probability,0
+9772,Random name picker for a contest,0
+11402,"Finding all ""smooth"" numbers up to 10^6 -- problem with nested loops",0
+8800,Blood as newtonian flow and Poiseuille law,1
+11052,Angular Typescript Async queue service,0
+3669,Is there any use of CO₂ in human body?,1
+5708,What causes muscle spasms?,1
+4008,Which mushroom could be this?,1
+2888,Fourier Transform of $\cos(3\pi t+2)$,0
+3737,How do drugs tests check so many substances?,1
+11446,Independent cascade modelling in Python,0
+3622,Why rectus abdominis is not proximal muscle?,1
+11612,Swing Game EyeHandCoordination,0
+4067,Brain centers vs areas (and how they relate to nuclei),1
+760,integer solutions for $\left( a+\sqrt{b} \right) ^ n=p+q\sqrt{b}$?,0
+6731,Effects of beer on muscle recovery after exercise,1
+899,A question about fixed-point iteration sequence of a two times continuously differentiable function,0
+5038,Why do we age? or Do we have a theory of senescence?,1
+9122,half precision floating point multiplication,0
+9255,"Print the first, last, and in-between integers of a range",0
+8091,Longevity Experiments,1
+2343,FTOC and Path Integration,0
+7565,Identify insect found in cupboard,1
+9079,How can I efficiently find the optimal order to apply special offers to a shopping cart?,0
+1077,"find the particular solution of the semi linear equation given the data u(1,y)= ln(y^(-1/2))",0
+2200,Evaluating $\int_{0}^{1}\int_{0}^{1}\frac{r^{i+j}(1-r)^{k+l}s^{2m-i-j}(1-s)^{2m-k-l}}{(r+s)^{m}(2-r-s)^{m}}drds$,0
+1353,How to find the probability of a tie.,0
+5410,How do veins's valve pocket sinus tend to become hypoxic?,1
+8178,"""Heterozygotic expection"" - when heterozygote differs from both homozygotes, but homozygotes are similar",1
+1267,Question on average.,0
+6729,Does melanin protect humans from gamma radiation?,1
+10120,Using the wildcard when importing packages,0
+9419,Calculating diagonal difference,0
+9287,Baum-Welch Algorithm,0
+3294,what is the difference between early blight of potato and late blight of potato?,1
+1314,Stuck on last step of Summation of Finite Series question,0
+2296,What does it mean when the map $u \mapsto \lVert u \rVert$ is continuous with respect to the norm $\lVert u \rVert_1$,0
+1827,zero's or singularity of a complex valued function at $z=0$.,0
+7683,How do tardigrades defend themselves from predators?,1
+1063,"Problem involving a probability function that consists two functions, and the input to each function.",0
+7402,Neuronal Architecture of the Brain,1
+11358,Prime numbers using wheel factorial,0
+8312,Reason behind formation of different shapes of cell,1
+3026,How are babies born without a brain?,1
+3681,What are chromosome dimers and how do they relate to recombination?,1
+1982,first order differential equation and summation problem,0
+7836,How can I measure bee and wasp population?,1
+6326,Why do coliform bacteria smell so bad?,1
+6129,Can someone identify this mushroom?,1
+6044,Why do bacteria eat enamel?,1
+4340,Which of these methods is both effective and reliable in elongate muscle and tendon for use in humans: growth factors or stem cell technology,1
+5641,"Is there a resource for comparing categories of life along quantifiable dimensions such as species diversity, geographic range, total mass, etc?",1
+9514,Binary cross Entropy derivative?,0
+9843,Basic expressive Swift background thread execution,0
+10524,Reduce number of operations to get one array value,0
+6205,Criticism of the significance of fMRI studies,1
+9310,"When describing a CS paper, can it be assumed that the meaning of ""tick"" is known?",0
+7823,Activation Of Embryonic Genome,1
+4998,What is a cognate enhancer sequence?,1
+6806,How can myoglobin be responsible for the red color of meat if it is located in the cytoplasm?,1
+11463,Live-streaming tweets and plot its sentimental value in colors on a world map,0
+6985,Cleavage of RNA by restriction enzymes?,1
+6908,Prevent biofilm formation on moist surfaces,1
+11225,Quantum CNot algorithm problem,0
+4480,Which is a good methodology to find out a domestication process?,1
+8999,Are there dichotomous keys for identifying medical conditions?,1
+3990,Is there any size limit to the amount of information a human (or other) brain can hold,1
+1996,Proof Verification - All nonnegative reals have unique nonnegative square roots,0
+8730,"Looking to study botany, some general advice",1
+3129,Can blood that has had an anticoagulant added to it be boiled without coagulating?,1
+10493,Dependency on overridden method,0
+6618,What motivates birds to make birdsong?,1
+5895,Spatiotemporal patterns in neural networks,1
+6830,Do squids or octopus suffer from myopia(hyperopia)? Do other vertebrates get myopia(hyperopia)?,1
+10637,Intersections of some context-free languages,0
+10018,Can the test set of attributes be a subset of the training set's attributes?,0
+10565,Generic function that accepts both Actions and Func's as parameters,0
+3110,Removing bacterial contaminants from resin,1
+3082,"What is the etymology of ""moura"" in Mourasuchus?",1
+8758,Number of different clones of B lymphocytes,1
+10910,Python Clean way to get whether a number is above/below two values and increment accordingly,0
+6536,How are Maggots Sterilized (Disinfected)?,1
+11415,Unusual comparison of object and string,0
+7196,"Can we call a sorbent-filled pipette tip ""microcolumn""?",1
+6791,Can Eskimos be regarded a distinct species from Kalahari Bushmen based on morphological differences & geographic isolation?,1
+9876,Breadth-first search on a tree in Python,0
+7935,Allergy desensitization: what is the mechanism? Could it happen with other immune responses?,1
+10249,Why can we ignore the constant factor in Weis's proof of the Master Theorem,0
+7784,Reason for variation in the site of onset of edema,1
+11393,Sending HTML-formatted mail in Java,0
+9356,Can a Turing Machine decide if an NFA accepts a string of prime length?,0
+7555,How does the body detect irreversible binding to receptors?,1
+6083,What is the biological limit on hearing resolution?,1
+502,Direct sum of subspaces projection,0
+8473,Is there an instinct-driven body language for birds?,1
+8778,qTERT-pcr like qRT-pcr,1
+4736,How to put a gene under the control of a regulable promoter?,1
+7152,Why does a light object appear lighter in your peripheral vision when it's dark?,1
+4681,Can a person really die quickly from biting their tongue?,1
+11942,Golang nanny process starting child process,0
+1445,What's the generalization for $\zeta(2n)$?,0
+8194,How does hyperthyroidism cause diarrhea?,1
+11115,Single Linked List Implementation in Ruby,0
+3397,"When we talk of functional macromolecules (e.g. proteins as enzymes, hormones, receptors, antibodies etc), towards what are they evolving?�",1
+4521,How can I compare the STRIDE and DSSP output files of a particular pdb file?,1
+2911,Kunita Watanabe Inequality Proof,0
+11213,Something wrong when recognizing data set using Binary Artificial Neural Network,0
+6236,What counts as a 'breach of the skin' for infections(like rabies) that spread via wounds?,1
+2786,Explain why a set of mutually orthogonal non-zero vectors is linearly independent given a clause,0
+10636,Implementing a queue using a circular buffer,0
+4450,Is starch and glycogen digestion intra or extracellular?,1
+9444,MAXSAT approximation,0
+9596,Is there an algorithm that given a PDA $M$ decides if there exists a string in $L(M)$ with a suitable decomposition?,0
+5131,How do you store membrane proteins?,1
+1531,Why does modular exponentiation always form a cycle?,0
+5330,A question involving immunoprecipitation to identify interacting proteins?,1
+4079,How was the Huntington's disease gene's location found?,1
+1981,How to determine $\lim_{n\rightarrow \infty} \frac{(n+2)^{\log(n+2)}}{(n+1)^{\log(n+1)}}$?,0
+6039,Are the alleles that code for the same phenotype all the same exact sequence?,1
+1409,"$E(X|Y)=0$ and $E(X|Z)=0$ imply $E(X|Y,Z)=0$?",0
+9672,batch progress visualization In React.js,0
+7377,What is the composition of a standard diluent buffer in a leptin ELISA kit?,1
+10227,Decidablity of time complexity,0
+302,Range of values of variables and convergence of series.,0
+9,Question concerning an application of Cauchy-Schwarz,0
+9031,Search problems that can also be solved by junction trees and searching cliques,0
+9170,Why is it impossible to iterate over all TMs with $n$ states and $k$ symbols that halt after $m$ steps on $\epsilon$?,0
+666,Is it correct to view a vector space as the space of finite sequences,0
+5283,What is Biradial Symmetry?,1
+7623,What do sphingolipids do in humans?,1
+3734,What are the floating translucent little objects called in the field of view?,1
+10892,Fastest way to remove/hide a lot of elements from a list,0
+5565,What is the difference between endometrial lining and endometrial stroma?,1
+3246,Why would the Camargue horses have a white coat while the foal have a dark coat?,1
+4045,Why sun rays don't burn our skin?,1
+262,Classifying Lie group homomorphisms,0
+7379,Help identifying an insect by its remains,1
+3425,Is narrow sense heritability heritable?,1
+11206,Javascript form parser,0
+9354,PHP : Custom trim function instead existing ltrim() or rtrim(),0
+9228,Finding median of sub arrays taking too much time,0
+1823,What are some advanced techniques for matching sequences to a formula?,0
+6086,What is this toad suffering from? Myiasis or chytridiomycosis?,1
+3142,The role of voltage-gated ion channels in chemical synapses,1
+9709,Programs for artificial system design?,0
+2193,Distributive Law for 'such that'?,0
+11416,Text-based adventure survival horror game,0
+2198,Common Notation for Sets or Spaces,0
+10737,Python exception-raising generator function,0
+11838,Translating Dijkstra's Algorithm from Python to C++,0
+9391,"Reduction for the proof that COMBI $:= \{\langle G,k \rangle | G$ has Clique $\geq k$ or Independent Set $\geq k\}$ is NP complete",0
+1062,How can I find the unit vector that minimizes the number of nonzero projections that a set of points has on it?,0
+8081,Insect species identification,1
+4212,How can the following data regarding flower phenotypes be explained?,1
+11276,Is $\log{n}$ bounded from above by $n^{o(1)}$?,0
+8905,What limits our healing speed?,1
+1147,First order logic: finding and proving homomorphisms,0
+8712,Do local field potentials (LFP) create waves on the surfaces of nerve cells?,1
+11775,Optimizing Codegeneration from Ast,0
+7180,why should someone study mRNAs instead of miRNAs as a biomarker,1
+2038,How do I find y' in this problem?,0
+732,"To show that the function $f(x) = \inf \{d(x,x_n) : n \in \Bbb N \}$ is uniformly continuous on X.",0
+5476,What is the probability of fixation for a mutant under fluctuating selection?,1
+10555,Filtering conversation by filter type and value,0
+7753,What is LD50 for 25i (25I-NBOMe)?,1
+137,Solving a system of ODEs with variable in matrix A,0
+10143,"Difference between assignment, binding, and substitution?",0
+10997,Inserting a user sign-up record using mysqli,0
+10186,"Different payment details in a common list, to be casted",0
+10754,Sleep until specified time,0
+8565,Why is it sometimes difficult to resuspend E. coli in P1?,1
+638,"How to find the base, given a number and its representation in the base?",0
+10285,Custom Web Api asynchronous filter implementation,0
+3572,Why does immunity from the flu vaccine appear only after two weeks?,1
+9983,Change random list of numbers into all 5's using simple evolution simulation,0
+9766,Are if statements avoidable is we define a program according to explicit state transitions?,0
+8572,How does injecting low doses of allergens cure allergies?,1
+9104,Universality of the Toffoli gate,0
+9512,"Definition of ""properly partial"" versus ""total"" value types",0
+6632,"Why are VAL, MET and ALA substitutions commonly used for protein behaviour and function studies?",1
+3126,How do the chemicals in our skin react with stainless steel?,1
+8072,Is this a stag beetle?,1
+6653,8 abdominal muscles but 10 pack,1
+3786,What is the big plant with white flowers on the photo?,1
+10802,Addition function for two Big Integers represented as std::string,0
+2690,How to solve an arbitrary-order differential equation,0
+6134,What is the Icosahedral Matrices?,1
+569,"Bayes theorem, confusion between $P(X|Z)$ and $P(Z|X)$",0
+114,Are there any non-discrete definitions for the size of a matrix?,0
+5607,can magnesium bicarbonate be absorbed in the mouth?,1
+8084,The Ancient Kingdom of Monera,1
+7230,Inbreeding vs Mutations,1
+3912,What happen's to a virus's capsid after it injects its genetic material into the host cell?,1
+11939,Image pattern detection - Finding similarities in same image,0
+1715,Prove that $\log_n(n+1)\geq\log_{n+1}(n+2)$ for $n>1$,0
+1696,Finding the coordinates of an unknown point.,0
+6310,Why metacarpus is considered hand proper?,1
+2735,How Assign Exponentialy increasing probablities to a random number,0
+4627,Does posture matter while drinking water?,1
+1693,Converse of positive definite over $\mathbb{Z}$ characterization,0
+5831,What insect is this? (India),1
+9677,number of balanced binary trees,0
+5148,Recommended reading to quickly get up to speed on infectious diseases,1
+10933,Matching superimposed image,0
+3595,How many ancestral generations do I have?,1
+10212,Modifying an image URL based on hash options,0
+6934,Is there a good easy protocol for extracting proteins (enzymes) from fungal mycelium?,1
+223,Prove that $R x R$ is not isomorphic to $R[x]/(x^2)$,0
+11988,Changes in runtime as the input is incremented,0
+10208,Basic control statements for Turing equivalence?,0
+8491,Is this a worm or snake?How to get rid of it?,1
+9267,AngularJS wrapper for p5.js - p5 directive and service,0
+6767,"How is the ""fine mapping of pelvic regulatory region"" done in this paper?",1
+395,Query relating to marginal pdf (probability density function),0
+4321,Schematic of neural lineage tree and position of Choroid Plexus cells,1
+815,On prime(less)ness and composite(less)ness of 1,0
+8837,Can you please identify this mosquito-like insect?,1
+6174,Why do animals only eat some parts of their food?,1
+699,Can someone explain the ABC conjecture to me?,0
+10780,CS50 - Bleep suggestions,0
+7159,Mechanisms of bone growth,1
+7572,Why do we need to close eyes to sleep?,1
+827,$S$-differentiable functions.,0
+6170,why do some cells in the body prefer necrosis to apoptosis as a means of cell death?,1
+8306,Why does yawning trigger tears?,1
+8467,Is this trial that reversed aging in humans worth taking seriously?,1
+9449,Binary search large tree in C,0
+8784,What species of Cerapoda lived during the Jurassic?,1
+7503,How did scientists establish the reactions that occur in metabolism?,1
+10234,Mapping from multiple sources to destination using JMapper,0
+6841,To what extent is excretory control a learned vs. instinctive behavior?,1
+6240,"From a hosts point of view, which comes first, effect of toxins on pathways or identification of toxins by immune system?",1
+11253,Finding a subset of triplets of digits 0-9 such that each digit occurs 40 times in each position in the triplets,0
+3254,Gender of BEAS-2B cell culture,1
+716,Evaluate: $\int e^x.\sin (x) dx$,0
+492,Upper bound for random walk to show stopping time is bounded,0
+1250,Proving this complex function is not differentiable,0
+6862,"Would the microgravity ""shape-shifting"" bacteria effect have anything to do with bacteria growing in a host?",1
+9713,Finding sessions associated with an IP address using PDO,0
+4759,Why is too much glucose harmful?,1
+4869,Formal definition of a 'genetic trait reservoir'?,1
+5591,In which organs is water that we drink absorbed into the blood?,1
+10916,Checking if a student ID is present in the database,0
+5259,Is there a biological basis to physical attraction?,1
+4638,"What is the difference between a human being, a Homo sapiens, and a Neanderthal?",1
+3027,Hybridization capture: Array-capture vs. in solution,1
+8338,Medical Uses of toxic venom,1
+5313,How do I look for pathogen in water with a microscope? Is it possible?,1
+3512,Do other animals suffer from myopia or hypermetropia?,1
+8883,what is the difference between osciloscope and electrocardiograph?,1
+2393,Linear independence in polynomials,0
+2165,Finding the number of days that should be written on carton milk,0
+11727,Calculate all the prime numbers between two given numbers,0
+3615,Insect identification request. Long anteni. Grasshopper legs,1
+11387,Is it generally possible to convert CNF to Horn clauses?,0
+4680,Is this also a carpenter ant?,1
+8791,What are the differences between internal organs between sub-saharan Africans and Northern Europeans,1
+10820,Prime number CFG and Pumping Lemma,0
+6257,How does herpes (HSV) infection suppress HIV?,1
+10491,Generate Symmetric Ascii,0
+11509,Having Moore's law is it worth looking for more algorithms?,0
+2082,Infinite convex combination is in the closure of the convex hull.,0
+4335,Hopfield-like neuron assemblies,1
+3196,What does hypolithial mean,1
+6276,Polydactyly and its genetics,1
+1348,Simple couter-example of preservation of Jordan-Chevalley decomposition,0
+7408,Why did we evolve to be able to see this specific set of wavelengths only?,1
+1331,Boundedness of optimal input of scalar system,0
+3703,How to prove that pork meat has parasites,1
+5706,What is that insect?,1
+301,coordinate form of an affine transformation,0
+7225,120-year-old gene regulation problem independently solved by a computer. How?,1
+9490,"Explanation for the regular expression for the set of all string over the alphabet {0,1}",0
+6324,What concentration of table salt is needed to kill bacteria in sweaty gym clothes?,1
+10799,Converting JDBC to CSV,0
+8967,Would the human body react faster to touch or sight,1
+2773,How do I cut a square in half?,0
+6992,Difficulty in finding protein inhibition drugs,1
+3109,How is the urea cycle regulated with respect to protein deficit?,1
+11223,How to add decimals to formal grammar?,0
+11822,Combinatorial model for multiparty communication complexity,0
+2733,How many combinations are possible for choosing two letters from the alphabet with replacement?,0
+11666,UICollectionView image gallery app,0
+1585,Find the characteristic polynomial through the induction,0
+6960,How do you convert mtDNA sequences in FASTA to FSTAT format?,1
+11293,Why is there no FPTAS for the maximum independent set problem?,0
+4187,Can a person become addicted to tea?,1
+5653,How are synaptic vesicles brought to the synapse?,1
+4032,Pain perception in animals with nerve nets,1
+8140,Have cruciferous vegetables been genetically altered to reduce cooking odors?,1
+5194,Worm in water identification help,1
+5378,Is the complement system a part of innate or adaptive immunity,1
+8126,Does cartilage connect to other cartilage?,1
+9546,Why do non regular languages have infinitely many equivalence classes?,0
+1059,Linear inhomogeneous PDE,0
+2871,Does a proper map have to be continuous?,0
+5793,Is it possible to induce protein activation via frequency-specific mechanical waves?,1
+5962,"The exact points of muscle attachment and the ""equal and opposite force"" that skeletal muscles apply",1
+3861,How do cells determine RNA types?,1
+8549,how can we identify the novel protein amino acid sequence and function?,1
+4997,"For a recombinant pUC19 plasmid with cut sites at Hind III and EcoO109i, does lactose need to be present for the gene of interest to be expressed?",1
+8911,Does the yolk sac for Danio rerio form at the vegetal pole?,1
+5892,Ribosomes and DNA in chloroplast,1
+4724,Can we use cancer cells to generate blood vessels?,1
+4936,Why don't mammals have more than 4 limbs?,1
+9234,Function which takes a string as input and returns the most frequent character,0
+953,Evaluating the integral $\int\limits_{0}^{\infty} \Bigl\lfloor{\frac{n}{e^{x}}\Bigr\rfloor} \ dx $,0
+9367,Using Rice's theorem to prove undecidability of $E_{TM}$,0
+3992,Do birds emit infra-red radiation?,1
+2035,Recurrence relation involving floor function.,0
+11757,"This costs minimization problem, is it solvable in polynomial time?",0
+901,Is it necessary for a Mathematician to learn Maths foundations?,0
+8135,What is the purpose of the AraC gene in pGLO?,1
+3548,Can living cells be imaged with electron microscopy?,1
+2203,Properties of a Mehler's type integral,0
+9146,Summing the size/count of associations for multiple records,0
+10580,"Proving a language with equal occurences of ab, and cd is not a regular language using the Pumping Lemma",0
+1998,Existence of holomorphic function on the unit disc,0
+6085,How can census population size be smaller than the effective population size in some species? is that possible?,1
+825,Expectation of a function of a Binomial random variable,0
+4510,Is this a variety of banana slug (Ariolimax columbianus)? (California),1
+2075,Rearrange all the real numbers between $0$ and $1$,0
+7564,What happens if you mix brain waves?,1
+2161,Expectation of the distance to the center and to the boundary of a point in a circle,0
+7473,Are new blood vessels able to deliver oxygen to hypoxic tissue before the establishment of blood circulation?,1
+5569,Book recommendations: biological data analysis/error,1
+3546,Gibbs free energy and entropy in enzyme catalysis,1
+11414,"Finite automaton for all words whose length $n$ satisfies $\operatorname{gcd}(n,504) \geq 6$",0
+4033,How do viruses such as COVID-9 and flu return in the winter if they disappear in the summer?,1
+3084,Could an animal with an open circulatory system survive in a near-zero gravity environment?,1
+3477,Are there neurons that can sense light shining in your ears?,1
+1597,What do convergence and divergence mean? And why do they matter?,0
+11900,Why $R\circ\emptyset$ is not always equal to $\emptyset$,0
+11991,Show different type of fonts,0
+10978,Single Digit Math Quiz,0
+3790,Do butterflies see behind?,1
+488,"Joint density function of X and X+Y, standard normal random variables",0
+10341,Rice theorem to prove Emptiness problem,0
+10451,Eligibility trace and the role of gamma and lambda,0
+6783,Why there is no neurovascular drug-eluting stent?,1
+11592,Fibonacci prefix code,0
+3264,An introduction to nuclei in the pons?,1
+11323,Add To Query Based Off Date Picker Or Drop Down List,0
+11818,Using jQuery to set the class of an element corresponding to the selected radio button,0
+1865,Prove the product of two discrete Gaussians is subgaussian,0
+7613,Is there any evidence telling us what the oxidation state of early earth's atmosphere was?,1
+1365,Proving a Complex Function is Continuous at the Origin,0
+10965,Does $\mathcal{P}\neq\mathcal{NP}$ imply $\mathcal{NP}\neq\mathcal{NP}^{\mathcal{NP}}$?,0

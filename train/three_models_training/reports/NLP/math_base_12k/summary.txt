@@ -1,0 +1,36 @@
+Raport wygenerowany: 2026-06-09 17:48:12.679851
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony.
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports/2026-06-09_17-48-12_TextSVMWrapper/confusion_matrix.png
+
+--- Uruchamianie 5-krotnej walidacji krzyżowej ---
+Fold 1: Acc=0.9021, Prec=0.9021, Rec=0.9018, F1=0.9020
+Fold 2: Acc=0.8988, Prec=0.8988, Rec=0.8987, F1=0.8987
+Fold 3: Acc=0.8962, Prec=0.8964, Rec=0.8961, F1=0.8962
+Fold 4: Acc=0.9046, Prec=0.9048, Rec=0.9047, F1=0.9046
+Fold 5: Acc=0.9075, Prec=0.9075, Rec=0.9073, F1=0.9074
+
+--- Wyniki końcowe CV ---
+Accuracy: 0.9018 (+/- 0.0040)
+Precision: 0.9019 (+/- 0.0040)
+Recall: 0.9017 (+/- 0.0040)
+F1: 0.9018 (+/- 0.0040)
+
+--- Top 10 Ważność cech ---
+probability: 3.4926
+complexity: 3.0137
+integral: 2.8710
+algorithm: 2.6060
+tree: 2.5940
+array: 2.5692
+ode: 2.4890
+frac: 2.4536
+mathbb: 2.4152
+python: 2.3782
+Zapisano wykres 2D: reports/2026-06-09_17-48-12_TextSVMWrapper/decision_boundary_2d.png
+Zapisano model i zbiór danych w reports/2026-06-09_17-48-12_TextSVMWrapper/test_set.csv, reports/2026-06-09_17-48-12_TextSVMWrapper/train_set.csv i reports/2026-06-09_17-48-12_TextSVMWrapper/model.pkl
+Zapisano wykres korelacji predykcji z klasami: reports/2026-06-09_17-48-12_TextSVMWrapper/prediction_vs_true_class_correlation.png
+Zapisano rozkład pewności modelu: reports/2026-06-09_17-48-12_TextSVMWrapper/confidence_distr_plot.png
