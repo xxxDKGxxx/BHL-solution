@@ -1,3 +1,5 @@
+websockets
+google-generativeai
 pytest
 protobuf
 sacremoses
