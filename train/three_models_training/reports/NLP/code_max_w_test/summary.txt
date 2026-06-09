@@ -1,0 +1,39 @@
+Raport wygenerowany: 2026-06-09 20:25:01.907565
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony. Czas trwania: 1926.86 s
+
+--- Wyniki na zbiorze testowym ---
+Accuracy:  0.9243
+Precision: 0.9243 (macro)
+Recall:    0.9243 (macro)
+F1-score:  0.9243 (macro)
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.93      0.92      9776
+           1       0.93      0.92      0.92      9776
+
+    accuracy                           0.92     19552
+   macro avg       0.92      0.92      0.92     19552
+weighted avg       0.92      0.92      0.92     19552
+
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports/2026-06-09_20-25-01_TextSVMWrapper/confusion_matrix.png
+
+--- Top 10 Ważność cech ---
+algorithm: 5.3510
+dna: 4.4990
+complexity: 4.4618
+python: 4.3805
+array: 4.3437
+gene: 4.2986
+np: 4.2409
+biology: 4.0505
+protein: 3.9609
+algorithms: 3.7784
+Zapisano wykres 2D: reports/2026-06-09_20-25-01_TextSVMWrapper/decision_boundary_2d.png
+Zapisano model i zbiór danych w reports/2026-06-09_20-25-01_TextSVMWrapper/test_set.csv, reports/2026-06-09_20-25-01_TextSVMWrapper/train_set.csv i reports/2026-06-09_20-25-01_TextSVMWrapper/model.pkl
+Zapisano wykres korelacji predykcji z klasami: reports/2026-06-09_20-25-01_TextSVMWrapper/prediction_vs_true_class_correlation.png

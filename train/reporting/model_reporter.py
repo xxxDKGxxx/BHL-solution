@@ -1,4 +1,5 @@
 import pickle
+import time
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -14,6 +15,7 @@ from sklearn.metrics import (
     recall_score,
     f1_score,
     accuracy_score,
+    classification_report,
 )
 from sklearn.model_selection import KFold, train_test_split
 
@@ -224,10 +226,13 @@ class ModelReporter:
 
     def run_training(self):
         self._log("--- Rozpoczynanie treningu ---")
+        start_time = time.time()
         self.wrapper.fit(
             self.X_train, self.y_train, X_val=self.X_test, y_val=self.y_test
         )
-        self._log("Trening zakończony.")
+        end_time = time.time()
+        duration = end_time - start_time
+        self._log(f"Trening zakończony. Czas trwania: {duration:.2f} s")
 
     def plot_loss_history(self):
         history = self.wrapper.get_loss_history()
@@ -567,6 +572,26 @@ class ModelReporter:
         else:
             plt.show()
 
+    def report_test_metrics(self):
+        """Oblicza i loguje metryki na zbiorze testowym."""
+        self._log("\n--- Wyniki na zbiorze testowym ---")
+        y_pred = self.wrapper.predict(self.X_test)
+
+        acc = accuracy_score(self.y_test, y_pred)
+        prec = precision_score(
+            self.y_test, y_pred, average="macro", zero_division=0)
+        rec = recall_score(self.y_test, y_pred,
+                           average="macro", zero_division=0)
+        f1 = f1_score(self.y_test, y_pred, average="macro", zero_division=0)
+
+        self._log(f"Accuracy:  {acc:.4f}")
+        self._log(f"Precision: {prec:.4f} (macro)")
+        self._log(f"Recall:    {rec:.4f} (macro)")
+        self._log(f"F1-score:  {f1:.4f} (macro)")
+
+        self._log("\nDetailed Classification Report:")
+        self._log(classification_report(self.y_test, y_pred, zero_division=0))
+
     def generate_report(self):
         """Główna metoda sterująca."""
         self._setup_directories()
@@ -574,6 +599,7 @@ class ModelReporter:
         self._log(f"Model Wrapper: {self.wrapper.__class__.__name__}")
         self._log("-" * 30)
         self.run_training()
+        self.report_test_metrics()
         self.plot_loss_history()
         self.plot_confusion_matrix()
         # self.run_cross_validation()

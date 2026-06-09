@@ -1,0 +1,4 @@
+Raport wygenerowany: 2026-06-09 21:16:44.715035
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---

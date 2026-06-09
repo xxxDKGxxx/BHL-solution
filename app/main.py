@@ -1,3 +1,4 @@
+from topic_classifiers.multi_model_topic_classifier import MultiModelTopicClassifier
 import json
 
 from fastapi import FastAPI
@@ -6,21 +7,20 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.websockets import WebSocket
 
 from database.database import Database
-from database.sentence_transformer_embedder import SentenceTransformerEmbedder from handler.defaulthandler import PromptHandler
+from database.sentence_transformer_embedder import SentenceTransformerEmbedder
+from handler.defaulthandler import PromptHandler
 from llms.gemini_llm import GeminiLLM
-from prompts_classification.fact_or_generative_classifier import FactOrGenerativeClassifier
+from prompts_classification.fact_or_generative_classifier import (
+    FactOrGenerativeClassifier,
+)
 
 app = FastAPI(swagger_ui_parameters={"syntaxHighlight": False})
 
-origins = [
-    "http://localhost",
-    "http://127.0.0.1",
-    "*"
-]
+origins = ["http://localhost", "http://127.0.0.1", "*"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,   # albo ["*"] w dev
+    allow_origins=origins,  # albo ["*"] w dev
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -30,7 +30,9 @@ app.add_middleware(
 prompthandler = PromptHandler(
     db_context=Database(SentenceTransformerEmbedder()),
     model=GeminiLLM(),
-    fact_classifier=FactOrGenerativeClassifier())
+    fact_classifier=FactOrGenerativeClassifier(),
+    topic_classifier=MultiModelTopicClassifier(),
+)
 
 
 class Prompt(BaseModel):
@@ -44,7 +46,8 @@ async def get_prompt(prompt: Prompt):
     prompthandler.model = GeminiLLM()
 
     result, cached, model_name = prompthandler.generate_answer(
-        prompt.prompt, prompt.skip_cached)
+        prompt.prompt, prompt.skip_cached
+    )
 
     return {"result": result, "cached": cached, "model_name": model_name}
 
@@ -64,12 +67,13 @@ async def chat_ws(ws: WebSocket):
                 data = json.loads(raw_message)
                 prompt_obj = Prompt(**data)
                 response, cached, model_name = prompthandler.generate_answer(
-                    prompt_obj.prompt, prompt_obj.skip_cached)
-                await ws.send_text(json.dumps({
-                    "result": response,
-                    "cached": cached,
-                    "model_name": model_name
-                }))
+                    prompt_obj.prompt, prompt_obj.skip_cached
+                )
+                await ws.send_text(
+                    json.dumps(
+                        {"result": response, "cached": cached, "model_name": model_name}
+                    )
+                )
 
             except (json.JSONDecodeError, ValidationError) as e:
                 print(e)

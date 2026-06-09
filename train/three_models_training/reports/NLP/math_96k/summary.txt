@@ -1,0 +1,23 @@
+Raport wygenerowany: 2026-06-09 18:16:34.652222
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony. Czas trwania: 1258.44 s
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports/2026-06-09_18-16-34_TextSVMWrapper/confusion_matrix.png
+
+--- Top 10 Ważność cech ---
+probability: 4.6933
+dna: 4.4537
+array: 4.1476
+np: 4.0070
+blood: 3.8538
+project: 3.8009
+gene: 3.5157
+complexity: 3.5138
+inequality: 3.4177
+algorithm: 3.4104
+Zapisano wykres 2D: reports/2026-06-09_18-16-34_TextSVMWrapper/decision_boundary_2d.png
+Zapisano model i zbiór danych w reports/2026-06-09_18-16-34_TextSVMWrapper/test_set.csv, reports/2026-06-09_18-16-34_TextSVMWrapper/train_set.csv i reports/2026-06-09_18-16-34_TextSVMWrapper/model.pkl
+Zapisano wykres korelacji predykcji z klasami: reports/2026-06-09_18-16-34_TextSVMWrapper/prediction_vs_true_class_correlation.png
+Zapisano rozkład pewności modelu: reports/2026-06-09_18-16-34_TextSVMWrapper/confidence_distr_plot.png
