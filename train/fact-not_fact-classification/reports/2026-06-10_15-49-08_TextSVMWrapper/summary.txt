@@ -1,0 +1,40 @@
+Raport wygenerowany: 2026-06-10 15:49:08.393248
+Model Wrapper: TextSVMWrapper
+------------------------------
+--- Rozpoczynanie treningu ---
+Trening zakończony. Czas trwania: 2.07 s
+[INFO] Brak historii funkcji straty (Loss History). Pomijam wykres.
+Zapisano macierz pomyłek: reports\2026-06-10_15-49-08_TextSVMWrapper\confusion_matrix.png
+
+--- Repeated Stratified CV: 5 foldów x 3 powtórzeń ---
+
+--- Wyniki walidacji krzyżowej ---
+test_accuracy: 0.9549 (+/- 0.0069)
+train_accuracy: 0.9921 (+/- 0.0008)
+test_balanced_accuracy: 0.9549 (+/- 0.0069)
+train_balanced_accuracy: 0.9921 (+/- 0.0008)
+test_f1_macro: 0.9549 (+/- 0.0069)
+train_f1_macro: 0.9921 (+/- 0.0008)
+test_precision_macro: 0.9550 (+/- 0.0069)
+train_precision_macro: 0.9922 (+/- 0.0007)
+test_recall_macro: 0.9549 (+/- 0.0069)
+train_recall_macro: 0.9921 (+/- 0.0008)
+test_roc_auc: 0.9883 (+/- 0.0022)
+train_roc_auc: 0.9996 (+/- 0.0001)
+Zapisano wyniki CV: reports\2026-06-10_15-49-08_TextSVMWrapper\fact_classifier_results.csv
+
+--- Top 10 Ważność cech ---
+best: 8.7198
+should: 6.2336
+write: 6.1838
+good: 5.7837
+greatest: 4.2302
+better: 4.2290
+create: 3.6473
+ideas: 3.2516
+ways: 3.1854
+favorite: 3.0147
+Zapisano wykres 2D: reports\2026-06-10_15-49-08_TextSVMWrapper\decision_boundary_2d.png
+Zapisano model i zbiór danych w reports\2026-06-10_15-49-08_TextSVMWrapper/test_set.csv, reports\2026-06-10_15-49-08_TextSVMWrapper/train_set.csv i reports\2026-06-10_15-49-08_TextSVMWrapper/model.pkl
+Zapisano macierz pomyłek: reports\2026-06-10_15-49-08_TextSVMWrapper\confusion_matrix.png
+Zapisano rozkład pewności modelu: reports\2026-06-10_15-49-08_TextSVMWrapper\confidence_distr_plot.png

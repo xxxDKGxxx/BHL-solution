@@ -19,7 +19,7 @@ class TextSVMWrapper(ModelInterface):
     def __init__(self, C=1.0):
         self.model = Pipeline(
             [
-                ("tfidf", TfidfVectorizer(stop_words="english")),
+                ("tfidf", TfidfVectorizer(stop_words=None)),
                 ("svm", SVC(C=C, random_state=42, probability=True, kernel="linear")),
             ]
         )
